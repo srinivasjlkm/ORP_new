@@ -31,7 +31,7 @@ public class ThirdPersonNetworkVik : Photon.MonoBehaviour
 
 
 			Camera.main.transform.parent = transform;
-			Camera.main.transform.localPosition = new Vector3(-0.04869021f,1.303013f, 0.08047496f);
+			Camera.main.transform.localPosition = new Vector3(-0.008683522f,1.257728f, -0.07061113f);
 			Camera.main.transform.localEulerAngles = new Vector3(0.6651921f, 0, 0);
 
 			if(cameraScript == null)

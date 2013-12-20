@@ -68,23 +68,6 @@ public class AnimationController: MonoBehaviour
 	}
 	
 	
-	void updateState (string sta){
-		switch (sta)
-		{
-		case "idle":
-			state = CharacterState.idle;
-			break;
-		case "run":
-			state = CharacterState.run;
-			break;
-		case "tap":
-			state = CharacterState.tap;
-			break;
-		}
-
-	}
-	
-	
 	void Land ()
 		// End a landing and transition to normal animation state (ignore if not currently landing)
 	{

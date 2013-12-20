@@ -105,11 +105,13 @@ public class ClickMove : MonoBehaviour
 				if (dist > move) {
 
 						transform.position += dir.normalized * move;
+						transform.GetComponent<AnimationController>().state = AnimationController.CharacterState.run;
 					
 
 				} else {
 
 						transform.position = targetPosition;
+						transform.GetComponent<AnimationController>().state = AnimationController.CharacterState.idle;
 						
 						
 				}
