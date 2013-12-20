@@ -1,0 +1,4568 @@
+Initialize engine version: 4.3.1f1 (cebd4d9b5122)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 9.18.13.3182]
+    Renderer: NVIDIA GeForce GT 630
+    Vendor:   NVIDIA
+    VRAM:     1986 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\DUNILOG_Shared.dll (this message is harmless)
+Loading C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\DUNILOG_Shared.dll into Unity Child Domain
+Platform assembly: C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+- Completed reload, in  0.275 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Initialize engine version: 4.3.1f1 (cebd4d9b5122)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 9.18.13.3182]
+    Renderer: NVIDIA GeForce GT 630
+    Vendor:   NVIDIA
+    VRAM:     1986 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\DUNILOG_Shared.dll (this message is harmless)
+Loading C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\DUNILOG_Shared.dll into Unity Child Domain
+Platform assembly: C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+- Completed reload, in  0.039 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\System.Core.dll (this message is harmless)
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+Platform assembly: C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\System.dll (this message is harmless)
+Null
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Platform assembly: C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\System.Core.dll (this message is harmless)
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+Platform assembly: C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\System.dll (this message is harmless)
+Null
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Platform assembly: C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\Boo.Lang.dll (this message is harmless)
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -23.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -23.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviou( is m.is -23g! 0.
+(Fil
+en
+ame:en Lmine:: BuildAg
+e
+nt/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -23.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifactls/Sftandceloxception: Object reference not set to an instance 
+o
+f an The ani
+mation state Male_run_anikm Update () [0x00000] in <filename unknown>:0 
+ 
+(dFil
+Pename:  Liche an an
+i
+mation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, 0.0, -0.1)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -23.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, 0.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0u.lReferenceExc0ep
+ in: Object :re:ferenceg nto/work/d3d49558e4d408f4/artifacts/S
+t andalonePlayerGenerateid/UnitteEngi [0Deb0g.cp]p Line: en3)m
+unknown>:0 h
+ a
+(Filename:  Line: -1)
+anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -0.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -24.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -0.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -24.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -0.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -24.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -0.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in(<fi.l,en-24.7, ame u
+n
+(nolen>:0 :C:/
+Buildnamee:  Line: -19)
+
+e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -0.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an(ob0ec0t -24.9   a0t 
+T
+(FrleneasonNetworuiVidk.Update () [0x00000] in <filename unknown>:0 
+ 
+(ayerenneme:te Line:t -ngineDe)g.
+cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -1.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -25.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -1.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -25.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -1.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -25.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -1.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instan(e of an object
+  at
+ T
+hFirdPersonN:/tworkVigknt/pwork/d3d49558e4d4 inf /artifacts/Standalo:neP
+la
+(Feilenameted/Unnet: -1)
+Debug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -1.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -25.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -1.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -25.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -2.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000( i0.0, -26.0, 0.0)
+ >:0 e ame: C:/Buil dAgent-1w)
+
+/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -2.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -26.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -2.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -26.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -2.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -26.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -2.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -26.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -2.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -26.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -2.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -27.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -3.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -27.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -3.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -27.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -3.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -27.4, 0.0)
+ 
+(Filename: C:/BuiNdAglRnt/work/d3xd49558e4d408f4/artifracts/StandalonePlayerGeaencte /Uf annoijtcy
+Enag ihnrdDebug.cpp Linr: kV)
+
+.Update ()T[0 xnimati] i n <filenamer u_nnin cwn>:d n
+ 
+(oit bemeplaLine:beca)
+s
+e it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -3.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -27.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -3.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -27.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -3.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -28.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -4.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object(
+  a.0,Th-28d.er,s0.0)
+ 
+(rFiikenpdat:  () [0x00000] in <fil3na4e9unkno5n580 4
+ 
+(8filearamefa  LiStanda1lo
+n
+ePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -4.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -28.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -4.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object referen(0 0,no2t. ,s0.e)t
+ t
+oFilename: C:/BuildAgent/wor
+k/d3d49558e4d408f4/artifacts/StandalonePlayerG en <railtedme uityEnwn>neDeb
+ug
+.cplp Line: 53)
+
+ -1)
+T
+he animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -4.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -28.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -4.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of a( ob.ject
+  at Third
+P
+(Fonleetwork Ci:.UBuiate ()n [0x0k0000] i5ne <408le4name facts/Standa
+lo
+nFePlnayme:  Line: -1)
+yEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -4.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -29.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -5.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -29.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -5.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -29.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -5.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -29.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -5.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -29.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -5.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -29.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -5.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -30.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -6.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -30.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -6.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update (( [0.0, -30.2, 0f.lena
+ m
+(Filenamen: 0C:
+/B
+(FidAneam/wo k/d3ne:9558)
+
+d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -6.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an insta0.0, n3ce of0.a0 )
+ e
+(
+ iatename: C:/BuildtAorknVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(nFilename: tyLingin -1eb
+u
+g.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -6.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ (
+(0i.e0am,e: 0.in 0:.-1)
+
+
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -6.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -30.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -6.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+ (at 0hir,d-3er9,onNet orkVik.
+ date () [0x00000] ldn <entlewname unknown>:0 
+ 4/artifacts/SLtae: ndal
+o
+nePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -7.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -31.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -7.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -31.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -7.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filenam(:  .0i, -311)3,
+ 
+0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -7.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -31.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -7.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -31.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -7.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object refer(nce.0, - not set )
+ 
+(Filename: C:f BuildAngent/wo
+  at ThirdPersonNetworkiVik.Update ()one0PlayerGenerated/Unit uEnginwnDebug.
+ 
+(Fp Leiame:  Lin
+e
+: -1)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -8.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceE(cept.ion: Object ref
+e
+renlce neo C seBt to an instance of an8 4d408f4
+/artifacts/StsanNetworkVik.Update a() [0x00000g] in <fi.lename un k3no
+w
+n>:0 
+ 
+The animatioL itae:e Male
+_
+run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -8.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -32.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -8.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -32.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -8.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0(0
+.
+(F -3en.ame:  Li
+ne
+: il-n1)e:
+ 
+C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -8.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -32.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -8.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an inst(nc0 of an32o.9, 0.
+0)
+t 
+ThilrdPame: NC:/BuildAgent/work/d3d49558e4d408f4/artifacts/Standa0lo
+ne
+(Flalename:  Line: -it)y
+E
+ngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -9.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -33.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -9.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Upda, - (3.)  [00)
+00
+(Filenna<fe: C:/Buildngont/w:0k/
+ d49558ea4d408fi4/ar-tif
+a
+cts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -9.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of a0.n obj3.3ect0)
+ 
+(ThirdPeFsinNenwomeVikC:/pBuildAgent/wo00rk/d3d49ilenamde0 unknown>:0 
+ 
+(andalFiellenamGe:  Lite:d-/)U
+
+nityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -9.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -33.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -9.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -33.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -9.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -33.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -10.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -3N.9u l.lR
+ e
+ferenceEx: Cption: Object refergnce noot set to 58e 4nstance af antifactct
+  adalThnrePlayerGenworktedk.Unpdate () Debug.000]cpp Line: 53)
+
+nknown>:0 
+ 
+(FileTame:an imation1) 
+s
+tate Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -10.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -34.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -10.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line:(410.0
+,
+ -34.3, 0.0)
+ 
+(Filename: C:/BuildAgentNwurk/d3d495ncee4xcep8t4/onrtifacts/StafdareonePlayerGenerated/UnityEngineDebug.cpp L
+ine: 53)dP
+ersonNetwohe animatiko.Uspdate ()e_r[ux000n_anii <fcouename u neknown>:0 
+ 
+(se letnamul:  Ltnebe -1)
+d!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -10.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 (
+ 
+(.F, -3n4.5:, 0.0)
+ 
+(F
+i
+lename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -10.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -34.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -10.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+((ilen0a -3:.9, i.n)
+ 
+-1)
+
+name: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -11.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -35.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -11.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -35.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -11.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -35.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -11.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename u0kno, -3:5 
+ 
+(Filen
+am
+e:  Liame: Cn/Be:ld-1g)t
+work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -11.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkV(k.U.0, -35.7, 000000
+0]
+(Fin ename: C:/BuildAn>nt/wo
+r
+k/d3ed495:58e4d408-f4/
+a
+rtifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -11.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -35.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -12.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only(for.0e,isti5ng animat
+io
+(ns.
+na
+me: C:/Bu:ildAgent/work
+/
+d3d49558e4d408f4/artifacts/StandalonePNaullReferenceException: Obejug.t re Leinec: 53)se
+t to an insTahce animation st
+atet MThirdPersonNetworkVik.Update () [0x00000] in <filename unkund!
+Pl0ea
+ s
+eFiatenacmh anL anima1ti
+o
+n clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -12.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -36.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -12.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -36.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -12.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update ()0.00x03004, 0.0)
+ 
+(leilame me:kn:own>:0 
+ t/work/d3d4 9558e4 d40
+8
+f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -12.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [.0x00000] in <fi
+le
+(Falme unknow/nuil0dA
+ge
+nFt/wnakme:  Lin8e4d40)8
+f
+4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -12.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -36.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -12.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -37.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -12.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update (( [0.0,x-3000,000. in
+ <f
+ileleaname: C:/Bui0ld
+Ag
+eFilennmt/work/e:3 d4)5
+8
+e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -13.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -37.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -13.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -37.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -13.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not s(t to0 a-37n.6a, 0 of 
+ 
+(Fbjecnam
+e: C:/BuildAgent/worokkVik.Update () [0x00000] in <filnndma uonenoaye>:0ene
+ra
+(tedenamUnityEngi -1)
+
+ug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -13.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -37.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -13.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceEx(ept0ion3:.8, 0.0)
+ 
+(Filnename: se:/Bui ln igenst/aorn/c3d of an o40j8f4/
+a att ThirdPersonNenwoPkVayerien.Urated/UnityEn00ineDebug.cpp eLine:u 53own
+
+>:0 
+ 
+(FTlhnem a nLimea ti)o
+
+n state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -13.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -38.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -14.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an ani0.0m -38on2,clip w
+it
+h the nae:e ':/BuildAgent/worok/d3d4 t558e4d408f4/artifacts/Standalon ePlayerGener
+a
+(ed/lename:  Line: 416)
+
+ Line: 53)
+
+The animation statN Malle_run_aeniception: Objec t referenceusno tt set tn't  be foune of
+ lease atta
+ch taTn ranimatnion clip wiUth teh() name 'Male_run_aniem' or cknown>:0 
+ 
+(Filename:  Lir exi-s)
+
+ng animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -14.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -38.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -14.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -38.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -14.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instanc( of0a. o, -38.8
+, at Thi
+rd
+(Filename: C:/Bui.ldAgent/work/d3d49558e4df408f4/eartifacts/Sta
+nd
+(ailonePeayame:  erated /Uni
+t
+yEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -14.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -39.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -14.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Third(er0.0, -3o9kVik 0pd0)
+ 
+( [0xen00me: C00] in Agfilename unkn49wn>:558
+e4
+dFil8fnaare: f cLs/St:a-1da
+
+onePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -15.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -39.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -15.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -39N4, 0.0)
+ 
+(Filename: C:/BuildAgentewrence not set to an instance o/Stan dn lbject
+ yet GThiraters/UnitwornVgkiUneate () [0x000ne]:in <fi
+l
+ename unkTown>a0n
+im
+atileiaon statne Ma1l
+e
+_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -15.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -39.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -15.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -39.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -15.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPerson(et0.0, -k0.0U 0d.0e
+ (
+) [0x00000 ]: inilfdlegent/work/d3d49558
+e4
+(F4ilenamrt:  cts/Sta1)al
+
+onePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -15.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -40.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -16.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: (10
+
+.0, -40.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -16.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -40.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -16.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -40.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -16.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -40.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -16.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -41.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -16.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -41.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -17.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -41.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -17.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename un(no.wn>-41.3
+,
+(0.0)
+ me:  Line:: 1:)
+ildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -17.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -41.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -17.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -41.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -17.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -41.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -17.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip(wit.0h the name ')M
+al
+e_run_ane:m' or call gent/work/d3d49558e4d408existing animations.
+ ne
+(PlaynarGe:  rateed/416tyE
+
+ngineDebug.cpp Line: 53)
+
+The NnullReferenceException: Object reference not set to an eiit couldn't be found!
+Please attach an animration clip with the0 name 'Male_run_anim' or call 
+th
+is funacti  n only f1)
+
+existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -18.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -42.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -18.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animat(on 0cl-i2p , 0.w)
+ h
+(Fel name 'Maleuirun_anim' ork call this function only for Seaxisting animations.
+ 
+(Filenange:  ebug.cp416)
+
+e: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this functionNonuyllor fxirenseting tion: Oionbje
+c
+t ileference not se16)
+ an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -18.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Third(e0.0, -42.5, 0.0)
+ 
+te () [0x00000]uildA entn/work/namd49558e4d408f 4
+/a
+rtifancts/StLandalone
+P
+layerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -18.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPerson(et.w, r4kVi, .U0pd
+ a
+(Fil()n[0m0000C:/BuildAgentmworunkd3d49558e
+4
+(Fi8fenaart:  Lite: St1)
+
+alonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -18.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -42.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -18.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00(000.0, -4il.ename u
+nk
+(nown>:0 
+ 
+:/BuildAe:  Line: -1)4
+9558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -19.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -43.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -19.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -43.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -19.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <file(am0 unknown.>:0 
+0)
+
+Fi
+lename:  LiCe:/B1)
+
+dAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -19.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -43.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -19.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this fu(c0i0o n4only for e0i)ti
+ng
+( animations.Bui
+ldiAgent/worLk/d3d41658e
+4
+d408f4/artifacts/StandalonePlayerGeneratedNUullReferenceException: Object 
+
+reference no a simtation state Male_runn anim tc
+o ul Thiot ersonNetworkVik.Update () [0x00000] in <f
+Plename ulknowe> 0 
+ 
+(h an nanima  ionne: ip with the 
+n
+ame 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -19.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -43.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -20.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -44.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -20.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in(0fi0,en-4m4.un, own>:0
+ 
+( il
+(Fnalmea: C: Lin/: -1ld
+
+gent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -20.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -44.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -20.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'M(le.0,_run_anim.0)o
+ 
+(Filename: C:/BuildAgent/work/sting animadtions.
+ 
+(facts/mS:tandal: 41lay
+
+rGenerated/UnityEngineDebug.cpp LNne: Ref5r3)
+e
+Exception: ObjecT hef ranimantt on sto an insaanc e of an object
+ ulat Td ndPt rbonNpleyedorkVcik.Update () n'tx 0be foun <!f
+illene aettach an anim
+a
+tiolenane clipnewith t
+h
+e name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -20.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -44.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -20.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -44.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -21.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename u(kn0wn, -45.
+1,
+( 0le0)e: 
+ Line: -1)
+C
+:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -21.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -45.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -21.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -45.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -21.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -45.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -21.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -45.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -21.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -45.9, 0.0)
+ 
+(Filename: N:uBuildAgent/work/d3d49558e4d4t08fe/frtience not sef ao asn instance of an object
+  at ThirdPersonbugtwcppk Lkinpe: e 3) [
+
+0x00000] in Tfilenaimat unn stwate Ma
+l
+e_run_anim could: -not
+ 
+be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -22.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set (o .a,  -n46anc, e.0)
+ an
+ oilename
+: aC: TuiirdgeertswonkNd3d49et8e4rkVi8f4U/artifacts/Stan00a]o in <fileename unknown>:0 
+ 
+(Filename:  Line: -1
+)
+
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -22.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -46.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -22.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of(an0ob0j -ct6
+ , 0.0)
+ 
+dPersoamNe: wC:/BuildAgent/work/d3d040] 58n <filename unknows/>St d lo
+nePlanyerGenLerat ed/U
+
+nityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -22.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -46.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -22.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -46.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -22.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -46.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -23.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -47.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -23.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -47.2, 0.0)
+ N
+(FilenamrenceException: Object reference not set to an i/SttandalonePlayberGen
+erateThirityErsonNetworkVik.Updat:e 3))
+
+0x00000] in <filee animation s>:ate 
+ 
+(lie_run_anim ncould 
+
+ot be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -23.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -47.4,ullR0e
+ er
+eFnceExceeption: OdAject reference not set to an instance of an objePct
+  atneThiredPersonNetworkVik.UpdatLe () [3)x00
+00] in <fiTehaman umationnktaotne M a
+le
+_rune_ani:m coue: -1)
+l
+d not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -23.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -47.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -23.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -47.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -23.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filenam( u.0k, -47.8, 
+0.
+0)il
+ name:  Line: :/1Bu
+i
+ldAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -23.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -48.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -24.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -48.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -24.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filena(e un0k -48.4:, 0
+.0
+)
+il
+ename:  Line: -1)
+Agent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -24.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -48.6, 0N0ul
+l
+ReilerenceeEC:/BuilxAgent/work/dje3d re558ee4d4 not set tfacans/Stananacon ePlayerGjener
+a at Thited/UnityEngineDeb.ug.cpp Line: 003)
+
+] in <filenaTe unknown>i0 
+ 
+(on estate  Male: -run1)im
+ could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -24.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -48.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -24.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -48.8, 0.0)
+ 
+(FilenamN:ullReferenceException: Ob55e8e4d408fen/ae not set to ndnalnsnePltyanGen oftead object
+  at Debudg.rcpp Line: Vi)
+
+Update (T h0e00an0mation <state Male_run_anim c
+ou
+ldilnot be:  Llnayed be
+c
+ause it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -24.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -49.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -25.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference (o0 .0t  - a9.2, 0.0)
+ 
+(File onjeme:
+ Cat/BuhilrdPersonNetwdod49558e4d408f4/artifacts/StandalonePlayeuneknroten>/:0 
+ 
+(Filename:  Linei:e: 53)
+
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -25.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in(<f0.0, -49.nknown>:
+0
+(
+ 
+(Filename:  LineA:e t-1ork
+/
+d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -25.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -49.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -25.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceExcept(on:.0, -49.6, 0.0)e n
+oFt snet to :/an instance of an object
+  at fT/artiPeactos/StwordklVnikla.erpdate (ated/UnityEngineDebug.cpp Lineown530)
+ 
+
+
+(FilenamT:h e ne: -a)
+
+imation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -25.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -49.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -25.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object(
+  0.0, -50.0, 0.0)
+ or
+(VFilename: C:/BuildAgent/work/d3da495un8e4od4>08 f
+4
+/airtnifeac ts/Stan1)a
+
+nePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -26.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to(a0 .0sta-50.2,f 0.n ob0)
+ 
+ 
+(Fit enairdPer:sBunNetildAgentUpdork/d3d4955080e4 i40 8fil/anameactns/Standalo
+ne
+(PlayerGe:nerated/Unit
+y
+EngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -26.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -50.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -26.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename(  L.0i -50 .66).
+0)
+ 
+(Filename: C:/BuildAgent/work/dNd4llReferenceException: Object reference not set to an instance of an object
+  at T
+h
+irdPersonNetworkVik.Updatne ()te 0M0ale0] inn n<mfilename unkn owa>:0y
+  beilename:   Line: -1)
+
+found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -26.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -50.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -26.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -50.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -26.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullRe(eren0.0, ep51tion: Obj
+ec
+t refeare: Cnce indAot set rko a3d i9st58nced o8f4/an object
+ StaandalornPersayeetGerkVritkd/Update () [0x00000] in <filename
+
+ unknown>:0 T
+he
+( ilninamti:   stne: -1)
+
+run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -27.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -51.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -27.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please att(ch.0, an anima.tio
+ 
+cliplewitname: Cam/BuildA_ren_anim' or call this fun4ction only for existing animeations.
+ 
+(Filename:  Line: 416)
+
+ 53)
+
+The animation stateNMullReferenceExceptinon: bObjlayedre becaus n titetcouldn't ns taund!
+Pf aleabse at
+t ach an animation clip ik.tUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filenamor existing )
+
+animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -27.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -51.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -27.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00(00] , n51<fil 0na0)
+me
+ unknowne: C:/
+Bu
+ildAgent/work/de: -1)
+
+e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -27.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -51.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -27.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference n(t 0.0, -51.9, 0.0)
+  o
+(Filenobme: C
+:/BuildAgent/work/d3d49558e4d408f 4/artifacts/StandalonePla erGkeownrat0 /U
+nFtylenEmn:g LineeD -1)
+
+cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -28.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00(00] , - <f1,l 0.0)
+ 
+(Filename:
+ C
+:/iluiedAgme:t w Line: -1)
+e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -28.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -52.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -28.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an objec(
+  a0t -5h2.5, 0.0)
+ 
+(Frklik.epdate : C:[0xildA00] inwo<fk/dil49558e ud408f4/artif
+ac
+tFs/Stamed:  Line: -1)
+
+erated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -28.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -52.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -28.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -52.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -28.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(F(le0.0, -52.9,: -10
+)
+
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -29.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -53.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -29.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip .3it 0.0)
+ 
+(me leMalme_run:/_ualnAgmn' or calld this functf4/artifacts/StandalonePlayerGen.
+ 
+(eFilentyEngineDebug.16p)
+
+ine: 53)
+
+The aniNaullRefereenceEe_ceun_aonimObcject reference not bscat to aen insotlanct  b e found!
+P
+leat seirattrschn an animat.Uidan cl(ip[0with the name 'Male_run_animn>:0 
+ '
+(File camle:  Line: -1)
+
+ only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -29.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -53.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -29.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -53.7, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -29.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference no( 0.0, -53n in 0tanc
+e 
+ofi an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filenameG unknown>:0 
+ ngineDebug:  Line: -1)
+
+
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -29.8, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -53.9, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -30.0, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -54.1, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -30.2, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -54.3, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -30.4, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -54.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+(0.0, -30.6, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ThirdPersonNetworkVik.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+(0.0, -54.5, 0.0)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+The animation state Male_run_anim could not be played because it couldn't be found!
+Please attach an animation clip with the name 'Male_run_anim' or call this function only for existing animations.
+ 
+(Filename:  Line: 416)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+UnloadTime: 7.476788 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 5571.
+Total: 1.176351 ms (FindLiveObjects: 0.163306 ms CreateObjectMapping: 0.034713 ms MarkObjects: 0.442225 ms  DeleteObjects: 0.009961 ms)
+
+Null
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Platform assembly: C:\Users\srinivas\Documents\GitHub\ORP\test_1_Data\Managed\Boo.Lang.dll (this message is harmless)
