@@ -353,6 +353,9 @@ function FixedUpdate () {
 function Update () {
 	if (!useFixedUpdate)
 		UpdateFunction();
+		
+		
+		
 }
 
 private function ApplyInputVelocityChange (velocity : Vector3) {	

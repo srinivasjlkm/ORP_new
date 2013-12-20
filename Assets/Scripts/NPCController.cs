@@ -64,7 +64,7 @@ public class NPCController: MonoBehaviour {
 
 
 	public void moveCameraToPlayer(){
-		print (enteredObj);
+	//	print (enteredObj);
 		if(enteredObj!=null){
 		Camera.main.transform.parent = enteredObj.transform;
 		Camera.main.transform.localPosition = new Vector3(-0.04869021f,1.303013f, 0.08047496f);
@@ -74,14 +74,14 @@ public class NPCController: MonoBehaviour {
 
 	void disableCameraAndMotor(Collider co){
 		co.GetComponent<MouseCamera>().enabled =false;
-		co.GetComponent<CharacterMotor>().enabled = false;
+		co.GetComponent<ClickMove>().enabled = false;
 	}
 
 	public void enableCameraAndMotor(){
 		if(enteredObj)
 		{
 		enteredObj.GetComponent<MouseCamera>().enabled = true;
-		enteredObj.GetComponent<CharacterMotor>().enabled = true;
+		enteredObj.GetComponent<ClickMove>().enabled = true;
 		}
 	}
 

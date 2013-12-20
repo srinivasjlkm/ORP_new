@@ -122,11 +122,18 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 5}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb78b255213b22547aa7abf8bffc142a, type: 3}
+  m_Script: {fileID: 11500000, guid: 5afbec4062e8ecb438021f9d1c2f166d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  axes: 2
+  sensitivityX: 15
+  sensitivityY: 15
+  minimumX: -360
+  maximumX: 360
+  minimumY: -30
+  maximumY: 60
 --- !u!1 &13
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,7 +184,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 6}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 51.001812, y: 3.92859173, z: 57.2093468}
+  m_LocalPosition: {x: 51.001812, y: 2.26651859, z: 57.2093468}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -418,7 +425,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aa6d93d1e7dfa04c98a362c95014ff8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  managerPrefab: manager
+  managerPrefab: mr
   officerPrefab: officerPrefab
   womanprefab: Smart Woman
   playerprefab: Player
@@ -445,8 +452,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fa73df6ea945194e923d46f55089c6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 536574757020696e636f6d706c6574650a0a546869732064656d6f20646570656e6473206f6e20736f6d6520637573746f6d20696e70757420646566696e6974696f6e73207768696368206172652063757272656e746c79206d697373696e672066726f6d20796f757220696e7075742073657474696e67732e0a0a506c65617365207365652052454144204d452046495253542e74787420666f722064657461696c732e
-  badSetup: 0
 --- !u!196 &46
 NavMeshSettings:
   m_ObjectHideFlags: 0
@@ -765,10 +770,9 @@ GameObject:
   - 33: {fileID: 16228158}
   - 23: {fileID: 16228157}
   - 64: {fileID: 16228156}
-  - 114: {fileID: 16228159}
   m_Layer: 10
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -828,26 +832,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 16228154}
   m_Mesh: {fileID: 4300072, guid: 0c03246bf26f643468027cfbf82df69d, type: 3}
---- !u!114 &16228159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 16228154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66741a1e403b86a47b99435e2dad0b24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  status: 0
-  doorOpenTrigger: 0
-  doorOpenTriggerEnd: 0
-  startTime: 0
-  duration: 0
-  Door1: {fileID: 1526311881}
-  smooth: 2
-  DoorOpenAngle: 90
-  DoorCloseAngle: 180
 --- !u!1 &16284996
 GameObject:
   m_ObjectHideFlags: 0
@@ -2511,11 +2495,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f67e3e494a4ec64f9ab054de33eba4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  smooth: 2
-  DoorOpenAngle: 90
-  DoorCloseAngle: 0
-  open: 0
-  enter: 0
 --- !u!65 &64517470
 BoxCollider:
   m_ObjectHideFlags: 0

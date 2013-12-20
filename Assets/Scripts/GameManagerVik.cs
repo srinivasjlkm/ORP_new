@@ -5,7 +5,7 @@ public class GameManagerVik : Photon.MonoBehaviour {
 
     // this is a object name (must be in any Resources folder) of the prefab to spawn as player avatar.
     // read the documentation for info how to spawn dynamically loaded game objects at runtime (not using Resources folders)
-    public string managerPrefab="manager";
+    public string managerPrefab="mr";
 	public string officerPrefab="officerPrefab";
 	public string womanprefab = "Smart Woman";
 	public string playerprefab= "Player";
@@ -46,7 +46,10 @@ public class GameManagerVik : Photon.MonoBehaviour {
 
 
 		if(playerName == "manager")
+		{
         PhotonNetwork.Instantiate(this.managerPrefab, transform.position, Quaternion.identity, 0, objs);
+		
+		}
 		else if(playerName == "officer")
 		PhotonNetwork.Instantiate(this.officerPrefab, transform.position, Quaternion.identity, 0, objs);
 		else if(playerName == "Smart Woman")

@@ -27,14 +27,13 @@ public class MouseCamera : MonoBehaviour {
 
 	public float minimumY = -60F;
 	public float maximumY = 60F;
-
-
+	
 
 	float rotationY = 0F;
 	float originalY = 0F;
 	void Update ()
 	{
-		if(enabled)
+		if(Input.GetButton ("Fire2"))
 		{
 		if (axes == RotationAxes.MouseXAndY)
 		{

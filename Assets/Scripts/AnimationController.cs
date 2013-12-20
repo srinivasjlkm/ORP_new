@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[RequireComponent (typeof (FPSInputController))]
+
 public class AnimationController: MonoBehaviour
 {
 
