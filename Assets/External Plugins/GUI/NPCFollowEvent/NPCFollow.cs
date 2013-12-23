@@ -8,33 +8,24 @@ public class NPCFollow : Photon.MonoBehaviour {
 		transform.GetComponent<DUGView>().visible = false;
 
 		enablePlayerRenderer();
-		
-		this.transform.parent.GetComponent<NPCController>().moveCameraToPlayer();
-		this.transform.parent.GetComponent<NPCController>().enableCameraAndMotor();
 
-		PhotonView photonView = PhotonView.Find(4);
+		PhotonView photonView = GameObject.Find ("npc").GetPhotonView();
+
+//		this.transform.parent.GetComponent<NPCController>().moveCameraToPlayer();
+//		this.transform.parent.GetComponent<NPCController>().enableCameraAndMotor();
+		photonView.RPC("moveCameraToPlayer",PhotonTargets.All);
+		photonView.RPC("enableCameraAndMotor", PhotonTargets.All);
 		photonView.RPC("destroyNPC",PhotonTargets.All);
 
 	}
 
-	[RPC]
-	void destroyNPC(){
-		GameObject go = GameObject.Find("npc").gameObject;
-		if(go != null){
-			Destroy(go);
-		}
+
+	void enablePlayerRenderer(){
+			if(this.transform.parent.GetComponent<NPCController>().enteredObj!=null)
+			{
+				Renderer[] rs =  this.transform.parent.GetComponent<NPCController>().enteredObj.GetComponentsInChildren<Renderer>();
+				foreach (Renderer r in rs)
+					r.enabled = true;
+			}
 	}
-
-
-
-
-
-void enablePlayerRenderer(){
-		if(this.transform.parent.GetComponent<NPCController>().enteredObj!=null)
-		{
-			Renderer[] rs =  this.transform.parent.GetComponent<NPCController>().enteredObj.GetComponentsInChildren<Renderer>();
-			foreach (Renderer r in rs)
-				r.enabled = true;
-		}
-}
 }

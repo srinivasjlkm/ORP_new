@@ -4219,7 +4219,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: cd7fdbc0eeaef7a428951b21512fe23d, type: 2}
       propertyPath: synchronization
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: cd7fdbc0eeaef7a428951b21512fe23d, type: 2}
       propertyPath: onSerializeTransformOption
@@ -30444,7 +30444,7 @@ MonoBehaviour:
   group: 0
   prefixBackup: -1
   observed: {fileID: 924226423}
-  synchronization: 2
+  synchronization: 0
   onSerializeTransformOption: 4
   onSerializeRigidBodyOption: 2
   instantiationId: 0
@@ -51388,7 +51388,7 @@ MonoBehaviour:
   group: 0
   prefixBackup: -1
   observed: {fileID: 1526311882}
-  synchronization: 2
+  synchronization: 0
   onSerializeTransformOption: 3
   onSerializeRigidBodyOption: 2
   instantiationId: 0

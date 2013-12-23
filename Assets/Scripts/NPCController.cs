@@ -5,53 +5,79 @@ public class NPCController: MonoBehaviour {
 	//string dugManager 
 	//string runFromFireGUI = "RunFromFireGUI";
 	string GUI_name = "DUGManager";
-
+	bool enter;
+	string colliderTag;
 	public Collider enteredObj = null;
 	// Use this for initialization
 
 	private Vector3 NPC_camera_view_position = new Vector3(0,2.72f,2.3f);
 	private Vector3 NPC_camera_view_rotation = new Vector3(0,180f,0);
+	PhotonView photonView;
 
 
 	void Start () {
+		colliderTag = "manager";
 		this.transform.FindChild(GUI_name).GetComponent<DUGView>().visible = false;
 		enteredObj = null;
+		enter = false;
 	//	(this.transform.FindChild(GUI_name).GetComponent("Halo") as Behaviour).enabled = false;
 	}
 
 	// Update is called once per frame
 	void Update () {
-	
+		talkToNPC();
 	}
 
 	void OnTriggerEnter(Collider Co){
-		if( Co.tag == "manager" )
-		{	
+		if(Co.GetComponent<PhotonView>().isMine && Co.tag == colliderTag )
+		{
+			enter = true;
 			enteredObj = Co;
 		//	(this.transform.FindChild(GUI_name).GetComponent("Halo") as Behaviour).enabled = true;
 		}
 	}
-	void OnTriggerStay(Collider Co){
-		if(Input.GetKeyDown("f"))
-		{
-			this.transform.FindChild(GUI_name).GetComponent<DUGView>().visible = true;
+//	void OnTriggerStay(Collider Co){
+//		if(Co.GetComponent<PhotonView>().isMine && Input.GetKeyDown("f"))
+//		{
+//			this.transform.FindChild(GUI_name).GetComponent<DUGView>().visible = true;
+//
+//			disableCameraAndMotor(Co);
+//
+//			moveCameraToNPC();
+//
+//			Renderer[] rs = Co.GetComponentsInChildren<Renderer>();
+//			foreach(Renderer r in rs)
+//					r.enabled = false;
+//
+//		}
+//	}
 
-			disableCameraAndMotor(Co);
-
-			moveCameraToNPC();
-
-			Renderer[] rs = Co.GetComponentsInChildren<Renderer>();
-			foreach(Renderer r in rs)
-					r.enabled = false;
-
+	void OnTriggerExit(Collider Co){
+		if(Co.GetComponent<PhotonView>().isMine && Co == enteredObj){
+			enteredObj = null;
+			enter = false;
+		//	(this.transform.FindChild(GUI_name).GetComponent("Halo") as Behaviour).enabled = false;
 		}
 	}
 
-	void OnTriggerExit(Collider Co){
-		if(Co == enteredObj)
-			enteredObj = null;
-		//	(this.transform.FindChild(GUI_name).GetComponent("Halo") as Behaviour).enabled = false;
+	public void talkToNPC(){
+		if(enter && Input.GetKeyDown("f")){
+			{
+				this.transform.FindChild(GUI_name).GetComponent<DUGView>().visible = true;
 
+				disableCameraAndMotor(enteredObj);
+				moveCameraToNPC();
+	
+				Renderer[] rs = enteredObj.GetComponentsInChildren<Renderer>();
+				foreach(Renderer r in rs)
+					r.enabled = false;
+			}
+		}
+	}
+
+	void disableCameraAndMotor(Collider co){
+		co.GetComponent<MouseCamera>().enabled =false;
+		co.GetComponent<ClickMove>().enabled = false;
 	}
 
 	public void moveCameraToNPC(){
@@ -62,26 +88,22 @@ public class NPCController: MonoBehaviour {
 
 	}
 
-
+	[RPC]
 	public void moveCameraToPlayer(){
 	//	print (enteredObj);
-		if(enteredObj!=null){
-		Camera.main.transform.parent = enteredObj.transform;
-		Camera.main.transform.localPosition = new Vector3(-0.04869021f,1.303013f, 0.08047496f);
-		Camera.main.transform.localEulerAngles = new Vector3(0.6651921f, 0, 0);
+		if(enteredObj != null){
+			Camera.main.transform.parent = enteredObj.transform;
+			Camera.main.transform.localPosition = new Vector3(-0.04869021f,1.303013f, 0.08047496f);
+			Camera.main.transform.localEulerAngles = new Vector3(0.6651921f, 0, 0);
 		}
 	}
 
-	void disableCameraAndMotor(Collider co){
-		co.GetComponent<MouseCamera>().enabled =false;
-		co.GetComponent<ClickMove>().enabled = false;
-	}
-
+	[RPC]
 	public void enableCameraAndMotor(){
-		if(enteredObj)
+		if(enteredObj != null)
 		{
-		enteredObj.GetComponent<MouseCamera>().enabled = true;
-		enteredObj.GetComponent<ClickMove>().enabled = true;
+			enteredObj.GetComponent<MouseCamera>().enabled = true;
+			enteredObj.GetComponent<ClickMove>().enabled = true;
 		}
 	}
 

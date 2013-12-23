@@ -30,4 +30,6 @@ MonoBehaviour:
   - GrabRPC
   - GUIphoneCallRPC
   - destroyNPC
+  - moveCameraToPlayer
+  - enableCameraAndMotor
   DisableAutoOpenWizard: 0

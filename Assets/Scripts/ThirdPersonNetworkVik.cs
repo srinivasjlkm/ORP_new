@@ -124,7 +124,8 @@ public class ThirdPersonNetworkVik : Photon.MonoBehaviour
             transform.rotation = Quaternion.Lerp(transform.rotation, correctPlayerRot, Time.deltaTime * 5);
 
 
-			transform.GetComponent<AnimationController>().SendMessage("updateState",correctState);
+			transform.GetComponent<AnimationController>().updateState(correctState);
+			//.SendMessage("updateState",correctState);
 
 //			print ("correctPlayerPos : "+correctPlayerPos);
 		//	print ("transform.position: "+transform.position);

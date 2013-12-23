@@ -76,7 +76,21 @@ public class AnimationController: MonoBehaviour
 	}
 	
 	
-
+	public void updateState(string newState){
+		switch(newState){
+		case "idle":
+			state = CharacterState.idle;
+			break;
+		case "run":
+			state = CharacterState.run;
+			break;
+		case "tap":
+			state = CharacterState.tap;
+			break;
+		default:
+			break;
+		}
+	}
 	
 	
 	void Update ()
