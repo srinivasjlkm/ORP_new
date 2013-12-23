@@ -71,6 +71,7 @@ public class GameManagerVik : Photon.MonoBehaviour {
             PhotonNetwork.LeaveRoom();
         }
     }
+	
 
     void OnDisconnectedFromPhoton()
     {

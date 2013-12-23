@@ -2,33 +2,41 @@
 using System.Collections;
 
 public class DoorHandler : Photon.MonoBehaviour {
-
-	bool isOpen;
-	bool enter;
-	Collider Co;
-	string colliderTag;
-
+	
+	float smooth = 2.0f;
+	float DoorOpenAngle = 90.0f;
+	float DoorCloseAngle = 180.0f;
+	bool isOpen ;
+	bool enter ;
+	bool doorState;
+	
 	// Use this for initialization
 	void Start () {
+		isOpen = false;
 		enter = false;
-		Co = null;
-		colliderTag = "manager";
 	}
 	
 	// Update is called once per frame
 	void Update() {
+		//if this photonview player enter, and press f
+		//change state and send, open door.
 		if(enter && Input.GetKeyDown("f")){
-			Debug.Log("open door");
-			PhotonView photonView = PhotonView.Get (this);
-			photonView.RPC("Open",PhotonTargets.All);
-		}
-	}
 
+			PhotonView photonView = PhotonView.Get (this);
+			photonView.RPC("Open",PhotonTargets.AllBuffered);
+		}
+
+
+		
+
+	}
+	
+
+	
 	[RPC]
 	void Open(){
 		Transform child = transform.Find("doortestrun");
 		isOpen = !isOpen;
-		print (isOpen);
 		if(isOpen){
 			if(child != null)
 				child.animation.Play("Anim_Wooden_Open");
@@ -43,19 +51,34 @@ public class DoorHandler : Photon.MonoBehaviour {
 		}
 	}
 	
-
+	void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+	{
+//		if (stream.isWriting)
+//		{
+//			//We own this player: send the others our data
+//			// stream.SendNext((int)controllerScript._characterState);
+//			stream.SendNext(isOpen);
+//
+//		}
+//		else
+//		{
+//			isOpen = (bool)stream.ReceiveNext();
+//			Open ();
+//		}
+	}
+	
+	
+	
+	
 	//Activate the Main function when player is near the door
-	void OnTriggerEnter (Collider collider){
+	void OnTriggerEnter (Collider Co){
 		//Debug.Log("name: " + other.gameObject.transform.name);
-		Co = collider;
-		//Co.GetComponent<PhotonView>().isMine &&
-		if( Co.gameObject.tag == colliderTag)
+		if(Co.GetComponent<PhotonView>().isMine && Co.gameObject.tag == "manager")
 			enter = true;
 	}
-
+	
 	//Deactivate the Main function when player is go away from door
-	void OnTriggerExit (Collider collider){
-		if(Co.GetComponent<PhotonView>().isMine && collider == Co)
-			enter = false;
+	void OnTriggerExit (Collider Co){
+		enter = false;
 	}
 }

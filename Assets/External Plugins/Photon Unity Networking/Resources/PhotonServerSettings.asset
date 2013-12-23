@@ -32,4 +32,5 @@ MonoBehaviour:
   - destroyNPC
   - moveCameraToPlayer
   - enableCameraAndMotor
+  - SetFireExtVisible
   DisableAutoOpenWizard: 0

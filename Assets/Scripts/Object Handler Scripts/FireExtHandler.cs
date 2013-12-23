@@ -32,13 +32,24 @@ public class FireExtHandler : Photon.MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if((state == FireExtState.notAvailable) && (GameObject.Find("Telephone Cube").GetComponent<PhoneHandler>().state == PhoneHandler.phoneState.afterCall)){
-			for(int i=1; i<this.transform.parent.childCount;i++){
-				this.transform.parent.GetChild(i).GetComponent<MeshRenderer>().enabled = true;
-			}
-			//this.transform.parent.parent.gameObject.AddComponent<Rigidbody>();
-			GameObject go = GameObject.Find("Telephone Cube");
-			state = FireExtState.Available;
+			PhotonView photonView = PhotonView.Get(this);
+			photonView.RPC("SetFireExtVisible",PhotonTargets.AllBuffered);
+			PhotonTargets target = PhotonTargets.AllBuffered;
+
+				print (target);
 		}
+
+	}
+
+	[RPC]
+	void SetFireExtVisible(PhotonMessageInfo info){
+		for(int i=1; i<this.transform.parent.childCount;i++){
+			this.transform.parent.GetChild(i).GetComponent<MeshRenderer>().enabled = true;
+		}
+		//this.transform.parent.parent.gameObject.AddComponent<Rigidbody>();
+		GameObject go = GameObject.Find("Telephone Cube");
+		state = FireExtState.Available;
+		Debug.Log (info.sender, info.photonView);
 	}
 
 	void OnGUI(){

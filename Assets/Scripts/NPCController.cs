@@ -66,7 +66,7 @@ public class NPCController: MonoBehaviour {
 				this.transform.FindChild(GUI_name).GetComponent<DUGView>().visible = true;
 
 				disableCameraAndMotor(enteredObj);
-				moveCameraToNPC();
+				moveCameraToNPC();	
 			}
 		}
 	}
