@@ -7,7 +7,7 @@ public class NPCFollow : Photon.MonoBehaviour {
 	void Start () {
 		transform.GetComponent<DUGView>().visible = false;
 
-		enablePlayerRenderer();
+		//enablePlayerRenderer();
 
 		PhotonView photonView = GameObject.Find ("npc").GetPhotonView();
 

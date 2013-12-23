@@ -48,7 +48,7 @@ public class GameManagerVik : Photon.MonoBehaviour {
 		if(playerName == "manager")
 		{
         PhotonNetwork.Instantiate(this.managerPrefab, transform.position, Quaternion.identity, 0, objs);
-		
+		//PhotonNetwork.isMessageQueueRunning = true;
 		}
 		else if(playerName == "officer")
 		PhotonNetwork.Instantiate(this.officerPrefab, transform.position, Quaternion.identity, 0, objs);

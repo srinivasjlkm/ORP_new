@@ -67,10 +67,6 @@ public class NPCController: MonoBehaviour {
 
 				disableCameraAndMotor(enteredObj);
 				moveCameraToNPC();
-	
-				Renderer[] rs = enteredObj.GetComponentsInChildren<Renderer>();
-				foreach(Renderer r in rs)
-					r.enabled = false;
 			}
 		}
 	}
@@ -93,7 +89,7 @@ public class NPCController: MonoBehaviour {
 	//	print (enteredObj);
 		if(enteredObj != null){
 			Camera.main.transform.parent = enteredObj.transform;
-			Camera.main.transform.localPosition = new Vector3(-0.04869021f,1.303013f, 0.08047496f);
+			Camera.main.transform.localPosition = enteredObj.GetComponent<ThirdPersonNetworkVik>().cameraRelativePosition;
 			Camera.main.transform.localEulerAngles = new Vector3(0.6651921f, 0, 0);
 		}
 	}

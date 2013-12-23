@@ -237,9 +237,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: .300000012
+  near clip plane: .100000001
   far clip plane: 100
-  field of view: 60
+  field of view: 55.5
   orthographic: 0
   orthographic size: 100
   m_Depth: -1
@@ -51388,7 +51388,7 @@ MonoBehaviour:
   group: 0
   prefixBackup: -1
   observed: {fileID: 1526311882}
-  synchronization: 2
+  synchronization: 0
   onSerializeTransformOption: 3
   onSerializeRigidBodyOption: 2
   instantiationId: 0

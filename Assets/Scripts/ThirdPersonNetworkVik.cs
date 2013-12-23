@@ -6,7 +6,7 @@ public class ThirdPersonNetworkVik : Photon.MonoBehaviour
     MouseCamera cameraScript;
 	MouseCamera playerRotationScript;
 
-
+	public Vector3 cameraRelativePosition = new Vector3(0,1.257728f, 0);
 
     void Awake()
     {
@@ -27,11 +27,13 @@ public class ThirdPersonNetworkVik : Photon.MonoBehaviour
 				
 
            // controllerScript.enabled = true;
-
+			Renderer[] rs =  this.transform.GetComponentsInChildren<Renderer>();
+			foreach (Renderer r in rs)
+				r.enabled = false;
 
 
 			Camera.main.transform.parent = transform;
-			Camera.main.transform.localPosition = new Vector3(-0.008683522f,1.257728f, -0.07061113f);
+			Camera.main.transform.localPosition = cameraRelativePosition;
 			Camera.main.transform.localEulerAngles = new Vector3(0.6651921f, 0, 0);
 
 			if(cameraScript == null)
@@ -55,7 +57,9 @@ public class ThirdPersonNetworkVik : Photon.MonoBehaviour
 			if(playerRotationScript == null)
 				playerRotationScript = transform.GetComponent<MouseCamera>();
 
-           
+			Renderer[] rs =  this.transform.GetComponentsInChildren<Renderer>();
+			foreach (Renderer r in rs)
+				r.enabled = true;
 			playerRotationScript.enabled = false;
 			gameObject.GetComponent<ClickMove>().enabled = false;
 			gameObject.GetComponent<CharacterMotor>().enabled = false;

@@ -10,7 +10,6 @@ public class DoorHandler : Photon.MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		isOpen = false;
 		enter = false;
 		Co = null;
 		colliderTag = "manager";
@@ -29,6 +28,7 @@ public class DoorHandler : Photon.MonoBehaviour {
 	void Open(){
 		Transform child = transform.Find("doortestrun");
 		isOpen = !isOpen;
+		print (isOpen);
 		if(isOpen){
 			if(child != null)
 				child.animation.Play("Anim_Wooden_Open");
@@ -48,7 +48,8 @@ public class DoorHandler : Photon.MonoBehaviour {
 	void OnTriggerEnter (Collider collider){
 		//Debug.Log("name: " + other.gameObject.transform.name);
 		Co = collider;
-		if(Co.GetComponent<PhotonView>().isMine && Co.gameObject.tag == colliderTag)
+		//Co.GetComponent<PhotonView>().isMine &&
+		if( Co.gameObject.tag == colliderTag)
 			enter = true;
 	}
 
