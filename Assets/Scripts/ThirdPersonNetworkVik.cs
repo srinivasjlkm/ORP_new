@@ -44,6 +44,7 @@ public class ThirdPersonNetworkVik : Photon.MonoBehaviour
 			cameraScript.enabled = true;
 			
 			gameObject.GetComponent<ClickMove>().enabled = true;
+			gameObject.GetComponent<CharacterMotor>().enabled = true;
 			
         }
         else
@@ -57,6 +58,7 @@ public class ThirdPersonNetworkVik : Photon.MonoBehaviour
            
 			playerRotationScript.enabled = false;
 			gameObject.GetComponent<ClickMove>().enabled = false;
+			gameObject.GetComponent<CharacterMotor>().enabled = false;
 		
           //  controllerScript.enabled = true;
 

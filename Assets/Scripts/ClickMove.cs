@@ -3,6 +3,9 @@ using System.Collections;
 
 public class ClickMove : MonoBehaviour
 {
+
+
+		private CharacterMotor motor;
 		public float smooth; // Determines how quickly object moves towards position
 		private Camera myCamera;
 		public GameObject arrowPrefab;
@@ -19,8 +22,13 @@ public class ClickMove : MonoBehaviour
 				groundPosition = GameObject.FindWithTag ("ground").transform.position;
 
 				arrow = Instantiate(arrowPrefab,transform.position,Quaternion.identity) as GameObject;
-				targetPosition = new Vector3(transform.position.x,transform.position.y + heightOffset,transform.position.z);
+				
 				myCamera = GameObject.FindGameObjectWithTag("MainCamera").transform.GetComponent<Camera>();
+
+				motor = GetComponent<CharacterMotor>();
+
+				transform.GetComponent<AnimationController>().state = AnimationController.CharacterState.idle;
+				targetPosition = transform.position;
 				
 		}
 
@@ -48,8 +56,9 @@ public class ClickMove : MonoBehaviour
 		// Update is called once per frame
 		void Update ()
 		{
-
-				if (Input.GetKeyUp (KeyCode.Mouse0)) {
+		if(!motor.grounded)
+			targetPosition = transform.position;
+		else if (Input.GetKeyUp (KeyCode.Mouse0)) {
 
 
 
@@ -80,7 +89,7 @@ public class ClickMove : MonoBehaviour
 								arrowAnimation();
 
 								targetPosition = new Vector3( ray.GetPoint (hitdist).x,ray.GetPoint (hitdist).y + heightOffset,ray.GetPoint (hitdist).z);
-
+							
 
 //								print (targetPosition);
 
@@ -103,21 +112,30 @@ public class ClickMove : MonoBehaviour
 				float move = speed * Time.deltaTime;
 
 				if (dist > move) {
+						
 
-						transform.position += dir.normalized * move;
+
+						
+						motor.inputMoveDirection = dir.normalized * move;
 						transform.GetComponent<AnimationController>().state = AnimationController.CharacterState.run;
 					
 
 				} else {
 
-						transform.position = targetPosition;
+						//transform.position = targetPosition;
+
+
+						motor.inputMoveDirection = Vector3.zero;
 						transform.GetComponent<AnimationController>().state = AnimationController.CharacterState.idle;
 						
 						
 				}
 
 				
-				transform.position += (targetPosition - transform.position).normalized * speed * Time.deltaTime;
+				//transform.position += (targetPosition - transform.position).normalized * speed * Time.deltaTime;
 				
 		}
 }
+
+
+
