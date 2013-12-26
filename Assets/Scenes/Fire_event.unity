@@ -94,7 +94,7 @@ GameObject:
   - 114: {fileID: 39}
   - 114: {fileID: 38}
   m_Layer: 0
-  m_Name: Code
+  m_Name: GameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -133,7 +133,7 @@ MonoBehaviour:
   minimumX: -360
   maximumX: 360
   minimumY: -30
-  maximumY: 60
+  maximumY: 30
 --- !u!1 &13
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,8 +409,8 @@ MonoBehaviour:
   ownerId: 0
   group: 0
   prefixBackup: -1
-  observed: {fileID: 0}
-  synchronization: 0
+  observed: {fileID: 17}
+  synchronization: 2
   onSerializeTransformOption: 3
   onSerializeRigidBodyOption: 2
   instantiationId: 0
@@ -425,10 +425,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aa6d93d1e7dfa04c98a362c95014ff8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  managerPrefab: mr
-  officerPrefab: officerPrefab
-  womanprefab: Smart Woman
-  playerprefab: Player
+  playerPrefabList:
+  - {fileID: 100032, guid: 862638506a814af458833c5504c756cd, type: 2}
+  - {fileID: 100032, guid: 7a00da1ebba92cb4b9ad6604138f3c2a, type: 2}
+  - {fileID: 100032, guid: 91cd6492b711501428b3eb0d019a6bce, type: 2}
+  - {fileID: 100032, guid: a1a76564c97b26a4381d30d03f58d3ae, type: 2}
+  playerList:
+  - manager
+  - IT
+  - officer
+  - customer
 --- !u!114 &43
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4040,7 +4046,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 110298328}
   - 65: {fileID: 110298330}
-  - 114: {fileID: 110298329}
   m_Layer: 0
   m_Name: Door 2
   m_TagString: Untagged
@@ -4060,18 +4065,6 @@ Transform:
   m_Children:
   - {fileID: 1912293928}
   m_Father: {fileID: 1542152095}
---- !u!114 &110298329
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400002, guid: 0fec57f2d70a38346a0acd92bd920065,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 110298327}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &110298330
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4667,6 +4660,221 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 120018371}
   m_Mesh: {fileID: 4300042, guid: 0c03246bf26f643468027cfbf82df69d, type: 3}
+--- !u!1 &123334920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 123334922}
+  - 114: {fileID: 123334921}
+  m_Layer: 0
+  m_Name: EventManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &123334921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 123334920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fsm:
+    usedInTemplate: {fileID: 0}
+    name: FSM
+    startState: beforeFire
+    states:
+    - name: beforeFire
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 504.5
+        y: 328
+        width: 145
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: 10 seconds passed
+          isSystemEvent: 0
+          isGlobal: 1
+        toState: FireTriggered
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.GetTimeInfo
+        - HutongGames.PlayMaker.Actions.FloatCompare
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: e371af8b53489ed1
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 07000000000000000153797374656d54696d6501000000000153797374656d54696d65000020410000000000003130207365636f6e6473207061737365643130207365636f6e64732070617373656401
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 070000000f000000010000000f0000000f0000000f00000017000000170000001700000001000000
+        paramName:
+        - getInfo
+        - storeValue
+        - everyFrame
+        - float1
+        - float2
+        - tolerance
+        - equal
+        - lessThan
+        - greaterThan
+        - everyFrame
+        paramDataPos: 0000000004000000130000001400000023000000280000002d0000003e0000003e0000004f000000
+        paramByteDataSize: 040000000f000000010000000f000000050000000500000011000000000000001100000001000000
+    - name: FireTriggered
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 527.5
+        y: 449
+        width: 110
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.GUILabel
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 84b16efc
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Fire !!!!!!
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        fsmObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: 
+          value: {fileID: 0}
+        fsmVarParams: []
+        byteData: 0000000000000000000000000000000001000000000000000000000000803f000000803f000100
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 210000001200000012000000120000001e0000000f0000000f0000000f0000000f00000011000000
+        paramName:
+        - image
+        - text
+        - tooltip
+        - style
+        - screenRect
+        - left
+        - top
+        - width
+        - height
+        - normalized
+        paramDataPos: 000000000000000001000000020000000000000011000000160000001b0000002000000025000000
+        paramByteDataSize: 00000000000000000000000000000000110000000500000005000000050000000500000002000000
+    events:
+    - name: 10 seconds passed
+      isSystemEvent: 0
+      isGlobal: 1
+    globalTransitions: []
+    variables:
+      floatVariables: []
+      intVariables: []
+      boolVariables: []
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables: []
+      objectVariables: []
+      materialVariables: []
+      textureVariables: []
+    description: 
+    docUrl: 
+    showStateLabel: 1
+    maxLoopCount: 0
+    watermark: 
+    version: 0
+    ExposedEvents: []
+    RestartOnEnable: 1
+    EnableDebugFlow: 0
+    StepFrame: 0
+    activeStateName: 
+  fsmTemplate: {fileID: 0}
+--- !u!4 &123334922
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 123334920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 49.4056282, y: 5.22743988, z: 53.1332016}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1 &123490459
 GameObject:
   m_ObjectHideFlags: 0
@@ -9178,7 +9386,6 @@ GameObject:
   - 4: {fileID: 271998660}
   - 111: {fileID: 271998663}
   - 65: {fileID: 271998662}
-  - 114: {fileID: 271998661}
   m_Layer: 0
   m_Name: EmergencyExit
   m_TagString: Untagged
@@ -9198,18 +9405,6 @@ Transform:
   m_Children:
   - {fileID: 427652814}
   m_Father: {fileID: 2070346322}
---- !u!114 &271998661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 0fec57f2d70a38346a0acd92bd920065,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 271998659}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &271998662
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25611,7 +25806,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 776298396}
   - 65: {fileID: 776298398}
-  - 114: {fileID: 776298397}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -25631,18 +25825,6 @@ Transform:
   m_Children:
   - {fileID: 1752884841}
   m_Father: {fileID: 605612070}
---- !u!114 &776298397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400008, guid: 0fec57f2d70a38346a0acd92bd920065,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 776298395}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &776298398
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30198,7 +30380,7 @@ GameObject:
   - 64: {fileID: 916568656}
   m_Layer: 0
   m_Name: Kettle
-  m_TagString: Untagged
+  m_TagString: interactive
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34213,7 +34395,7 @@ GameObject:
   - 64: {fileID: 1011974515}
   m_Layer: 11
   m_Name: Chair
-  m_TagString: Untagged
+  m_TagString: interactive
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34238,7 +34420,7 @@ MeshCollider:
   m_GameObject: {fileID: 1011974513}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_SmoothSphereCollisions: 0
   m_Convex: 0
@@ -37604,6 +37786,52 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1133807907}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1134059104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1134059106}
+  - 114: {fileID: 1134059105}
+  m_Layer: 0
+  m_Name: PlayMakerGUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1134059105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1134059104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -73581967, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  previewOnGUI: 1
+  enableGUILayout: 1
+  drawStateLabels: 0
+  GUITextureStateLabels: 1
+  GUITextStateLabels: 1
+  filterLabelsWithDistance: 0
+  maxLabelDistance: 10
+  controlMouseCursor: 1
+--- !u!4 &1134059106
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1134059104}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1 &1134990666
 GameObject:
   m_ObjectHideFlags: 0
@@ -59453,7 +59681,7 @@ GameObject:
   - 64: {fileID: 1761075731}
   m_Layer: 0
   m_Name: FireAlarm
-  m_TagString: Untagged
+  m_TagString: interactive
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62122,7 +62350,7 @@ Halo:
   m_Color:
     serializedVersion: 2
     rgba: 4278384896
-  m_Size: 1.22000003
+  m_Size: .680000007
 --- !u!1 &1821932010
 GameObject:
   m_ObjectHideFlags: 0

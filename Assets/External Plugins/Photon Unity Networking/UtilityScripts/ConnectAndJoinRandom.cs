@@ -16,7 +16,7 @@ public class ConnectAndJoinRandom : Photon.MonoBehaviour
     public virtual void Start ()
     {
         PhotonNetwork.autoJoinLobby = false;
-	}
+    }
 
     void Update()
     {
@@ -28,7 +28,12 @@ public class ConnectAndJoinRandom : Photon.MonoBehaviour
             PhotonNetwork.ConnectUsingSettings("1");
         }
     }
-	
+
+    public virtual void OnFailedToConnectToPhoton(DisconnectCause cause)
+    {
+        Debug.LogError("Cause: " + cause);
+    }
+
     public virtual void OnConnectedToMaster()
     {
         Debug.Log("OnConnectedToMaster() was called by PUN. Now this client is connected and could join a room. Calling: PhotonNetwork.JoinRandomRoom();");
@@ -37,7 +42,7 @@ public class ConnectAndJoinRandom : Photon.MonoBehaviour
 
     public virtual void OnPhotonRandomJoinFailed()
     {
-        Debug.Log("OnPhotonRandomJoinFailed() was called by PUN. No random room available, so we create one. Calling: (null, true, true, 4);");
+        Debug.Log("OnPhotonRandomJoinFailed() was called by PUN. No random room available, so we create one. Calling: PhotonNetwork.CreateRoom(null, true, true, 4);");
         PhotonNetwork.CreateRoom(null, true, true, 4);
     }
 

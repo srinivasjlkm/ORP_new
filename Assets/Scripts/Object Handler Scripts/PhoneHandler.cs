@@ -3,6 +3,8 @@ using System.Collections;
 
 public class PhoneHandler : Photon.MonoBehaviour {
 
+
+
 	public enum phoneState {
 		idle, beforeCall, afterCall
 	};
@@ -44,7 +46,7 @@ public class PhoneHandler : Photon.MonoBehaviour {
 			state = phoneState.afterCall;
 			//PhotonMessageInfo info;
 			//Debug.Log(info.sender+" "+ info.photonView+" "+ info.timestamp);
-			print(state);
+		
 		}
 	}
 

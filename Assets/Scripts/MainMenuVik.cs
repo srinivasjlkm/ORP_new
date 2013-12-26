@@ -20,7 +20,7 @@ public class MainMenuVik : MonoBehaviour
 
     }
 
-    private string roomName = "room";
+    private string roomName = "New room";
     private Vector2 scrollPos = Vector2.zero;
 
     void OnGUI()
@@ -39,38 +39,6 @@ public class MainMenuVik : MonoBehaviour
         GUILayout.BeginArea(new Rect((Screen.width - 400) / 2, (Screen.height - 300) / 2, 600, 300));
 
         GUILayout.Label("Main Menu");
-
-        //Player name
-        GUILayout.BeginHorizontal();
-        GUILayout.Label("Chose a role:", GUILayout.Width(150));
-//		GUILayout.Button("Manager",GUILayout.Width(100));
-//		GUILayout.Button("Officer",GUILayout.Width(100));
-//		GUILayout.Button("IT",GUILayout.Width(100));
-//		GUILayout.Button("Customer",GUILayout.Width(100));
-
-		if (GUILayout.Button("Manager"))
-		{
-
-			PhotonNetwork.playerName = "manager";
-			
-		}
-		else if (GUILayout.Button("Officer"))
-		{
-			PhotonNetwork.playerName = "officer";
-		}
-		else if (GUILayout.Button("IT"))
-		{
-			PhotonNetwork.playerName = "Smart Woman";
-		}
-		else if (GUILayout.Button("Customer"))
-		{
-			PhotonNetwork.playerName = "Player";
-		}
-
-       // PhotonNetwork.playerName = GUILayout.TextField(PhotonNetwork.playerName);
-
-            PlayerPrefs.SetString("playerName", PhotonNetwork.playerName);
-        GUILayout.EndHorizontal();
 
         GUILayout.Space(15);
 

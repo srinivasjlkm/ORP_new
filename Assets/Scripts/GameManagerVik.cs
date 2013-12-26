@@ -1,20 +1,70 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class GameManagerVik : Photon.MonoBehaviour {
 
     // this is a object name (must be in any Resources folder) of the prefab to spawn as player avatar.
     // read the documentation for info how to spawn dynamically loaded game objects at runtime (not using Resources folders)
-    public string managerPrefab="mr";
-	public string officerPrefab="officerPrefab";
-	public string womanprefab = "Smart Woman";
-	public string playerprefab= "Player";
+	public GameObject[] playerPrefabList;
+	public string[] playerList;
+	HashSet<string> selectedPlayerList = new HashSet<string>();
+	bool roleSelected = false;
 
     void OnJoinedRoom()
     {
-        StartGame();
+
+
     }
-    
+
+	void OnGUI(){
+
+		if (PhotonNetwork.room == null) return;
+
+		if (GUILayout.Button("Leave& QUIT"))
+		{
+
+			PhotonView photonView = this.gameObject.GetPhotonView();
+			
+			
+			photonView.RPC ("setRoleAvailable",PhotonTargets.AllBuffered,PlayerPrefs.GetString("playerName"));
+			PhotonNetwork.LeaveRoom();
+		}
+
+		if(!roleSelected)
+		{
+
+		GUILayout.BeginArea(new Rect((Screen.width - 400) / 2, (Screen.height - 300) / 2, 600, 300));
+		GUILayout.BeginHorizontal();
+		GUILayout.Label("Chose a role:", GUILayout.Width(150));
+
+		PhotonView photonView = this.gameObject.GetPhotonView();
+
+			for(int i =0;i<playerList.Length;i++)
+			{
+				if (!selectedPlayerList.Contains(playerList[i]))
+				{
+					if(GUILayout.Button(playerList[i],GUILayout.Width(100)) )
+					{
+						PhotonNetwork.playerName = playerList[i];
+						PlayerPrefs.SetString("playerName", playerList[i]);
+						roleSelected = true;
+						
+						photonView.RPC ("setRoleUnavailable",PhotonTargets.AllBuffered,playerList[i]);
+						
+						StartGame();
+					}
+				}
+			}
+
+		GUILayout.EndHorizontal();
+		GUILayout.EndArea();
+		}
+
+		// if number of  players reach maximum, player cannot select role
+//		if(PhotonNetwork.playerList.Length < playerList.Length)
+//			GUILayout.BeginArea(new Rect((Screen.width - 400) / 2, (Screen.height - 300) / 2, 600, 300));
+	}
     IEnumerator OnLeftRoom()
     {
         //Easy way to reset the level: Otherwise we'd manually reset the camera
@@ -22,13 +72,25 @@ public class GameManagerVik : Photon.MonoBehaviour {
         //Wait untill Photon is properly disconnected (empty room, and connected back to main server)
         while(PhotonNetwork.room!=null || PhotonNetwork.connected==false)
             yield return 0;
-
-        Application.LoadLevel(Application.loadedLevel);
+		Application.LoadLevel(Application.loadedLevel);
 
     }
 
+
+	void OnPhotonPlayerConnected(){
+		print ("Now we have: "+PhotonNetwork.playerList.Length+" players in total.");
+
+	}
+
+	void OnPhotonPlayerDisconnected(){
+		print ("Now we have: "+PhotonNetwork.playerList.Length+" players in total.");
+
+	}
+
     void StartGame()
     {
+
+		print ("Now we have: "+PhotonNetwork.playerList.Length+" players in total.");
         Camera.main.farClipPlane = 1000; //Main menu set this to 0.4 for a nicer BG    
 
         //prepare instantiation data for the viking: Randomly diable the axe and/or shield
@@ -45,32 +107,30 @@ public class GameManagerVik : Photon.MonoBehaviour {
 
 
 
-		if(playerName == "manager")
+		for(int i = 0 ; i < playerPrefabList.Length; i++)
 		{
-        PhotonNetwork.Instantiate(this.managerPrefab, transform.position, Quaternion.identity, 0, objs);
-		//PhotonNetwork.isMessageQueueRunning = true;
+			if(playerName == playerPrefabList[i].name)
+			{
+	        PhotonNetwork.Instantiate(playerPrefabList[i].name, transform.position, Quaternion.identity, 0, objs);
+			//PhotonNetwork.isMessageQueueRunning = true;
+			}
 		}
-		else if(playerName == "officer")
-		PhotonNetwork.Instantiate(this.officerPrefab, transform.position, Quaternion.identity, 0, objs);
-		else if(playerName == "Smart Woman")
-		PhotonNetwork.Instantiate(this.womanprefab, transform.position, Quaternion.identity, 0, objs);
-		else if(playerName == "Player")
-		PhotonNetwork.Instantiate(this.playerprefab, transform.position, Quaternion.identity, 0, objs);
 
 
 
 
     }
+	[RPC]
 
-    void OnGUI()
-    {
-        if (PhotonNetwork.room == null) return; //Only display this GUI when inside a room
+	void setRoleUnavailable(string role){
+		selectedPlayerList.Add(role);
+	}
 
-        if (GUILayout.Button("Leave& QUIT"))
-        {
-            PhotonNetwork.LeaveRoom();
-        }
-    }
+	[RPC]
+	void setRoleAvailable(string role){
+		selectedPlayerList.Remove(role);
+	}
+
 	
 
     void OnDisconnectedFromPhoton()

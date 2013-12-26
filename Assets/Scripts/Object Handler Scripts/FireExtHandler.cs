@@ -19,14 +19,7 @@ public class FireExtHandler : Photon.MonoBehaviour {
 			this.transform.parent.GetChild(i).GetComponent<MeshRenderer>().enabled = false;
 		}
 		state = FireExtState.notAvailable;
-//		photonView = PhotonView.Get(this);
-//		if(photonView.isMine){
-//			trigger = false;
-//			fireExtVisible = false;
-//			for(int i=0; i<this.transform.childCount;i++){
-//				this.transform.GetChild(i).GetComponent<MeshRenderer>().enabled = false;
-//			}
-//		}
+
 	}
 	
 	// Update is called once per frame
@@ -34,9 +27,7 @@ public class FireExtHandler : Photon.MonoBehaviour {
 		if((state == FireExtState.notAvailable) && (GameObject.Find("Telephone Cube").GetComponent<PhoneHandler>().state == PhoneHandler.phoneState.afterCall)){
 			PhotonView photonView = PhotonView.Get(this);
 			photonView.RPC("SetFireExtVisible",PhotonTargets.AllBuffered);
-			PhotonTargets target = PhotonTargets.AllBuffered;
 
-				print (target);
 		}
 
 	}
@@ -49,14 +40,17 @@ public class FireExtHandler : Photon.MonoBehaviour {
 		//this.transform.parent.parent.gameObject.AddComponent<Rigidbody>();
 		GameObject go = GameObject.Find("Telephone Cube");
 		state = FireExtState.Available;
-		Debug.Log (info.sender, info.photonView);
+
 	}
 
 	void OnGUI(){
-		if(trigger){
+		if(trigger && collider){
 
 			if((state == FireExtState.notAvailable) && collider.GetComponent<PhotonView>().isMine){
 //				transform.FindChild("FireExtGUI").visible = true;
+
+
+
 				GUI.Box (new Rect(10,10,500,50),"The fire extinguisher is not available, please use the phone on the right to contact the security manager");
 			}
 			if(state == FireExtState.notAvailable){

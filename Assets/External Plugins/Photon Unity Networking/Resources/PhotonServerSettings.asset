@@ -33,4 +33,8 @@ MonoBehaviour:
   - moveCameraToPlayer
   - enableCameraAndMotor
   - SetFireExtVisible
+  - rpc
+  - rpc_s
+  - setRoleUnavailable
+  - setRoleAvailable
   DisableAutoOpenWizard: 0

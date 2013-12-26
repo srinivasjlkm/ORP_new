@@ -61,7 +61,6 @@ public class ClickMove : MonoBehaviour
 		else if (Input.GetKeyUp (KeyCode.Mouse0)) {
 
 
-
 						smooth = 1;
 
 
@@ -105,9 +104,27 @@ public class ClickMove : MonoBehaviour
 
 				}
 
+				RaycastHit hit2;
+
+				Ray ray2 = Camera.main.ScreenPointToRay (Input.mousePosition);
+				
+				if ( Physics.Raycast( ray2, out hit2, 100) )
+				{
+					if ( hit2.collider.gameObject.tag == "interactive" )
+					{
+						hit2.transform.renderer.material.color = Color.green;
+						
+						if(Input.GetKeyDown (KeyCode.Mouse0))
+							targetPosition = hit2.collider.gameObject.transform.position;
+					}
+				}
+
+
+
+
 				Vector3 dir = targetPosition - transform.position;
 
-				float dist = dir.magnitude;
+				float dist = dir.magnitude - 1;
 
 				float move = speed * Time.deltaTime;
 
@@ -131,7 +148,8 @@ public class ClickMove : MonoBehaviour
 						
 				}
 
-				
+
+
 				//transform.position += (targetPosition - transform.position).normalized * speed * Time.deltaTime;
 				
 		}

@@ -2639,11 +2639,9 @@ internal class NetworkingPeer : LoadbalancingPeer, IPhotonPeerListener
         }
         else if (target == PhotonTargets.AllBuffered)
         {
-            this.OpRaiseEvent(PunEvent.RPC, rpcEvent, true, 0, EventCaching.AddToRoomCacheGlobal, ReceiverGroup.Others);
+            this.OpRaiseEvent(PunEvent.RPC, rpcEvent, true, 0, EventCaching.AddToRoomCache, ReceiverGroup.Others);
 
             // Execute local
-
-
             this.ExecuteRPC(rpcEvent, this.mLocalActor);
         }
         else if (target == PhotonTargets.OthersBuffered)
