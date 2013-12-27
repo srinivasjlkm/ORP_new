@@ -298,7 +298,7 @@ MonoBehaviour:
   - name: EndofTalk
     nodeId: NODE_2013:12:18:15:09:41:6696251
     type: 0
-    script: {fileID: 0}
+    script: {fileID: 11500000, guid: 2c07b4878dcd99c40bc8a368f89746e3, type: 3}
     instance: {fileID: 0}
     listEntryActions:
     - name: Entry0 Select
@@ -322,7 +322,7 @@ MonoBehaviour:
   - name: NPCFollow
     nodeId: NODE_2013:12:18:15:11:10:1776875
     type: 0
-    script: {fileID: 0}
+    script: {fileID: 11500000, guid: ea5e1fcb68154894aa1b1816715801ce, type: 3}
     instance: {fileID: 0}
     listEntryActions: []
 --- !u!114 &11400002

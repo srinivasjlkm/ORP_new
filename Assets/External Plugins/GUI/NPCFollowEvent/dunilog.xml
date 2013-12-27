@@ -4,7 +4,7 @@
 	<global>
 		<editorVersionNumber>1.7.0</editorVersionNumber>
 		<editorProjectName>NPCFollowEvent</editorProjectName>
-		<editorBasePath>C:/Users/Jerry/Desktop/KLM work/risk management/photoncharprefab/Assets/GUI/NPCFollowEvent/</editorBasePath>
+		<editorBasePath>C:/Users/Jerry/Desktop/KLM work/ORP_new/Assets/External Plugins/GUI/NPCFollowEvent/</editorBasePath>
 		<currentSceneId>SCENE_2013:12:18:15:07:04:9056587</currentSceneId>
 		<selectedLocaleIndex>0</selectedLocaleIndex>
 		<listLanguageCodes>
@@ -16,6 +16,10 @@
 		<scene>
 			<id>SCENE_2013:12:18:15:07:04:9056587</id>
 			<name>NPCEvent</name>
+		</scene>
+		<scene>
+			<id>SCENE_2013:12:26:12:46:44:9812616</id>
+			<name>FireExtEvent</name>
 		</scene>
 	</list_scenes>
 	<!--Start actor data-->
@@ -240,6 +244,102 @@
 				<y>10040</y>
 				<width>180</width>
 				<height>90</height>
+			</editorWindowRect>
+		</node>
+		<node>
+			<id>NODE_2013:12:26:12:46:58:6540436</id>
+			<name></name>
+			<actorId>ACTOR_2013:12:18:15:07:29:0010369</actorId>
+			<sceneId>SCENE_2013:12:26:12:46:44:9812616</sceneId>
+			<variableId>VARIABLE_2013:12:18:18:21:10:6537574</variableId>
+			<variableValue></variableValue>
+			<variableOperationId>0</variableOperationId>
+			<type>0</type>
+			<showInDUGManagerActionList>1</showInDUGManagerActionList>
+			<messageMethodeName></messageMethodeName>
+			<messageMethodeValue></messageMethodeValue>
+			<list_entries>
+				<entry>
+					<id>NODE_ENTRY_2013:12:26:12:46:58:6540436</id>
+					<nodeId>NODE_2013:12:26:12:46:58:6540436</nodeId>
+					<followUpNodeId>NODE_2013:12:26:12:46:58:6540436</followUpNodeId>
+					<maxSelectCount>-1</maxSelectCount>
+					<startDisplayCount>-1</startDisplayCount>
+					<variableId></variableId>
+					<variableValue></variableValue>
+					<variableOperationId>0</variableOperationId>
+					<rangeStart>0</rangeStart>
+					<rangeEnd>0</rangeEnd>
+					<list_locales>
+						<locale>
+							<languageCode>default</languageCode>
+							<text>fire extinguisher box</text>
+						</locale>
+					</list_locales>
+				</entry>
+				<entry>
+					<id>NODE_ENTRY_2013:12:26:12:47:11:7107905</id>
+					<nodeId>NODE_2013:12:26:12:46:58:6540436</nodeId>
+					<followUpNodeId>NODE_2013:12:26:12:47:16:5510673</followUpNodeId>
+					<maxSelectCount>-1</maxSelectCount>
+					<startDisplayCount>-1</startDisplayCount>
+					<variableId></variableId>
+					<variableValue></variableValue>
+					<variableOperationId>0</variableOperationId>
+					<rangeStart>0</rangeStart>
+					<rangeEnd>0</rangeEnd>
+					<list_locales>
+						<locale>
+							<languageCode>default</languageCode>
+							<text>check</text>
+						</locale>
+					</list_locales>
+				</entry>
+			</list_entries>
+			<editorWindowRect>
+				<x>10000</x>
+				<y>10004</y>
+				<width>230</width>
+				<height>190</height>
+			</editorWindowRect>
+		</node>
+		<node>
+			<id>NODE_2013:12:26:12:47:16:5510673</id>
+			<name></name>
+			<actorId>ACTOR_2013:12:18:15:07:29:0010369</actorId>
+			<sceneId>SCENE_2013:12:26:12:46:44:9812616</sceneId>
+			<variableId>VARIABLE_2013:12:18:18:21:10:6537574</variableId>
+			<variableValue></variableValue>
+			<variableOperationId>0</variableOperationId>
+			<type>0</type>
+			<showInDUGManagerActionList>1</showInDUGManagerActionList>
+			<messageMethodeName></messageMethodeName>
+			<messageMethodeValue></messageMethodeValue>
+			<list_entries>
+				<entry>
+					<id>NODE_ENTRY_2013:12:26:12:47:16:5510673</id>
+					<nodeId>NODE_2013:12:26:12:47:16:5510673</nodeId>
+					<followUpNodeId>NODE_2013:12:26:12:47:16:5510673</followUpNodeId>
+					<maxSelectCount>-1</maxSelectCount>
+					<startDisplayCount>-1</startDisplayCount>
+					<variableId></variableId>
+					<variableValue></variableValue>
+					<variableOperationId>0</variableOperationId>
+					<rangeStart>0</rangeStart>
+					<rangeEnd>0</rangeEnd>
+					<list_locales>
+						<locale>
+							<languageCode>default</languageCode>
+							<text>no fire ext. pls call.</text>
+						</locale>
+					</list_locales>
+				</entry>
+			</list_entries>
+			<editorWindowRect>
+				<x>10391</x>
+				<y>10000</y>
+				<width>230</width>
+				<height>150</height>
 			</editorWindowRect>
 		</node>
 	</list_nodes>

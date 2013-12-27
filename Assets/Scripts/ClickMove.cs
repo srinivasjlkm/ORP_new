@@ -108,14 +108,19 @@ public class ClickMove : MonoBehaviour
 
 				Ray ray2 = Camera.main.ScreenPointToRay (Input.mousePosition);
 				
-				if ( Physics.Raycast( ray2, out hit2, 100) )
+				if ( Physics.Raycast( ray2, out hit2, 1000) )
 				{
 					if ( hit2.collider.gameObject.tag == "interactive" )
 					{
-						hit2.transform.renderer.material.color = Color.green;
+						//hit2.transform.renderer.material.color = Color.green;
 						
 						if(Input.GetKeyDown (KeyCode.Mouse0))
-							targetPosition = hit2.collider.gameObject.transform.position;
+						{
+							if(hit2.collider.gameObject.GetComponent<TriggerHandler>().enteredObj == null)
+								targetPosition = hit2.collider.gameObject.transform.position;
+							else if (hit2.collider.gameObject.GetComponent<TriggerHandler>().enteredObj == this.gameObject.collider)
+								hit2.collider.gameObject.GetComponent<TriggerHandler>().mouseClick = true;
+						}
 					}
 				}
 

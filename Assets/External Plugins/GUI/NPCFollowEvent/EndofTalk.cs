@@ -7,20 +7,8 @@ public class EndofTalk : MonoBehaviour {
 	void Start () {
 		transform.GetComponent<DUGView>().visible = false;
 
-
-
-
-		this.transform.parent.GetComponent<NPCController>().moveCameraToPlayer();
-		this.transform.parent.GetComponent<NPCController>().enableCameraAndMotor();
-	}
-
-	void enablePlayerRenderer(){
-		if(this.transform.parent.GetComponent<NPCController>().enteredObj!=null)
-		{
-		Renderer[] rs =  this.transform.parent.GetComponent<NPCController>().enteredObj.GetComponentsInChildren<Renderer>();
-		foreach (Renderer r in rs)
-			r.enabled = true;
-		}
+//		this.transform.parent.GetComponent<TriggerHandler>().moveCameraToPlayer();
+//		this.transform.parent.GetComponent<TriggerHandler>().enableCameraAndMotor();
 	}
 
 }

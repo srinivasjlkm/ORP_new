@@ -20,12 +20,5 @@ public class NPCFollow : Photon.MonoBehaviour {
 	}
 
 
-	void enablePlayerRenderer(){
-			if(this.transform.parent.GetComponent<NPCController>().enteredObj!=null)
-			{
-				Renderer[] rs =  this.transform.parent.GetComponent<NPCController>().enteredObj.GetComponentsInChildren<Renderer>();
-				foreach (Renderer r in rs)
-					r.enabled = true;
-			}
-	}
+
 }
