@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using HutongGames.PlayMaker;
 using System.Collections.Generic;
 
 public class GameManagerVik : Photon.MonoBehaviour {
@@ -10,17 +11,20 @@ public class GameManagerVik : Photon.MonoBehaviour {
 	public string[] playerList;
 	HashSet<string> selectedPlayerList = new HashSet<string>();
 	bool roleSelected = false;
-
+	public PlayMakerFSM EventManager;
     void OnJoinedRoom()
     {
 
 
     }
 
+
 	void OnGUI(){
 
 		if (PhotonNetwork.room == null) return;
 
+
+		// quit button GUI
 		if (GUILayout.Button("Leave& QUIT"))
 		{
 
@@ -31,6 +35,8 @@ public class GameManagerVik : Photon.MonoBehaviour {
 			PhotonNetwork.LeaveRoom();
 		}
 
+
+		// if role selection not completed, draw GUI
 		if(!roleSelected)
 		{
 
@@ -49,7 +55,8 @@ public class GameManagerVik : Photon.MonoBehaviour {
 						PhotonNetwork.playerName = playerList[i];
 						PlayerPrefs.SetString("playerName", playerList[i]);
 						roleSelected = true;
-						
+
+						// broadcast role selected
 						photonView.RPC ("setRoleUnavailable",PhotonTargets.AllBuffered,playerList[i]);
 						
 						StartGame();
@@ -79,11 +86,13 @@ public class GameManagerVik : Photon.MonoBehaviour {
 
 	void OnPhotonPlayerConnected(){
 		print ("Now we have: "+PhotonNetwork.playerList.Length+" players in total.");
+		EventManager.FsmVariables.GetFsmInt("playerNum").Value = PhotonNetwork.playerList.Length;
 
 	}
 
 	void OnPhotonPlayerDisconnected(){
 		print ("Now we have: "+PhotonNetwork.playerList.Length+" players in total.");
+		EventManager.FsmVariables.GetFsmInt("playerNum").Value = PhotonNetwork.playerList.Length;
 
 	}
 
@@ -91,6 +100,7 @@ public class GameManagerVik : Photon.MonoBehaviour {
     {
 
 		print ("Now we have: "+PhotonNetwork.playerList.Length+" players in total.");
+		EventManager.FsmVariables.GetFsmInt("playerNum").Value = PhotonNetwork.playerList.Length;
         Camera.main.farClipPlane = 1000; //Main menu set this to 0.4 for a nicer BG    
 
         //prepare instantiation data for the viking: Randomly diable the axe and/or shield
@@ -106,13 +116,12 @@ public class GameManagerVik : Photon.MonoBehaviour {
 
 
 
-
+		// instantiate prefab based on the name
 		for(int i = 0 ; i < playerPrefabList.Length; i++)
 		{
 			if(playerName == playerPrefabList[i].name)
 			{
 	        PhotonNetwork.Instantiate(playerPrefabList[i].name, transform.position, Quaternion.identity, 0, objs);
-			//PhotonNetwork.isMessageQueueRunning = true;
 			}
 		}
 
