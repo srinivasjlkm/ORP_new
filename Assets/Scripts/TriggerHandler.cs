@@ -12,8 +12,11 @@ public class TriggerHandler: MonoBehaviour {
 	public Collider enteredObj = null;
 	public bool mouseClick;
 	public PhotonView photonView;
-	private Vector3 camera_view_position = new Vector3(0,2.72f,2.3f);
-	private Vector3 camera_view_rotation = new Vector3(0,180f,0);
+	private Vector3 objects_camera_view_position = new Vector3(0,0.0f,-1.112997f);
+	private Vector3 npc_camera_view_position = new Vector3(0,2.0f,-1.5112997f);
+	private Vector3 camera_view_rotation = new Vector3(0,0,0);
+	//(48.39315,3.227715,55.94779) (-7.5732e-07,1.165089,-1.976727)
+	//(48.28064,2.2612,58.08406)
 
 
 	bool enter;
@@ -76,14 +79,18 @@ public class TriggerHandler: MonoBehaviour {
 	void disableCameraAndMotor(){
 		if(enteredObj != null){
 			enteredObj.GetComponent<MouseCamera>().enabled =false;
+			Camera.main.GetComponent<MouseCamera>().enabled = false;
 			enteredObj.GetComponent<ClickMove>().enabled = false;
 		}
 	}
 	
 	public void moveCameraToObject(){
 		
-		Camera.main.transform.parent = this.transform;
-		Camera.main.transform.localPosition = camera_view_position;
+		Camera.main.transform.parent = null;
+		if(this.gameObject.tag == "NPC")
+			Camera.main.transform.localPosition = this.transform.position+ npc_camera_view_position;
+		else
+		Camera.main.transform.localPosition = this.transform.position+ objects_camera_view_position;
 		Camera.main.transform.localEulerAngles = camera_view_rotation;
 		
 	}
@@ -104,6 +111,7 @@ public class TriggerHandler: MonoBehaviour {
 		{
 			enteredObj.GetComponent<MouseCamera>().enabled = true;
 			enteredObj.GetComponent<ClickMove>().enabled = true;
+			Camera.main.GetComponent<MouseCamera>().enabled = true;
 		}
 	}
 	

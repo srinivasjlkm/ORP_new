@@ -16,6 +16,12 @@ public class ClickMove : MonoBehaviour
 	public float speed = 0.02f;
 	public float heightOffset = 1.0f;
 	
+	
+	//Shader originalShader = Shader.Find ("Diffuse");
+	//Shader highlightShader = Shader.Find ("FX/Flare");
+	//GameObject currentHitObj = null;
+	
+	
 	// Use this for initialization
 	void Start ()
 	{
@@ -54,6 +60,14 @@ public class ClickMove : MonoBehaviour
 	//			}
 	//		}
 	// Update is called once per frame
+	
+	
+	
+	
+	
+	
+	
+	
 	void Update ()
 	{
 		if (!motor.grounded)
@@ -65,7 +79,18 @@ public class ClickMove : MonoBehaviour
 			Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
 			
 			if (Physics.Raycast (ray, out hit, 1000)) {
-				
+
+				// change shader 
+//				if(hit.collider.gameObject != currentHitObj)
+//				{
+//					if(currentHitObj !=null) currentHitObj.transform.renderer.material.shader = originalShader;
+//					currentHitObj = hit.collider.gameObject;
+//					if(currentHitObj.tag == "interactive")
+//					{
+//						currentHitObj.transform.renderer.material.shader = highlightShader;
+//						
+//					}
+//				}
 				
 				if (Input.GetKeyUp (KeyCode.Mouse0)) {
 					if(hit.collider.gameObject.tag == "ground")
@@ -108,19 +133,19 @@ public class ClickMove : MonoBehaviour
 						
 						targetPosition = targetPoint;
 						
-//						if (hit.collider.gameObject.tag == "npcTrigger") {
-//							
-//							
-//							//hit.transform.renderer.material.color = Color.green;
-//							
-//							if (Input.GetKeyUp (KeyCode.Mouse0)) {
-//								if (hit.collider.transform.parent.gameObject.GetComponent<TriggerHandler> ().enteredObj == null) {
-//									targetPosition = hit.collider.transform.parent.gameObject.transform.position;
-//									arrow.transform.position = targetPosition;
-//								}
-//								
-//							}
-//						}
+						//						if (hit.collider.gameObject.tag == "npcTrigger") {
+						//							
+						//							
+						//							//hit.transform.renderer.material.color = Color.green;
+						//							
+						//							if (Input.GetKeyUp (KeyCode.Mouse0)) {
+						//								if (hit.collider.transform.parent.gameObject.GetComponent<TriggerHandler> ().enteredObj == null) {
+						//									targetPosition = hit.collider.transform.parent.gameObject.transform.position;
+						//									arrow.transform.position = targetPosition;
+						//								}
+						//								
+						//							}
+						//						}
 						
 						print (hit.collider.name);
 						if (hit.collider.gameObject.tag == "interactive") {
@@ -136,9 +161,9 @@ public class ClickMove : MonoBehaviour
 						
 					}
 				}
-
 				
-
+				
+				
 			}
 			
 			

@@ -4165,7 +4165,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400150, guid: cd7fdbc0eeaef7a428951b21512fe23d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.26119995
+      value: 2.27495527
       objectReference: {fileID: 0}
     - target: {fileID: 400150, guid: cd7fdbc0eeaef7a428951b21512fe23d, type: 2}
       propertyPath: m_LocalPosition.z
@@ -4230,6 +4230,10 @@ Prefab:
     - target: {fileID: 100150, guid: cd7fdbc0eeaef7a428951b21512fe23d, type: 2}
       propertyPath: m_Layer
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 13500000, guid: cd7fdbc0eeaef7a428951b21512fe23d, type: 2}
+      propertyPath: m_Center.y
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cd7fdbc0eeaef7a428951b21512fe23d, type: 2}
@@ -9129,9 +9133,9 @@ Transform:
   m_PrefabParentObject: {fileID: 400916, guid: 0fec57f2d70a38346a0acd92bd920065, type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 254697117}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .244915009, y: -.506210208, z: -.353132248}
-  m_LocalScale: {x: 126.548759, y: 126.548759, z: 126.548759}
+  m_LocalRotation: {x: 0, y: -.672620177, z: 0, w: .739987969}
+  m_LocalPosition: {x: -.0251820367, y: -.00353964139, z: -.000935919699}
+  m_LocalScale: {x: .778729558, y: .778729975, z: .778729618}
   m_Children:
   - {fileID: 507092298}
   - {fileID: 1934703358}
@@ -13849,9 +13853,9 @@ GameObject:
   - 33: {fileID: 406858767}
   - 23: {fileID: 406858766}
   - 64: {fileID: 406858765}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: FireExintuguihserBox
-  m_TagString: Untagged
+  m_TagString: interactive
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13862,11 +13866,11 @@ Transform:
   m_PrefabParentObject: {fileID: 401294, guid: 0fec57f2d70a38346a0acd92bd920065, type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 406858763}
-  m_LocalRotation: {x: 0, y: .672620118, z: 0, w: .739987969}
-  m_LocalPosition: {x: -.0187118761, y: .00454540271, z: -.0324693024}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -.00252257567}
+  m_LocalScale: {x: .778729975, y: .778729975, z: .778729975}
   m_Children: []
-  m_Father: {fileID: 981055852}
+  m_Father: {fileID: 858575941}
 --- !u!64 &406858765
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23999,7 +24003,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &718197070
 Transform:
   m_ObjectHideFlags: 0
@@ -24009,8 +24013,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -.739201009, z: 0, w: .673484921}
   m_LocalPosition: {x: .412828833, y: .378332466, z: -4.42953014}
   m_LocalScale: {x: 1.92515862, y: 1.92515993, z: 1.92515862}
-  m_Children:
-  - {fileID: 1865033700}
+  m_Children: []
   m_Father: {fileID: 858575941}
 --- !u!114 &718197071
 MonoBehaviour:
@@ -24078,7 +24081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subId: 5
+  subId: 7
   ownerId: 0
   group: 0
   prefixBackup: -1
@@ -28404,8 +28407,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 858575941}
   - 65: {fileID: 858575942}
-  m_Layer: 0
-  m_Name: Fire Extinguisher
+  - 114: {fileID: 858575944}
+  - 114: {fileID: 858575943}
+  m_Layer: 2
+  m_Name: FireExtTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28417,12 +28422,14 @@ Transform:
   m_PrefabParentObject: {fileID: 401806, guid: 0fec57f2d70a38346a0acd92bd920065, type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 858575940}
-  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106829}
-  m_LocalPosition: {x: -.0450953767, y: .0111416429, z: .114600115}
-  m_LocalScale: {x: .0079020923, y: .0079020923, z: .0079020923}
+  m_LocalRotation: {x: 0, y: .99886483, z: 0, w: .0476362668}
+  m_LocalPosition: {x: -.079962045, y: .0116869258, z: .108391017}
+  m_LocalScale: {x: 1.28414214, y: 1.28414214, z: 1.28414214}
   m_Children:
   - {fileID: 254697118}
-  - {fileID: 981055852}
+  - {fileID: 406858764}
+  - {fileID: 1865033700}
+  - {fileID: 1786538215}
   - {fileID: 718197070}
   m_Father: {fileID: 2070346322}
 --- !u!65 &858575942
@@ -28432,11 +28439,46 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 858575940}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: .560000002, y: 1.30999994, z: .75}
-  m_Center: {x: .389999986, y: .0500000007, z: -4.46000004}
+  m_Size: {x: .00999999978, y: .00999999978, z: .00999999978}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &858575943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 858575940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8997bb5f2b8611409189db98b783041, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colliderTag: manager
+  enteredObj: {fileID: 0}
+  mouseClick: 0
+  photonView: {fileID: 858575944}
+--- !u!114 &858575944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 858575940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subId: 5
+  ownerId: 0
+  group: 0
+  prefixBackup: -1
+  observed: {fileID: 718197070}
+  synchronization: 2
+  onSerializeTransformOption: 4
+  onSerializeRigidBodyOption: 2
+  instantiationId: 0
 --- !u!1 &860879935
 GameObject:
   m_ObjectHideFlags: 0
@@ -30690,7 +30732,7 @@ Transform:
   m_PrefabInternal: {fileID: 113135292}
   m_GameObject: {fileID: 924226422}
   m_LocalRotation: {x: 0, y: .999643147, z: 0, w: -.0267129205}
-  m_LocalPosition: {x: 48.2806396, y: 2.26119995, z: 58.0840645}
+  m_LocalPosition: {x: 48.2806396, y: 2.27495527, z: 58.0840645}
   m_LocalScale: {x: .682832479, y: .682832479, z: .682832479}
   m_Children:
   - {fileID: 741429724}
@@ -30717,7 +30759,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 2.52999997
-  m_Center: {x: 0, y: 1.64999998, z: 0}
+  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!114 &924226425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32752,49 +32794,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 977304539}
   m_Mesh: {fileID: 4300008, guid: 14cca59df89abb64d9563d822e54d478, type: 3}
---- !u!1 &981055851
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 101760, guid: 0fec57f2d70a38346a0acd92bd920065, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 981055852}
-  - 64: {fileID: 981055853}
-  m_Layer: 0
-  m_Name: FireExintguisherBox
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &981055852
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 401760, guid: 0fec57f2d70a38346a0acd92bd920065, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 981055851}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.74564362, y: -.506210208, z: -.342399597}
-  m_LocalScale: {x: 126.548759, y: 126.548759, z: 126.548759}
-  m_Children:
-  - {fileID: 406858764}
-  - {fileID: 1786538215}
-  m_Father: {fileID: 858575941}
---- !u!64 &981055853
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6401488, guid: 0fec57f2d70a38346a0acd92bd920065,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 981055851}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_SmoothSphereCollisions: 0
-  m_Convex: 0
-  m_Mesh: {fileID: 0}
 --- !u!1 &981126488
 GameObject:
   m_ObjectHideFlags: 0
@@ -42674,7 +42673,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1258317575}
   m_LocalRotation: {x: 0, y: .999643147, z: 0, w: -.0267129205}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.63418806, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 924226423}
@@ -42690,7 +42689,7 @@ CapsuleCollider:
   m_Radius: .5
   m_Height: 2.76999998
   m_Direction: 1
-  m_Center: {x: 0, y: 1.74000001, z: 0}
+  m_Center: {x: 0, y: -.200000003, z: 0}
 --- !u!1 &1264048046
 GameObject:
   m_ObjectHideFlags: 0
@@ -60322,7 +60321,7 @@ GameObject:
   - 64: {fileID: 1786538216}
   m_Layer: 0
   m_Name: FireExtinguisherBoxDoor
-  m_TagString: Untagged
+  m_TagString: interactive
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60333,11 +60332,11 @@ Transform:
   m_PrefabParentObject: {fileID: 400430, guid: 0fec57f2d70a38346a0acd92bd920065, type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1786538214}
-  m_LocalRotation: {x: 0, y: .672620118, z: 0, w: .739987969}
-  m_LocalPosition: {x: -.0166668259, y: .000498562993, z: -.0300083254}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.00175619649, y: -.00315139606, z: -.000754893408}
+  m_LocalScale: {x: .778729975, y: .778729975, z: .778729975}
   m_Children: []
-  m_Father: {fileID: 981055852}
+  m_Father: {fileID: 858575941}
 --- !u!64 &1786538216
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -63539,18 +63538,18 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1865033700
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1865033699}
-  m_LocalRotation: {x: 0, y: .672620118, z: 0, w: .739987969}
-  m_LocalPosition: {x: -.0187118761, y: .00454540271, z: -.0324693024}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: -.0940003395, z: 0, w: .995572209}
+  m_LocalPosition: {x: .478413343, y: .387083054, z: -4.4595952}
+  m_LocalScale: {x: 1.92515886, y: 1.92515993, z: 1.92515886}
   m_Children: []
-  m_Father: {fileID: 718197070}
+  m_Father: {fileID: 858575941}
 --- !u!65 &1865033702
 BoxCollider:
   m_ObjectHideFlags: 0
