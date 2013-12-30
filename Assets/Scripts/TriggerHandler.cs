@@ -10,19 +10,23 @@ public class TriggerHandler: MonoBehaviour {
 
 	public string colliderTag;
 	public Collider enteredObj = null;
+	public bool mouseClick;
+	public PhotonView photonView;
 	private Vector3 camera_view_position = new Vector3(0,2.72f,2.3f);
 	private Vector3 camera_view_rotation = new Vector3(0,180f,0);
 
 
 	bool enter;
-	public bool mouseClick;
+	bool onInteractLock;
+	
 	Transform dugManager;
-
 
 	void Start () {
 		mouseClick = false;
 		enteredObj = null;
 		enter = false;
+		onInteractLock = false;
+		photonView = PhotonView.Get (this);
 
 	}
 
@@ -32,39 +36,41 @@ public class TriggerHandler: MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider Co){
-
 		if(Co.tag == colliderTag && Co.GetComponent<PhotonView>().isMine )
 		{
 			enter = true;
 			enteredObj = Co;
 			dugManager = enteredObj.transform.Find("DUGManager");
-
-		//	(this.transform.FindChild(GUI_name).GetComponent("Halo") as Behaviour).enabled = true;
 		}
 	}
 
 	void OnTriggerExit(Collider Co){
-		if(Co.GetComponent<PhotonView>().isMine && Co == enteredObj){
+		if(Co == enteredObj && Co.GetComponent<PhotonView>().isMine){
 			enteredObj = null;
 			mouseClick = false;
 			enter = false;
 			//dugManager.GetComponent<DUGView>().visible = false;
+
 		}
 	}
 
 	public void actionOnTrigger(){
 		if(enter && mouseClick){
+			if(!onInteractLock){
+				photonView.RPC("setInteractLock",PhotonTargets.AllBuffered, true);
+				dugManager.GetComponent<DUGView>().visible = true;
 
-			dugManager.GetComponent<DUGView>().visible = true;
-
-			dugManager.GetComponent<DialogueController>().setActiveDialogue(this.name);
-			disableCameraAndMotor();
-			moveCameraToObject();
-			mouseClick = !mouseClick;
-
+				dugManager.GetComponent<DialogueController>().setActiveDialogue(this.name);
+				disableCameraAndMotor();
+				moveCameraToObject();
+				mouseClick = !mouseClick;
+			}
 		}
+	}
 
-
+	[RPC]
+	void setInteractLock(bool b){
+		onInteractLock = b;
 	}
 
 	void disableCameraAndMotor(){
@@ -104,7 +110,7 @@ public class TriggerHandler: MonoBehaviour {
 	
 	[RPC]
 	void destroyNPC(){
-		GameObject go = GameObject.Find("npc").gameObject;
+		GameObject go = GameObject.Find("npcTrigger").gameObject;
 		if(go != null){
 			Destroy(go);
 		}

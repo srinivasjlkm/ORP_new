@@ -41,6 +41,9 @@ public class DialogueController : MonoBehaviour {
 			this.GetComponent<DUGModel>().GetVariableByName("EventName").SetValue("FireExtEvent");
 			//DUGController.Run(this.GetComponent<DUGModel>().GetNodeByName("FireExtEvent1").id);
 			break;
+		case "TelephoneTrigger":
+			this.GetComponent<DUGModel>().GetVariableByName("EventName").SetValue("PhoneEvent");
+			break;
 		default:
 			activeDialogue = "";
 			break;

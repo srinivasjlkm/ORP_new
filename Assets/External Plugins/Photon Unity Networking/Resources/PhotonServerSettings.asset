@@ -37,4 +37,5 @@ MonoBehaviour:
   - rpc_s
   - setRoleUnavailable
   - setRoleAvailable
+  - setInteractLock
   DisableAutoOpenWizard: 0

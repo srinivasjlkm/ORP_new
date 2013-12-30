@@ -47,6 +47,11 @@
 			<name>Hint</name>
 			<image>Assets/left_click_mouse_texture.png</image>
 		</actor>
+		<actor>
+			<id>ACTOR_2013:12:30:09:49:46:0649139</id>
+			<name>Security Manager</name>
+			<image></image>
+		</actor>
 	</list_actors>
 	<!--Start variable data-->
 	<list_variable>
@@ -147,7 +152,7 @@
 			</list_entries>
 			<editorWindowRect>
 				<x>10000</x>
-				<y>10000</y>
+				<y>10006</y>
 				<width>230</width>
 				<height>230</height>
 			</editorWindowRect>
@@ -203,8 +208,8 @@
 				</entry>
 			</list_entries>
 			<editorWindowRect>
-				<x>10366</x>
-				<y>10008</y>
+				<x>10359</x>
+				<y>10000</y>
 				<width>230</width>
 				<height>190</height>
 			</editorWindowRect>
@@ -237,8 +242,8 @@
 				</entry>
 			</list_entries>
 			<editorWindowRect>
-				<x>10695</x>
-				<y>10373</y>
+				<x>10629</x>
+				<y>10357</y>
 				<width>180</width>
 				<height>90</height>
 			</editorWindowRect>
@@ -277,7 +282,7 @@
 				<entry>
 					<id>NODE_ENTRY_2013:12:26:15:54:49:9277236</id>
 					<nodeId>NODE_2013:12:26:15:48:10:3008663</nodeId>
-					<followUpNodeId>NODE_2013:12:26:15:56:27:4062991</followUpNodeId>
+					<followUpNodeId>NODE_2013:12:30:09:41:26:7173529</followUpNodeId>
 					<maxSelectCount>-1</maxSelectCount>
 					<startDisplayCount>-1</startDisplayCount>
 					<variableId></variableId>
@@ -313,9 +318,9 @@
 			</list_entries>
 			<editorWindowRect>
 				<x>10000</x>
-				<y>10008</y>
+				<y>10009</y>
 				<width>230</width>
-				<height>420</height>
+				<height>243</height>
 			</editorWindowRect>
 		</node>
 		<node>
@@ -334,7 +339,7 @@
 				<entry>
 					<id>NODE_ENTRY_2013:12:26:15:56:27:4062991</id>
 					<nodeId>NODE_2013:12:26:15:56:27:4062991</nodeId>
-					<followUpNodeId>NODE_2013:12:27:16:39:58:6853734</followUpNodeId>
+					<followUpNodeId>NODE_2013:12:26:15:56:27:4062991</followUpNodeId>
 					<maxSelectCount>-1</maxSelectCount>
 					<startDisplayCount>-1</startDisplayCount>
 					<variableId>VARIABLE_2013:12:26:15:51:26:2240724</variableId>
@@ -350,29 +355,29 @@
 					</list_locales>
 				</entry>
 				<entry>
-					<id>NODE_ENTRY_2013:12:26:16:01:34:0478380</id>
+					<id>NODE_ENTRY_2013:12:30:14:59:00:5371690</id>
 					<nodeId>NODE_2013:12:26:15:56:27:4062991</nodeId>
-					<followUpNodeId>NODE_2013:12:27:16:39:58:6853734</followUpNodeId>
+					<followUpNodeId>NODE_2013:12:30:14:59:58:9475099</followUpNodeId>
 					<maxSelectCount>-1</maxSelectCount>
 					<startDisplayCount>-1</startDisplayCount>
-					<variableId>VARIABLE_2013:12:26:15:43:44:8226818</variableId>
-					<variableValue>1</variableValue>
+					<variableId></variableId>
+					<variableValue></variableValue>
 					<variableOperationId>0</variableOperationId>
 					<rangeStart>0</rangeStart>
 					<rangeEnd>0</rangeEnd>
 					<list_locales>
 						<locale>
 							<languageCode>default</languageCode>
-							<text>The fire extinguisher is inside the box.</text>
+							<text>Leave</text>
 						</locale>
 					</list_locales>
 				</entry>
 			</list_entries>
 			<editorWindowRect>
-				<x>10335</x>
+				<x>10492</x>
 				<y>10000</y>
 				<width>230</width>
-				<height>349</height>
+				<height>216</height>
 			</editorWindowRect>
 		</node>
 		<node>
@@ -403,10 +408,405 @@
 				</entry>
 			</list_entries>
 			<editorWindowRect>
-				<x>10708</x>
-				<y>10435</y>
+				<x>10794</x>
+				<y>10453</y>
 				<width>180</width>
 				<height>90</height>
+			</editorWindowRect>
+		</node>
+		<node>
+			<id>NODE_2013:12:30:09:41:26:7173529</id>
+			<name></name>
+			<actorId>ACTOR_2013:12:26:15:43:33:0380078</actorId>
+			<sceneId>SCENE_2013:12:26:15:43:20:0462647</sceneId>
+			<variableId>VARIABLE_2013:12:26:15:51:26:2240724</variableId>
+			<variableValue>0</variableValue>
+			<variableOperationId>0</variableOperationId>
+			<type>3</type>
+			<showInDUGManagerActionList>0</showInDUGManagerActionList>
+			<messageMethodeName></messageMethodeName>
+			<messageMethodeValue></messageMethodeValue>
+			<list_entries>
+				<entry>
+					<id>NODE_ENTRY_2013:12:30:09:41:26:7173529</id>
+					<nodeId>NODE_2013:12:30:09:41:26:7173529</nodeId>
+					<followUpNodeId>NODE_2013:12:26:15:56:27:4062991</followUpNodeId>
+					<maxSelectCount>-1</maxSelectCount>
+					<startDisplayCount>-1</startDisplayCount>
+					<variableId></variableId>
+					<variableValue></variableValue>
+					<variableOperationId>0</variableOperationId>
+					<rangeStart>0</rangeStart>
+					<rangeEnd>0</rangeEnd>
+					<list_locales />
+				</entry>
+				<entry>
+					<id>NODE_ENTRY_2013:12:30:09:41:26:7173529</id>
+					<nodeId>NODE_2013:12:30:09:41:26:7173529</nodeId>
+					<followUpNodeId>NODE_2013:12:30:09:41:55:5240005</followUpNodeId>
+					<maxSelectCount>-1</maxSelectCount>
+					<startDisplayCount>-1</startDisplayCount>
+					<variableId></variableId>
+					<variableValue></variableValue>
+					<variableOperationId>0</variableOperationId>
+					<rangeStart>0</rangeStart>
+					<rangeEnd>0</rangeEnd>
+					<list_locales />
+				</entry>
+			</list_entries>
+			<editorWindowRect>
+				<x>10277</x>
+				<y>10055</y>
+				<width>180</width>
+				<height>148</height>
+			</editorWindowRect>
+		</node>
+		<node>
+			<id>NODE_2013:12:30:09:41:55:5240005</id>
+			<name></name>
+			<actorId>ACTOR_2013:12:26:15:43:33:0380078</actorId>
+			<sceneId>SCENE_2013:12:26:15:43:20:0462647</sceneId>
+			<variableId>VARIABLE_2013:12:26:15:43:44:8226818</variableId>
+			<variableValue></variableValue>
+			<variableOperationId>0</variableOperationId>
+			<type>0</type>
+			<showInDUGManagerActionList>1</showInDUGManagerActionList>
+			<messageMethodeName></messageMethodeName>
+			<messageMethodeValue></messageMethodeValue>
+			<list_entries>
+				<entry>
+					<id>NODE_ENTRY_2013:12:30:09:41:55:5240005</id>
+					<nodeId>NODE_2013:12:30:09:41:55:5240005</nodeId>
+					<followUpNodeId>NODE_2013:12:27:16:39:58:6853734</followUpNodeId>
+					<maxSelectCount>-1</maxSelectCount>
+					<startDisplayCount>-1</startDisplayCount>
+					<variableId></variableId>
+					<variableValue></variableValue>
+					<variableOperationId>0</variableOperationId>
+					<rangeStart>0</rangeStart>
+					<rangeEnd>0</rangeEnd>
+					<list_locales>
+						<locale>
+							<languageCode>default</languageCode>
+							<text>There is a fire extinguisher in the box.</text>
+						</locale>
+					</list_locales>
+				</entry>
+			</list_entries>
+			<editorWindowRect>
+				<x>10492</x>
+				<y>10228</y>
+				<width>230</width>
+				<height>150</height>
+			</editorWindowRect>
+		</node>
+		<node>
+			<id>NODE_2013:12:30:14:59:58:9475099</id>
+			<name></name>
+			<actorId>ACTOR_2013:12:26:15:43:33:0380078</actorId>
+			<sceneId>SCENE_2013:12:26:15:43:20:0462647</sceneId>
+			<variableId>VARIABLE_2013:12:26:15:51:26:2240724</variableId>
+			<variableValue>1</variableValue>
+			<variableOperationId>0</variableOperationId>
+			<type>2</type>
+			<showInDUGManagerActionList>0</showInDUGManagerActionList>
+			<messageMethodeName></messageMethodeName>
+			<messageMethodeValue></messageMethodeValue>
+			<list_entries>
+				<entry>
+					<id>NODE_ENTRY_2013:12:30:14:59:58:9475099</id>
+					<nodeId>NODE_2013:12:30:14:59:58:9475099</nodeId>
+					<followUpNodeId>NODE_2013:12:27:16:39:58:6853734</followUpNodeId>
+					<maxSelectCount>-1</maxSelectCount>
+					<startDisplayCount>-1</startDisplayCount>
+					<variableId></variableId>
+					<variableValue></variableValue>
+					<variableOperationId>0</variableOperationId>
+					<rangeStart>0</rangeStart>
+					<rangeEnd>0</rangeEnd>
+					<list_locales />
+				</entry>
+			</list_entries>
+			<editorWindowRect>
+				<x>10756</x>
+				<y>10079</y>
+				<width>180</width>
+				<height>95</height>
+			</editorWindowRect>
+		</node>
+		<node>
+			<id>NODE_2013:12:30:09:43:43:3901701</id>
+			<name>PhoneEvent1</name>
+			<actorId>ACTOR_2013:12:26:15:54:05:0371560</actorId>
+			<sceneId>SCENE_2013:12:26:15:57:14:2089760</sceneId>
+			<variableId>VARIABLE_2013:12:26:15:43:44:8226818</variableId>
+			<variableValue></variableValue>
+			<variableOperationId>0</variableOperationId>
+			<type>0</type>
+			<showInDUGManagerActionList>1</showInDUGManagerActionList>
+			<messageMethodeName></messageMethodeName>
+			<messageMethodeValue></messageMethodeValue>
+			<list_entries>
+				<entry>
+					<id>NODE_ENTRY_2013:12:30:09:43:43:3901701</id>
+					<nodeId>NODE_2013:12:30:09:43:43:3901701</nodeId>
+					<followUpNodeId>NODE_2013:12:30:09:43:43:3901701</followUpNodeId>
+					<maxSelectCount>-1</maxSelectCount>
+					<startDisplayCount>-1</startDisplayCount>
+					<variableId></variableId>
+					<variableValue></variableValue>
+					<variableOperationId>0</variableOperationId>
+					<rangeStart>0</rangeStart>
+					<rangeEnd>0</rangeEnd>
+					<list_locales>
+						<locale>
+							<languageCode>default</languageCode>
+							<text>This is a public telephone. Who do you want to call?</text>
+						</locale>
+					</list_locales>
+				</entry>
+				<entry>
+					<id>NODE_ENTRY_2013:12:30:09:44:17:8061386</id>
+					<nodeId>NODE_2013:12:30:09:43:43:3901701</nodeId>
+					<followUpNodeId>NODE_2013:12:30:09:45:19:7516817</followUpNodeId>
+					<maxSelectCount>-1</maxSelectCount>
+					<startDisplayCount>-1</startDisplayCount>
+					<variableId>VARIABLE_2013:12:26:15:51:26:2240724</variableId>
+					<variableValue>1</variableValue>
+					<variableOperationId>0</variableOperationId>
+					<rangeStart>0</rangeStart>
+					<rangeEnd>0</rangeEnd>
+					<list_locales>
+						<locale>
+							<languageCode>default</languageCode>
+							<text>Security manager.</text>
+						</locale>
+					</list_locales>
+				</entry>
+				<entry>
+					<id>NODE_ENTRY_2013:12:30:09:45:04:0487835</id>
+					<nodeId>NODE_2013:12:30:09:43:43:3901701</nodeId>
+					<followUpNodeId>NODE_2013:12:30:09:43:43:3901701</followUpNodeId>
+					<maxSelectCount>-1</maxSelectCount>
+					<startDisplayCount>-1</startDisplayCount>
+					<variableId></variableId>
+					<variableValue></variableValue>
+					<variableOperationId>0</variableOperationId>
+					<rangeStart>0</rangeStart>
+					<rangeEnd>0</rangeEnd>
+					<list_locales>
+						<locale>
+							<languageCode>default</languageCode>
+							<text>Others</text>
+						</locale>
+					</list_locales>
+				</entry>
+				<entry>
+					<id>NODE_ENTRY_2013:12:30:09:44:41:2564799</id>
+					<nodeId>NODE_2013:12:30:09:43:43:3901701</nodeId>
+					<followUpNodeId>NODE_2013:12:30:09:52:18:7046444</followUpNodeId>
+					<maxSelectCount>-1</maxSelectCount>
+					<startDisplayCount>-1</startDisplayCount>
+					<variableId></variableId>
+					<variableValue></variableValue>
+					<variableOperationId>0</variableOperationId>
+					<rangeStart>0</rangeStart>
+					<rangeEnd>0</rangeEnd>
+					<list_locales>
+						<locale>
+							<languageCode>default</languageCode>
+							<text>Leave</text>
+						</locale>
+					</list_locales>
+				</entry>
+			</list_entries>
+			<editorWindowRect>
+				<x>10000</x>
+				<y>10007</y>
+				<width>230</width>
+				<height>283</height>
+			</editorWindowRect>
+		</node>
+		<node>
+			<id>NODE_2013:12:30:09:45:19:7516817</id>
+			<name>PhoneEvent2</name>
+			<actorId>ACTOR_2013:12:30:09:49:46:0649139</actorId>
+			<sceneId>SCENE_2013:12:26:15:57:14:2089760</sceneId>
+			<variableId>VARIABLE_2013:12:26:15:43:44:8226818</variableId>
+			<variableValue></variableValue>
+			<variableOperationId>0</variableOperationId>
+			<type>0</type>
+			<showInDUGManagerActionList>1</showInDUGManagerActionList>
+			<messageMethodeName></messageMethodeName>
+			<messageMethodeValue></messageMethodeValue>
+			<list_entries>
+				<entry>
+					<id>NODE_ENTRY_2013:12:30:09:45:19:7516817</id>
+					<nodeId>NODE_2013:12:30:09:45:19:7516817</nodeId>
+					<followUpNodeId>NODE_2013:12:30:09:45:19:7516817</followUpNodeId>
+					<maxSelectCount>-1</maxSelectCount>
+					<startDisplayCount>-1</startDisplayCount>
+					<variableId></variableId>
+					<variableValue></variableValue>
+					<variableOperationId>0</variableOperationId>
+					<rangeStart>0</rangeStart>
+					<rangeEnd>0</rangeEnd>
+					<list_locales>
+						<locale>
+							<languageCode>default</languageCode>
+							<text>Hi, may I help you?</text>
+						</locale>
+					</list_locales>
+				</entry>
+				<entry>
+					<id>NODE_ENTRY_2013:12:30:09:50:09:5522573</id>
+					<nodeId>NODE_2013:12:30:09:45:19:7516817</nodeId>
+					<followUpNodeId>NODE_2013:12:30:09:50:40:4580250</followUpNodeId>
+					<maxSelectCount>-1</maxSelectCount>
+					<startDisplayCount>-1</startDisplayCount>
+					<variableId></variableId>
+					<variableValue></variableValue>
+					<variableOperationId>0</variableOperationId>
+					<rangeStart>0</rangeStart>
+					<rangeEnd>0</rangeEnd>
+					<list_locales>
+						<locale>
+							<languageCode>default</languageCode>
+							<text>I found the fire extinguisher is missing. Could you bring us a new one?</text>
+						</locale>
+					</list_locales>
+				</entry>
+			</list_entries>
+			<editorWindowRect>
+				<x>10328</x>
+				<y>10004</y>
+				<width>230</width>
+				<height>203</height>
+			</editorWindowRect>
+		</node>
+		<node>
+			<id>NODE_2013:12:30:09:50:40:4580250</id>
+			<name>PhoneEvent3</name>
+			<actorId>ACTOR_2013:12:30:09:49:46:0649139</actorId>
+			<sceneId>SCENE_2013:12:26:15:57:14:2089760</sceneId>
+			<variableId>VARIABLE_2013:12:26:15:43:44:8226818</variableId>
+			<variableValue></variableValue>
+			<variableOperationId>0</variableOperationId>
+			<type>0</type>
+			<showInDUGManagerActionList>1</showInDUGManagerActionList>
+			<messageMethodeName></messageMethodeName>
+			<messageMethodeValue></messageMethodeValue>
+			<list_entries>
+				<entry>
+					<id>NODE_ENTRY_2013:12:30:09:50:40:4580250</id>
+					<nodeId>NODE_2013:12:30:09:50:40:4580250</nodeId>
+					<followUpNodeId>NODE_2013:12:30:09:50:40:4580250</followUpNodeId>
+					<maxSelectCount>-1</maxSelectCount>
+					<startDisplayCount>-1</startDisplayCount>
+					<variableId></variableId>
+					<variableValue></variableValue>
+					<variableOperationId>0</variableOperationId>
+					<rangeStart>0</rangeStart>
+					<rangeEnd>0</rangeEnd>
+					<list_locales>
+						<locale>
+							<languageCode>default</languageCode>
+							<text>Sure. Please wait a moment.</text>
+						</locale>
+					</list_locales>
+				</entry>
+				<entry>
+					<id>NODE_ENTRY_2013:12:30:09:51:45:2517310</id>
+					<nodeId>NODE_2013:12:30:09:50:40:4580250</nodeId>
+					<followUpNodeId>NODE_2013:12:30:15:08:21:4032487</followUpNodeId>
+					<maxSelectCount>-1</maxSelectCount>
+					<startDisplayCount>-1</startDisplayCount>
+					<variableId></variableId>
+					<variableValue></variableValue>
+					<variableOperationId>0</variableOperationId>
+					<rangeStart>0</rangeStart>
+					<rangeEnd>0</rangeEnd>
+					<list_locales>
+						<locale>
+							<languageCode>default</languageCode>
+							<text>Thanks</text>
+						</locale>
+					</list_locales>
+				</entry>
+			</list_entries>
+			<editorWindowRect>
+				<x>10608</x>
+				<y>10000</y>
+				<width>230</width>
+				<height>190</height>
+			</editorWindowRect>
+		</node>
+		<node>
+			<id>NODE_2013:12:30:09:52:18:7046444</id>
+			<name></name>
+			<actorId>ACTOR_2013:12:26:15:43:33:0380078</actorId>
+			<sceneId>SCENE_2013:12:26:15:57:14:2089760</sceneId>
+			<variableId>VARIABLE_2013:12:26:15:43:44:8226818</variableId>
+			<variableValue></variableValue>
+			<variableOperationId>0</variableOperationId>
+			<type>1</type>
+			<showInDUGManagerActionList>0</showInDUGManagerActionList>
+			<messageMethodeName></messageMethodeName>
+			<messageMethodeValue></messageMethodeValue>
+			<list_entries>
+				<entry>
+					<id>NODE_ENTRY_2013:12:30:09:52:18:7046444</id>
+					<nodeId>NODE_2013:12:30:09:52:18:7046444</nodeId>
+					<followUpNodeId>NODE_2013:12:27:16:33:36:3115029</followUpNodeId>
+					<maxSelectCount>-1</maxSelectCount>
+					<startDisplayCount>-1</startDisplayCount>
+					<variableId></variableId>
+					<variableValue></variableValue>
+					<variableOperationId>0</variableOperationId>
+					<rangeStart>0</rangeStart>
+					<rangeEnd>0</rangeEnd>
+					<list_locales />
+				</entry>
+			</list_entries>
+			<editorWindowRect>
+				<x>10683</x>
+				<y>10449</y>
+				<width>180</width>
+				<height>90</height>
+			</editorWindowRect>
+		</node>
+		<node>
+			<id>NODE_2013:12:30:15:08:21:4032487</id>
+			<name></name>
+			<actorId>ACTOR_2013:12:26:15:43:33:0380078</actorId>
+			<sceneId>SCENE_2013:12:26:15:57:14:2089760</sceneId>
+			<variableId>VARIABLE_2013:12:26:15:51:26:2240724</variableId>
+			<variableValue>2</variableValue>
+			<variableOperationId>0</variableOperationId>
+			<type>2</type>
+			<showInDUGManagerActionList>0</showInDUGManagerActionList>
+			<messageMethodeName></messageMethodeName>
+			<messageMethodeValue></messageMethodeValue>
+			<list_entries>
+				<entry>
+					<id>NODE_ENTRY_2013:12:30:15:08:21:4032487</id>
+					<nodeId>NODE_2013:12:30:15:08:21:4032487</nodeId>
+					<followUpNodeId>NODE_2013:12:30:09:52:18:7046444</followUpNodeId>
+					<maxSelectCount>-1</maxSelectCount>
+					<startDisplayCount>-1</startDisplayCount>
+					<variableId></variableId>
+					<variableValue></variableValue>
+					<variableOperationId>0</variableOperationId>
+					<rangeStart>0</rangeStart>
+					<rangeEnd>0</rangeEnd>
+					<list_locales />
+				</entry>
+			</list_entries>
+			<editorWindowRect>
+				<x>10678</x>
+				<y>10245</y>
+				<width>180</width>
+				<height>95</height>
 			</editorWindowRect>
 		</node>
 		<node>
@@ -559,8 +959,8 @@
 				</entry>
 			</list_entries>
 			<editorWindowRect>
-				<x>10050</x>
-				<y>10437</y>
+				<x>10564</x>
+				<y>10472</y>
 				<width>180</width>
 				<height>90</height>
 			</editorWindowRect>
@@ -594,7 +994,7 @@
 				<entry>
 					<id>NODE_ENTRY_2013:12:27:16:37:15:3310301</id>
 					<nodeId>NODE_2013:12:27:16:37:15:3310301</nodeId>
-					<followUpNodeId>NODE_2013:12:27:16:36:36:6168158</followUpNodeId>
+					<followUpNodeId>NODE_2013:12:30:09:48:07:4262721</followUpNodeId>
 					<maxSelectCount>-1</maxSelectCount>
 					<startDisplayCount>-1</startDisplayCount>
 					<variableId></variableId>
@@ -606,8 +1006,8 @@
 				</entry>
 			</list_entries>
 			<editorWindowRect>
-				<x>10294</x>
-				<y>10175</y>
+				<x>10290</x>
+				<y>10147</y>
 				<width>180</width>
 				<height>148</height>
 			</editorWindowRect>
@@ -640,8 +1040,8 @@
 				</entry>
 			</list_entries>
 			<editorWindowRect>
-				<x>10539</x>
-				<y>10030</y>
+				<x>10570</x>
+				<y>10027</y>
 				<width>180</width>
 				<height>90</height>
 			</editorWindowRect>
@@ -674,8 +1074,89 @@
 				</entry>
 			</list_entries>
 			<editorWindowRect>
-				<x>10559</x>
-				<y>10184</y>
+				<x>10568</x>
+				<y>10172</y>
+				<width>180</width>
+				<height>90</height>
+			</editorWindowRect>
+		</node>
+		<node>
+			<id>NODE_2013:12:30:09:48:07:4262721</id>
+			<name></name>
+			<actorId>ACTOR_2013:12:26:15:43:33:0380078</actorId>
+			<sceneId>SCENE_2013:12:27:16:26:45:1369850</sceneId>
+			<variableId>VARIABLE_2013:12:26:15:43:44:8226818</variableId>
+			<variableValue>PhoneEvent</variableValue>
+			<variableOperationId>0</variableOperationId>
+			<type>3</type>
+			<showInDUGManagerActionList>0</showInDUGManagerActionList>
+			<messageMethodeName></messageMethodeName>
+			<messageMethodeValue></messageMethodeValue>
+			<list_entries>
+				<entry>
+					<id>NODE_ENTRY_2013:12:30:09:48:07:4262721</id>
+					<nodeId>NODE_2013:12:30:09:48:07:4262721</nodeId>
+					<followUpNodeId>NODE_2013:12:30:09:48:40:9681906</followUpNodeId>
+					<maxSelectCount>-1</maxSelectCount>
+					<startDisplayCount>-1</startDisplayCount>
+					<variableId></variableId>
+					<variableValue></variableValue>
+					<variableOperationId>0</variableOperationId>
+					<rangeStart>0</rangeStart>
+					<rangeEnd>0</rangeEnd>
+					<list_locales />
+				</entry>
+				<entry>
+					<id>NODE_ENTRY_2013:12:30:09:48:07:4262721</id>
+					<nodeId>NODE_2013:12:30:09:48:07:4262721</nodeId>
+					<followUpNodeId>NODE_2013:12:27:16:36:36:6168158</followUpNodeId>
+					<maxSelectCount>-1</maxSelectCount>
+					<startDisplayCount>-1</startDisplayCount>
+					<variableId></variableId>
+					<variableValue></variableValue>
+					<variableOperationId>0</variableOperationId>
+					<rangeStart>0</rangeStart>
+					<rangeEnd>0</rangeEnd>
+					<list_locales />
+				</entry>
+			</list_entries>
+			<editorWindowRect>
+				<x>10290</x>
+				<y>10291</y>
+				<width>180</width>
+				<height>148</height>
+			</editorWindowRect>
+		</node>
+		<node>
+			<id>NODE_2013:12:30:09:48:40:9681906</id>
+			<name></name>
+			<actorId>ACTOR_2013:12:26:15:43:33:0380078</actorId>
+			<sceneId>SCENE_2013:12:27:16:26:45:1369850</sceneId>
+			<variableId>VARIABLE_2013:12:26:15:43:44:8226818</variableId>
+			<variableValue></variableValue>
+			<variableOperationId>0</variableOperationId>
+			<type>1</type>
+			<showInDUGManagerActionList>0</showInDUGManagerActionList>
+			<messageMethodeName></messageMethodeName>
+			<messageMethodeValue></messageMethodeValue>
+			<list_entries>
+				<entry>
+					<id>NODE_ENTRY_2013:12:30:09:48:40:9681906</id>
+					<nodeId>NODE_2013:12:30:09:48:40:9681906</nodeId>
+					<followUpNodeId>NODE_2013:12:30:09:43:43:3901701</followUpNodeId>
+					<maxSelectCount>-1</maxSelectCount>
+					<startDisplayCount>-1</startDisplayCount>
+					<variableId></variableId>
+					<variableValue></variableValue>
+					<variableOperationId>0</variableOperationId>
+					<rangeStart>0</rangeStart>
+					<rangeEnd>0</rangeEnd>
+					<list_locales />
+				</entry>
+			</list_entries>
+			<editorWindowRect>
+				<x>10569</x>
+				<y>10312</y>
 				<width>180</width>
 				<height>90</height>
 			</editorWindowRect>

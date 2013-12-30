@@ -71,6 +71,9 @@ MonoBehaviour:
   - id: ACTOR_2013:12:26:15:54:05:0371560
     name: Hint
     image: {fileID: 2800000, guid: 184c128341fd35246b77519334ad3fd5, type: 3}
+  - id: ACTOR_2013:12:30:09:49:46:0649139
+    name: Security Manager
+    image: {fileID: 0}
   listNodes:
   - id: NODE_2013:12:26:15:46:03:7096257
     name: NPCEvent1
@@ -258,7 +261,7 @@ MonoBehaviour:
       listLocales:
       - languageCode: default
         text: Yes
-      followUpNodeId: NODE_2013:12:26:15:56:27:4062991
+      followUpNodeId: NODE_2013:12:30:09:41:26:7173529
       nodeId: NODE_2013:12:26:15:48:10:3008663
       maxSelectCount: -1
       startDisplayCount: -1
@@ -310,23 +313,23 @@ MonoBehaviour:
       - languageCode: default
         text: The fire extinguisher is missing! You can call the security manager
           to put a new one here.
-      followUpNodeId: NODE_2013:12:27:16:39:58:6853734
+      followUpNodeId: NODE_2013:12:26:15:56:27:4062991
       nodeId: NODE_2013:12:26:15:56:27:4062991
       maxSelectCount: -1
       startDisplayCount: -1
       rangeStart: 0
       rangeEnd: 0
       editorDisplayAlways: 1
-    - id: NODE_ENTRY_2013:12:26:16:01:34:0478380
+    - id: NODE_ENTRY_2013:12:30:14:59:00:5371690
       name: 
       image: {fileID: 0}
-      variableId: VARIABLE_2013:12:26:15:43:44:8226818
-      variableValue: 1
+      variableId: 
+      variableValue: 
       variableOperationId: 0
       listLocales:
       - languageCode: default
-        text: The fire extinguisher is inside the box.
-      followUpNodeId: NODE_2013:12:27:16:39:58:6853734
+        text: Leave
+      followUpNodeId: NODE_2013:12:30:14:59:58:9475099
       nodeId: NODE_2013:12:26:15:56:27:4062991
       maxSelectCount: -1
       startDisplayCount: -1
@@ -361,6 +364,372 @@ MonoBehaviour:
       listLocales: []
       followUpNodeId: NODE_2013:12:27:16:33:36:3115029
       nodeId: NODE_2013:12:27:16:39:58:6853734
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 250
+      height: 100
+    editorShowInDUGManagerActionList: 0
+  - id: NODE_2013:12:30:09:41:26:7173529
+    name: FireExt / Node 3
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:51:26:2240724
+    variableValue: 0
+    variableOperationId: 0
+    type: 3
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:26:15:43:20:0462647
+    listEntries:
+    - id: NODE_ENTRY_2013:12:30:09:41:26:7173529
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:26:15:56:27:4062991
+      nodeId: NODE_2013:12:30:09:41:26:7173529
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:30:09:41:26:7173529
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:30:09:41:55:5240005
+      nodeId: NODE_2013:12:30:09:41:26:7173529
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 250
+      height: 100
+    editorShowInDUGManagerActionList: 0
+  - id: NODE_2013:12:30:09:41:55:5240005
+    name: FireExt / Node 4
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 0
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:26:15:43:20:0462647
+    listEntries:
+    - id: NODE_ENTRY_2013:12:30:09:41:55:5240005
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: There is a fire extinguisher in the box.
+      followUpNodeId: NODE_2013:12:27:16:39:58:6853734
+      nodeId: NODE_2013:12:30:09:41:55:5240005
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 250
+      height: 100
+    editorShowInDUGManagerActionList: 1
+  - id: NODE_2013:12:30:14:59:58:9475099
+    name: FireExt / Node 5
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:51:26:2240724
+    variableValue: 1
+    variableOperationId: 0
+    type: 2
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:26:15:43:20:0462647
+    listEntries:
+    - id: NODE_ENTRY_2013:12:30:14:59:58:9475099
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:27:16:39:58:6853734
+      nodeId: NODE_2013:12:30:14:59:58:9475099
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 250
+      height: 100
+    editorShowInDUGManagerActionList: 0
+  - id: NODE_2013:12:30:09:43:43:3901701
+    name: PhoneEvent1
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 0
+    actorId: ACTOR_2013:12:26:15:54:05:0371560
+    sceneId: SCENE_2013:12:26:15:57:14:2089760
+    listEntries:
+    - id: NODE_ENTRY_2013:12:30:09:43:43:3901701
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: This is a public telephone. Who do you want to call?
+      followUpNodeId: NODE_2013:12:30:09:43:43:3901701
+      nodeId: NODE_2013:12:30:09:43:43:3901701
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:30:09:44:17:8061386
+      name: 
+      image: {fileID: 0}
+      variableId: VARIABLE_2013:12:26:15:51:26:2240724
+      variableValue: 1
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: Security manager.
+      followUpNodeId: NODE_2013:12:30:09:45:19:7516817
+      nodeId: NODE_2013:12:30:09:43:43:3901701
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:30:09:45:04:0487835
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: Others
+      followUpNodeId: NODE_2013:12:30:09:43:43:3901701
+      nodeId: NODE_2013:12:30:09:43:43:3901701
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:30:09:44:41:2564799
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: Leave
+      followUpNodeId: NODE_2013:12:30:09:52:18:7046444
+      nodeId: NODE_2013:12:30:09:43:43:3901701
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 250
+      height: 100
+    editorShowInDUGManagerActionList: 1
+  - id: NODE_2013:12:30:09:45:19:7516817
+    name: PhoneEvent2
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 0
+    actorId: ACTOR_2013:12:30:09:49:46:0649139
+    sceneId: SCENE_2013:12:26:15:57:14:2089760
+    listEntries:
+    - id: NODE_ENTRY_2013:12:30:09:45:19:7516817
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: Hi, may I help you?
+      followUpNodeId: NODE_2013:12:30:09:45:19:7516817
+      nodeId: NODE_2013:12:30:09:45:19:7516817
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:30:09:50:09:5522573
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: I found the fire extinguisher is missing. Could you bring us a new one?
+      followUpNodeId: NODE_2013:12:30:09:50:40:4580250
+      nodeId: NODE_2013:12:30:09:45:19:7516817
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 250
+      height: 100
+    editorShowInDUGManagerActionList: 1
+  - id: NODE_2013:12:30:09:50:40:4580250
+    name: PhoneEvent3
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 0
+    actorId: ACTOR_2013:12:30:09:49:46:0649139
+    sceneId: SCENE_2013:12:26:15:57:14:2089760
+    listEntries:
+    - id: NODE_ENTRY_2013:12:30:09:50:40:4580250
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: Sure. Please wait a moment.
+      followUpNodeId: NODE_2013:12:30:09:50:40:4580250
+      nodeId: NODE_2013:12:30:09:50:40:4580250
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:30:09:51:45:2517310
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: Thanks
+      followUpNodeId: NODE_2013:12:30:15:08:21:4032487
+      nodeId: NODE_2013:12:30:09:50:40:4580250
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 250
+      height: 100
+    editorShowInDUGManagerActionList: 1
+  - id: NODE_2013:12:30:09:52:18:7046444
+    name: Phone / Node 3
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 1
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:26:15:57:14:2089760
+    listEntries:
+    - id: NODE_ENTRY_2013:12:30:09:52:18:7046444
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:27:16:33:36:3115029
+      nodeId: NODE_2013:12:30:09:52:18:7046444
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 250
+      height: 100
+    editorShowInDUGManagerActionList: 0
+  - id: NODE_2013:12:30:15:08:21:4032487
+    name: Phone / Node 4
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:51:26:2240724
+    variableValue: 2
+    variableOperationId: 0
+    type: 2
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:26:15:57:14:2089760
+    listEntries:
+    - id: NODE_ENTRY_2013:12:30:15:08:21:4032487
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:30:09:52:18:7046444
+      nodeId: NODE_2013:12:30:15:08:21:4032487
       maxSelectCount: -1
       startDisplayCount: -1
       rangeStart: 0
@@ -553,7 +922,7 @@ MonoBehaviour:
       variableValue: 
       variableOperationId: 0
       listLocales: []
-      followUpNodeId: NODE_2013:12:27:16:36:36:6168158
+      followUpNodeId: NODE_2013:12:30:09:48:07:4262721
       nodeId: NODE_2013:12:27:16:37:15:3310301
       maxSelectCount: -1
       startDisplayCount: -1
@@ -621,6 +990,86 @@ MonoBehaviour:
       listLocales: []
       followUpNodeId: NODE_2013:12:26:15:48:10:3008663
       nodeId: NODE_2013:12:27:16:37:28:4357796
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 250
+      height: 100
+    editorShowInDUGManagerActionList: 0
+  - id: NODE_2013:12:30:09:48:07:4262721
+    name: EventSelect / Node 6
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: PhoneEvent
+    variableOperationId: 0
+    type: 3
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:27:16:26:45:1369850
+    listEntries:
+    - id: NODE_ENTRY_2013:12:30:09:48:07:4262721
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:30:09:48:40:9681906
+      nodeId: NODE_2013:12:30:09:48:07:4262721
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:30:09:48:07:4262721
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:27:16:36:36:6168158
+      nodeId: NODE_2013:12:30:09:48:07:4262721
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 250
+      height: 100
+    editorShowInDUGManagerActionList: 0
+  - id: NODE_2013:12:30:09:48:40:9681906
+    name: EventSelect / Node 7
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 1
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:27:16:26:45:1369850
+    listEntries:
+    - id: NODE_ENTRY_2013:12:30:09:48:40:9681906
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:30:09:43:43:3901701
+      nodeId: NODE_2013:12:30:09:48:40:9681906
       maxSelectCount: -1
       startDisplayCount: -1
       rangeStart: 0
@@ -703,7 +1152,7 @@ MonoBehaviour:
       nodeId: NODE_2013:12:26:15:49:42:1741211
       entryId: NODE_ENTRY_2013:12:26:15:50:02:7983008
       type: 3
-      script: {fileID: 0}
+      script: {fileID: 11500000, guid: ea5e1fcb68154894aa1b1816715801ce, type: 3}
       instance: {fileID: 0}
   - name: FireExtEvent1
     nodeId: NODE_2013:12:26:15:48:10:3008663
@@ -729,15 +1178,63 @@ MonoBehaviour:
     script: {fileID: 0}
     instance: {fileID: 0}
     listEntryActions:
-    - name: Entry0 Select
+    - name: Entry1 Select
       nodeId: NODE_2013:12:26:15:56:27:4062991
-      entryId: NODE_ENTRY_2013:12:26:15:56:27:4062991
+      entryId: NODE_ENTRY_2013:12:30:14:59:00:5371690
       type: 3
       script: {fileID: 0}
       instance: {fileID: 0}
+  - name: FireExt / Node 4
+    nodeId: NODE_2013:12:30:09:41:55:5240005
+    type: 0
+    script: {fileID: 0}
+    instance: {fileID: 0}
+    listEntryActions:
+    - name: Entry0 Select
+      nodeId: NODE_2013:12:30:09:41:55:5240005
+      entryId: NODE_ENTRY_2013:12:30:09:41:55:5240005
+      type: 3
+      script: {fileID: 0}
+      instance: {fileID: 0}
+  - name: PhoneEvent1
+    nodeId: NODE_2013:12:30:09:43:43:3901701
+    type: 0
+    script: {fileID: 0}
+    instance: {fileID: 0}
+    listEntryActions:
     - name: Entry1 Select
-      nodeId: NODE_2013:12:26:15:56:27:4062991
-      entryId: NODE_ENTRY_2013:12:26:16:01:34:0478380
+      nodeId: NODE_2013:12:30:09:43:43:3901701
+      entryId: NODE_ENTRY_2013:12:30:09:44:17:8061386
+      type: 3
+      script: {fileID: 0}
+      instance: {fileID: 0}
+    - name: Entry3 Select
+      nodeId: NODE_2013:12:30:09:43:43:3901701
+      entryId: NODE_ENTRY_2013:12:30:09:44:41:2564799
+      type: 3
+      script: {fileID: 0}
+      instance: {fileID: 0}
+  - name: PhoneEvent2
+    nodeId: NODE_2013:12:30:09:45:19:7516817
+    type: 0
+    script: {fileID: 0}
+    instance: {fileID: 0}
+    listEntryActions:
+    - name: Entry1 Select
+      nodeId: NODE_2013:12:30:09:45:19:7516817
+      entryId: NODE_ENTRY_2013:12:30:09:50:09:5522573
+      type: 3
+      script: {fileID: 0}
+      instance: {fileID: 0}
+  - name: PhoneEvent3
+    nodeId: NODE_2013:12:30:09:50:40:4580250
+    type: 0
+    script: {fileID: 0}
+    instance: {fileID: 0}
+    listEntryActions:
+    - name: Entry1 Select
+      nodeId: NODE_2013:12:30:09:50:40:4580250
+      entryId: NODE_ENTRY_2013:12:30:09:51:45:2517310
       type: 3
       script: {fileID: 0}
       instance: {fileID: 0}
@@ -763,7 +1260,7 @@ MonoBehaviour:
       nodeId: NODE_2013:12:27:16:33:36:3115029
       entryId: NODE_ENTRY_2013:12:27:16:35:53:6563586
       type: 3
-      script: {fileID: 11500000, guid: 2aeae487663363542b4e4b881961e735, type: 3}
+      script: {fileID: 0}
       instance: {fileID: 0}
 --- !u!114 &11400002
 MonoBehaviour:
