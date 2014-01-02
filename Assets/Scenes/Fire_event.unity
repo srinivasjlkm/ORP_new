@@ -100,22 +100,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &7
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 18}
-  - 114: {fileID: 44}
-  m_Layer: 0
-  m_Name: Setup verification
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,17 +169,6 @@ Transform:
   m_GameObject: {fileID: 6}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 56.3823013, y: 5.22743988, z: 57.1838264}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
---- !u!4 &18
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 7}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: .0850506425, z: .512534559}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -448,17 +421,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   messages: []
---- !u!114 &44
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 7}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fa73df6ea945194e923d46f55089c6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!196 &46
 NavMeshSettings:
   m_ObjectHideFlags: 0
@@ -9122,7 +9084,7 @@ GameObject:
   - 23: {fileID: 254697120}
   m_Layer: 0
   m_Name: Fire_Extinguisher
-  m_TagString: Untagged
+  m_TagString: grab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19814,6 +19776,1160 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 565218665}
   m_Mesh: {fileID: 4300168, guid: 0c03246bf26f643468027cfbf82df69d, type: 3}
+--- !u!1 &571861024
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 571861026}
+  - 114: {fileID: 571861025}
+  m_Layer: 0
+  m_Name: DUGModel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &571861025
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 571861024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -936388604, guid: 94b9a575b0009478a92055ed9640cd1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editorVersionNumber: 1.7.0
+  editorBasePath: C:/Users/Jiang Kuo/Documents/GitHub/ORP_new/Assets/External Plugins/GUI/
+  editorProjectName: GUI
+  currentSceneId: SCENE_2013:12:27:16:26:45:1369850
+  selectedLocaleIndex: 0
+  listLanguageCodes:
+  - default
+  listScenes:
+  - id: SCENE_2013:12:26:15:43:04:1343546
+    name: NPC
+    image: {fileID: 0}
+  - id: SCENE_2013:12:26:15:43:20:0462647
+    name: FireExt
+    image: {fileID: 0}
+  - id: SCENE_2013:12:26:15:57:14:2089760
+    name: Phone
+    image: {fileID: 0}
+  - id: SCENE_2013:12:27:16:26:45:1369850
+    name: EventSelect
+    image: {fileID: 0}
+  listActors:
+  - id: ACTOR_2013:12:26:15:43:33:0380078
+    name: Player
+    image: {fileID: 2800000, guid: c7bce3e9b86174527b1bf8d3b1c7f58c, type: 3}
+  - id: ACTOR_2013:12:26:15:48:45:1188578
+    name: NPC
+    image: {fileID: 2800000, guid: 7a0eb526bd50841a7b27527f93de9feb, type: 3}
+  - id: ACTOR_2013:12:26:15:54:05:0371560
+    name: Hint
+    image: {fileID: 2800000, guid: 184c128341fd35246b77519334ad3fd5, type: 3}
+  - id: ACTOR_2013:12:30:09:49:46:0649139
+    name: Security Manager
+    image: {fileID: 0}
+  listNodes:
+  - id: NODE_2013:12:26:15:46:03:7096257
+    name: NPCEvent1
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 0
+    actorId: ACTOR_2013:12:26:15:48:45:1188578
+    sceneId: SCENE_2013:12:26:15:43:04:1343546
+    listEntries:
+    - id: NODE_ENTRY_2013:12:26:15:46:03:7096257
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: What happened?
+      followUpNodeId: NODE_2013:12:26:15:46:03:7096257
+      nodeId: NODE_2013:12:26:15:46:03:7096257
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:26:15:49:23:4870523
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: Nothing happened.
+      followUpNodeId: NODE_2013:12:27:16:43:05:3110478
+      nodeId: NODE_2013:12:26:15:46:03:7096257
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:26:15:49:24:3831035
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: Fire!!
+      followUpNodeId: NODE_2013:12:26:15:49:42:1741211
+      nodeId: NODE_2013:12:26:15:46:03:7096257
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 10000
+      y: 10006
+      width: 230
+      height: 230
+    editorShowInDUGManagerActionList: 1
+  - id: NODE_2013:12:26:15:49:42:1741211
+    name: NPCEvent2
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 0
+    actorId: ACTOR_2013:12:26:15:48:45:1188578
+    sceneId: SCENE_2013:12:26:15:43:04:1343546
+    listEntries:
+    - id: NODE_ENTRY_2013:12:26:15:49:42:1741211
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: What should i do?
+      followUpNodeId: NODE_2013:12:26:15:49:42:1741211
+      nodeId: NODE_2013:12:26:15:49:42:1741211
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:26:15:50:02:7983008
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: Follow me!
+      followUpNodeId: NODE_2013:12:27:16:43:05:3110478
+      nodeId: NODE_2013:12:26:15:49:42:1741211
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 10359
+      y: 10000
+      width: 230
+      height: 190
+    editorShowInDUGManagerActionList: 1
+  - id: NODE_2013:12:27:16:43:05:3110478
+    name: 
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 1
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:26:15:43:04:1343546
+    listEntries:
+    - id: NODE_ENTRY_2013:12:27:16:43:05:3110478
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:27:16:33:36:3115029
+      nodeId: NODE_2013:12:27:16:43:05:3110478
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 10629
+      y: 10357
+      width: 180
+      height: 90
+    editorShowInDUGManagerActionList: 0
+  - id: NODE_2013:12:26:15:48:10:3008663
+    name: FireExtEvent1
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 0
+    actorId: ACTOR_2013:12:26:15:54:05:0371560
+    sceneId: SCENE_2013:12:26:15:43:20:0462647
+    listEntries:
+    - id: NODE_ENTRY_2013:12:26:15:48:10:3008663
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: This is a fire extinguisher box. Do you want to check it?
+      followUpNodeId: NODE_2013:12:26:15:48:10:3008663
+      nodeId: NODE_2013:12:26:15:48:10:3008663
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:26:15:54:49:9277236
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: Yes
+      followUpNodeId: NODE_2013:12:30:09:41:26:7173529
+      nodeId: NODE_2013:12:26:15:48:10:3008663
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:26:15:55:19:4554125
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: No
+      followUpNodeId: NODE_2013:12:27:16:39:58:6853734
+      nodeId: NODE_2013:12:26:15:48:10:3008663
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 10000
+      y: 10009
+      width: 230
+      height: 243
+    editorShowInDUGManagerActionList: 1
+  - id: NODE_2013:12:26:15:56:27:4062991
+    name: FireExtEvent2
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 0
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:26:15:43:20:0462647
+    listEntries:
+    - id: NODE_ENTRY_2013:12:26:15:56:27:4062991
+      name: 
+      image: {fileID: 0}
+      variableId: VARIABLE_2013:12:26:15:51:26:2240724
+      variableValue: 0
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: The fire extinguisher is missing! You can call the security manager
+          to put a new one here.
+      followUpNodeId: NODE_2013:12:26:15:56:27:4062991
+      nodeId: NODE_2013:12:26:15:56:27:4062991
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:30:14:59:00:5371690
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: Leave
+      followUpNodeId: NODE_2013:12:30:14:59:58:9475099
+      nodeId: NODE_2013:12:26:15:56:27:4062991
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 10492
+      y: 10000
+      width: 230
+      height: 216
+    editorShowInDUGManagerActionList: 1
+  - id: NODE_2013:12:27:16:39:58:6853734
+    name: 
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 1
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:26:15:43:20:0462647
+    listEntries:
+    - id: NODE_ENTRY_2013:12:27:16:39:58:6853734
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:27:16:33:36:3115029
+      nodeId: NODE_2013:12:27:16:39:58:6853734
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 10794
+      y: 10453
+      width: 180
+      height: 90
+    editorShowInDUGManagerActionList: 0
+  - id: NODE_2013:12:30:09:41:26:7173529
+    name: 
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:51:26:2240724
+    variableValue: 0
+    variableOperationId: 0
+    type: 3
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:26:15:43:20:0462647
+    listEntries:
+    - id: NODE_ENTRY_2013:12:30:09:41:26:7173529
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:26:15:56:27:4062991
+      nodeId: NODE_2013:12:30:09:41:26:7173529
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:30:09:41:26:7173529
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:30:09:41:55:5240005
+      nodeId: NODE_2013:12:30:09:41:26:7173529
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 10277
+      y: 10055
+      width: 180
+      height: 148
+    editorShowInDUGManagerActionList: 0
+  - id: NODE_2013:12:30:09:41:55:5240005
+    name: 
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 0
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:26:15:43:20:0462647
+    listEntries:
+    - id: NODE_ENTRY_2013:12:30:09:41:55:5240005
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: There is a fire extinguisher in the box.
+      followUpNodeId: NODE_2013:12:27:16:39:58:6853734
+      nodeId: NODE_2013:12:30:09:41:55:5240005
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 10492
+      y: 10228
+      width: 230
+      height: 150
+    editorShowInDUGManagerActionList: 1
+  - id: NODE_2013:12:30:14:59:58:9475099
+    name: 
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:51:26:2240724
+    variableValue: 1
+    variableOperationId: 0
+    type: 2
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:26:15:43:20:0462647
+    listEntries:
+    - id: NODE_ENTRY_2013:12:30:14:59:58:9475099
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:27:16:39:58:6853734
+      nodeId: NODE_2013:12:30:14:59:58:9475099
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 10756
+      y: 10079
+      width: 180
+      height: 95
+    editorShowInDUGManagerActionList: 0
+  - id: NODE_2013:12:30:09:43:43:3901701
+    name: PhoneEvent1
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 0
+    actorId: ACTOR_2013:12:26:15:54:05:0371560
+    sceneId: SCENE_2013:12:26:15:57:14:2089760
+    listEntries:
+    - id: NODE_ENTRY_2013:12:30:09:43:43:3901701
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: This is a public telephone. Who do you want to call?
+      followUpNodeId: NODE_2013:12:30:09:43:43:3901701
+      nodeId: NODE_2013:12:30:09:43:43:3901701
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:30:09:44:17:8061386
+      name: 
+      image: {fileID: 0}
+      variableId: VARIABLE_2013:12:26:15:51:26:2240724
+      variableValue: 1
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: Security manager.
+      followUpNodeId: NODE_2013:12:30:09:45:19:7516817
+      nodeId: NODE_2013:12:30:09:43:43:3901701
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:30:09:45:04:0487835
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: Others
+      followUpNodeId: NODE_2013:12:30:09:43:43:3901701
+      nodeId: NODE_2013:12:30:09:43:43:3901701
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:30:09:44:41:2564799
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: Leave
+      followUpNodeId: NODE_2013:12:30:09:52:18:7046444
+      nodeId: NODE_2013:12:30:09:43:43:3901701
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 10000
+      y: 10007
+      width: 230
+      height: 283
+    editorShowInDUGManagerActionList: 1
+  - id: NODE_2013:12:30:09:45:19:7516817
+    name: PhoneEvent2
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 0
+    actorId: ACTOR_2013:12:30:09:49:46:0649139
+    sceneId: SCENE_2013:12:26:15:57:14:2089760
+    listEntries:
+    - id: NODE_ENTRY_2013:12:30:09:45:19:7516817
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: Hi, may I help you?
+      followUpNodeId: NODE_2013:12:30:09:45:19:7516817
+      nodeId: NODE_2013:12:30:09:45:19:7516817
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:30:09:50:09:5522573
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: I found the fire extinguisher is missing. Could you bring us a new one?
+      followUpNodeId: NODE_2013:12:30:09:50:40:4580250
+      nodeId: NODE_2013:12:30:09:45:19:7516817
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 10328
+      y: 10004
+      width: 230
+      height: 203
+    editorShowInDUGManagerActionList: 1
+  - id: NODE_2013:12:30:09:50:40:4580250
+    name: PhoneEvent3
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 0
+    actorId: ACTOR_2013:12:30:09:49:46:0649139
+    sceneId: SCENE_2013:12:26:15:57:14:2089760
+    listEntries:
+    - id: NODE_ENTRY_2013:12:30:09:50:40:4580250
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: Sure. Please wait a moment.
+      followUpNodeId: NODE_2013:12:30:09:50:40:4580250
+      nodeId: NODE_2013:12:30:09:50:40:4580250
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:30:09:51:45:2517310
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: Thanks
+      followUpNodeId: NODE_2013:12:30:15:08:21:4032487
+      nodeId: NODE_2013:12:30:09:50:40:4580250
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 10608
+      y: 10000
+      width: 230
+      height: 190
+    editorShowInDUGManagerActionList: 1
+  - id: NODE_2013:12:30:09:52:18:7046444
+    name: 
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 1
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:26:15:57:14:2089760
+    listEntries:
+    - id: NODE_ENTRY_2013:12:30:09:52:18:7046444
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:27:16:33:36:3115029
+      nodeId: NODE_2013:12:30:09:52:18:7046444
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 10683
+      y: 10449
+      width: 180
+      height: 90
+    editorShowInDUGManagerActionList: 0
+  - id: NODE_2013:12:30:15:08:21:4032487
+    name: 
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:51:26:2240724
+    variableValue: 2
+    variableOperationId: 0
+    type: 2
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:26:15:57:14:2089760
+    listEntries:
+    - id: NODE_ENTRY_2013:12:30:15:08:21:4032487
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:30:09:52:18:7046444
+      nodeId: NODE_2013:12:30:15:08:21:4032487
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 10678
+      y: 10245
+      width: 180
+      height: 95
+    editorShowInDUGManagerActionList: 0
+  - id: NODE_2013:12:27:16:33:36:3115029
+    name: 
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 0
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:27:16:26:45:1369850
+    listEntries:
+    - id: NODE_ENTRY_2013:12:27:16:33:36:3115029
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: Check
+      followUpNodeId: NODE_2013:12:27:16:33:55:1175785
+      nodeId: NODE_2013:12:27:16:33:36:3115029
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:27:16:35:40:5956115
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: Grab
+      followUpNodeId: NODE_2014:01:02:15:53:42:2236261
+      nodeId: NODE_2013:12:27:16:33:36:3115029
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:27:16:35:53:6563586
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales:
+      - languageCode: default
+        text: Leave
+      followUpNodeId: NODE_2013:12:27:16:36:36:6168158
+      nodeId: NODE_2013:12:27:16:33:36:3115029
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 10000
+      y: 10020
+      width: 230
+      height: 230
+    editorShowInDUGManagerActionList: 1
+  - id: NODE_2013:12:27:16:33:55:1175785
+    name: 
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: NPCEvent
+    variableOperationId: 0
+    type: 3
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:27:16:26:45:1369850
+    listEntries:
+    - id: NODE_ENTRY_2013:12:27:16:33:55:1175785
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:27:16:37:25:8826336
+      nodeId: NODE_2013:12:27:16:33:55:1175785
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:27:16:33:55:1175785
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:27:16:37:15:3310301
+      nodeId: NODE_2013:12:27:16:33:55:1175785
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 10334
+      y: 10000
+      width: 180
+      height: 148
+    editorShowInDUGManagerActionList: 0
+  - id: NODE_2013:12:27:16:36:36:6168158
+    name: 
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 1
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:27:16:26:45:1369850
+    listEntries:
+    - id: NODE_ENTRY_2013:12:27:16:36:36:6168158
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:27:16:33:36:3115029
+      nodeId: NODE_2013:12:27:16:36:36:6168158
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 10564
+      y: 10486
+      width: 180
+      height: 90
+    editorShowInDUGManagerActionList: 0
+  - id: NODE_2013:12:27:16:37:15:3310301
+    name: 
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: FireExtEvent
+    variableOperationId: 0
+    type: 3
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:27:16:26:45:1369850
+    listEntries:
+    - id: NODE_ENTRY_2013:12:27:16:37:15:3310301
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:27:16:37:28:4357796
+      nodeId: NODE_2013:12:27:16:37:15:3310301
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:27:16:37:15:3310301
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:30:09:48:07:4262721
+      nodeId: NODE_2013:12:27:16:37:15:3310301
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 10091
+      y: 10276
+      width: 180
+      height: 148
+    editorShowInDUGManagerActionList: 0
+  - id: NODE_2013:12:27:16:37:25:8826336
+    name: 
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 1
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:27:16:26:45:1369850
+    listEntries:
+    - id: NODE_ENTRY_2013:12:27:16:37:25:8826336
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:26:15:46:03:7096257
+      nodeId: NODE_2013:12:27:16:37:25:8826336
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 10570
+      y: 10041
+      width: 180
+      height: 90
+    editorShowInDUGManagerActionList: 0
+  - id: NODE_2013:12:27:16:37:28:4357796
+    name: 
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 1
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:27:16:26:45:1369850
+    listEntries:
+    - id: NODE_ENTRY_2013:12:27:16:37:28:4357796
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:26:15:48:10:3008663
+      nodeId: NODE_2013:12:27:16:37:28:4357796
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 10568
+      y: 10186
+      width: 180
+      height: 90
+    editorShowInDUGManagerActionList: 0
+  - id: NODE_2013:12:30:09:48:07:4262721
+    name: 
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: PhoneEvent
+    variableOperationId: 0
+    type: 3
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:27:16:26:45:1369850
+    listEntries:
+    - id: NODE_ENTRY_2013:12:30:09:48:07:4262721
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:30:09:48:40:9681906
+      nodeId: NODE_2013:12:30:09:48:07:4262721
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    - id: NODE_ENTRY_2013:12:30:09:48:07:4262721
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:27:16:36:36:6168158
+      nodeId: NODE_2013:12:30:09:48:07:4262721
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 10111
+      y: 10473
+      width: 180
+      height: 148
+    editorShowInDUGManagerActionList: 0
+  - id: NODE_2013:12:30:09:48:40:9681906
+    name: 
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 1
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:27:16:26:45:1369850
+    listEntries:
+    - id: NODE_ENTRY_2013:12:30:09:48:40:9681906
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:30:09:43:43:3901701
+      nodeId: NODE_2013:12:30:09:48:40:9681906
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 10569
+      y: 10326
+      width: 180
+      height: 90
+    editorShowInDUGManagerActionList: 0
+  - id: NODE_2014:01:02:15:53:42:2236261
+    name: 
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 1
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:27:16:26:45:1369850
+    listEntries:
+    - id: NODE_ENTRY_2014:01:02:15:53:42:2236261
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:27:16:33:36:3115029
+      nodeId: NODE_2014:01:02:15:53:42:2236261
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 10348
+      y: 10168
+      width: 180
+      height: 90
+    editorShowInDUGManagerActionList: 0
+  listVariables:
+  - id: VARIABLE_2013:12:26:15:43:44:8226818
+    name: EventName
+    image: {fileID: 0}
+    type: 2
+  - id: VARIABLE_2013:12:26:15:51:15:0984361
+    name: NPCEventStageIdx
+    image: {fileID: 0}
+    type: 1
+  - id: VARIABLE_2013:12:26:15:51:26:2240724
+    name: FireExtStageIdx
+    image: {fileID: 0}
+    type: 1
+  - id: VARIABLE_2013:12:27:11:57:31:2860376
+    name: CameraSwitch
+    image: {fileID: 0}
+    type: 0
+  runTimeCurrentNode:
+    id: 
+    name: 
+    image: {fileID: 0}
+    variableId: 
+    variableValue: 
+    variableOperationId: 0
+    type: 0
+    actorId: 
+    sceneId: 
+    listEntries: []
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 250
+      height: 100
+    editorShowInDUGManagerActionList: 0
+  runTimeListPreviousNodes: []
+  runTimeListPreviousSelectedNodeEntryIds: []
+  listActions: []
+--- !u!4 &571861026
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 571861024}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1 &574190611
 GameObject:
   m_ObjectHideFlags: 0
@@ -37944,7 +39060,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previewOnGUI: 1
   enableGUILayout: 1
-  drawStateLabels: 1
+  drawStateLabels: 0
   GUITextureStateLabels: 1
   GUITextStateLabels: 1
   filterLabelsWithDistance: 0
@@ -49449,6 +50565,66 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1439006666}
   m_Mesh: {fileID: 4300056, guid: 0c03246bf26f643468027cfbf82df69d, type: 3}
+--- !u!1 &1442232772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1442232775}
+  - 131: {fileID: 1442232774}
+  - 114: {fileID: 1442232773}
+  m_Layer: 0
+  m_Name: Inventory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1442232773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1442232772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b4b800324e6c5d4eb9434edac4673ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventoryObject: {fileID: 0}
+  inventoryObjectTexture: {fileID: 0}
+--- !u!131 &1442232774
+GUITexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1442232772}
+  m_Enabled: 1
+  m_Texture: {fileID: 10400, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 300
+    y: -300
+    width: 128
+    height: 58
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!4 &1442232775
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1442232772}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .5, y: .5, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1 &1442654571
 GameObject:
   m_ObjectHideFlags: 0
@@ -64472,1127 +65648,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1886086973}
   m_Mesh: {fileID: 4300036, guid: 0c03246bf26f643468027cfbf82df69d, type: 3}
---- !u!1 &1892253247
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1892253249}
-  - 114: {fileID: 1892253248}
-  m_Layer: 0
-  m_Name: DUGModel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1892253248
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1892253247}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -936388604, guid: 94b9a575b0009478a92055ed9640cd1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  editorVersionNumber: 1.7.0
-  editorBasePath: C:/Users/Jerry/Desktop/KLM work/ORP_new/Assets/External Plugins/GUI/
-  editorProjectName: GUI
-  currentSceneId: SCENE_2013:12:27:16:26:45:1369850
-  selectedLocaleIndex: 0
-  listLanguageCodes:
-  - default
-  listScenes:
-  - id: SCENE_2013:12:26:15:43:04:1343546
-    name: NPC
-    image: {fileID: 0}
-  - id: SCENE_2013:12:26:15:43:20:0462647
-    name: FireExt
-    image: {fileID: 0}
-  - id: SCENE_2013:12:26:15:57:14:2089760
-    name: Phone
-    image: {fileID: 0}
-  - id: SCENE_2013:12:27:16:26:45:1369850
-    name: EventSelect
-    image: {fileID: 0}
-  listActors:
-  - id: ACTOR_2013:12:26:15:43:33:0380078
-    name: Player
-    image: {fileID: 2800000, guid: c7bce3e9b86174527b1bf8d3b1c7f58c, type: 3}
-  - id: ACTOR_2013:12:26:15:48:45:1188578
-    name: NPC
-    image: {fileID: 2800000, guid: 7a0eb526bd50841a7b27527f93de9feb, type: 3}
-  - id: ACTOR_2013:12:26:15:54:05:0371560
-    name: Hint
-    image: {fileID: 2800000, guid: 184c128341fd35246b77519334ad3fd5, type: 3}
-  - id: ACTOR_2013:12:30:09:49:46:0649139
-    name: Security Manager
-    image: {fileID: 0}
-  listNodes:
-  - id: NODE_2013:12:26:15:46:03:7096257
-    name: NPCEvent1
-    image: {fileID: 0}
-    variableId: VARIABLE_2013:12:26:15:43:44:8226818
-    variableValue: 
-    variableOperationId: 0
-    type: 0
-    actorId: ACTOR_2013:12:26:15:48:45:1188578
-    sceneId: SCENE_2013:12:26:15:43:04:1343546
-    listEntries:
-    - id: NODE_ENTRY_2013:12:26:15:46:03:7096257
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales:
-      - languageCode: default
-        text: What happened?
-      followUpNodeId: NODE_2013:12:26:15:46:03:7096257
-      nodeId: NODE_2013:12:26:15:46:03:7096257
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    - id: NODE_ENTRY_2013:12:26:15:49:23:4870523
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales:
-      - languageCode: default
-        text: Nothing happened.
-      followUpNodeId: NODE_2013:12:27:16:43:05:3110478
-      nodeId: NODE_2013:12:26:15:46:03:7096257
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    - id: NODE_ENTRY_2013:12:26:15:49:24:3831035
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales:
-      - languageCode: default
-        text: Fire!!
-      followUpNodeId: NODE_2013:12:26:15:49:42:1741211
-      nodeId: NODE_2013:12:26:15:46:03:7096257
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    messageMethodeName: 
-    messageMethodeValue: 
-    editorWindowRect:
-      serializedVersion: 2
-      x: 10000
-      y: 10006
-      width: 230
-      height: 230
-    editorShowInDUGManagerActionList: 1
-  - id: NODE_2013:12:26:15:49:42:1741211
-    name: NPCEvent2
-    image: {fileID: 0}
-    variableId: VARIABLE_2013:12:26:15:43:44:8226818
-    variableValue: 
-    variableOperationId: 0
-    type: 0
-    actorId: ACTOR_2013:12:26:15:48:45:1188578
-    sceneId: SCENE_2013:12:26:15:43:04:1343546
-    listEntries:
-    - id: NODE_ENTRY_2013:12:26:15:49:42:1741211
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales:
-      - languageCode: default
-        text: What should i do?
-      followUpNodeId: NODE_2013:12:26:15:49:42:1741211
-      nodeId: NODE_2013:12:26:15:49:42:1741211
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    - id: NODE_ENTRY_2013:12:26:15:50:02:7983008
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales:
-      - languageCode: default
-        text: Follow me!
-      followUpNodeId: NODE_2013:12:27:16:43:05:3110478
-      nodeId: NODE_2013:12:26:15:49:42:1741211
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    messageMethodeName: 
-    messageMethodeValue: 
-    editorWindowRect:
-      serializedVersion: 2
-      x: 10359
-      y: 10000
-      width: 230
-      height: 190
-    editorShowInDUGManagerActionList: 1
-  - id: NODE_2013:12:27:16:43:05:3110478
-    name: 
-    image: {fileID: 0}
-    variableId: VARIABLE_2013:12:26:15:43:44:8226818
-    variableValue: 
-    variableOperationId: 0
-    type: 1
-    actorId: ACTOR_2013:12:26:15:43:33:0380078
-    sceneId: SCENE_2013:12:26:15:43:04:1343546
-    listEntries:
-    - id: NODE_ENTRY_2013:12:27:16:43:05:3110478
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales: []
-      followUpNodeId: NODE_2013:12:27:16:33:36:3115029
-      nodeId: NODE_2013:12:27:16:43:05:3110478
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    messageMethodeName: 
-    messageMethodeValue: 
-    editorWindowRect:
-      serializedVersion: 2
-      x: 10629
-      y: 10357
-      width: 180
-      height: 90
-    editorShowInDUGManagerActionList: 0
-  - id: NODE_2013:12:26:15:48:10:3008663
-    name: FireExtEvent1
-    image: {fileID: 0}
-    variableId: VARIABLE_2013:12:26:15:43:44:8226818
-    variableValue: 
-    variableOperationId: 0
-    type: 0
-    actorId: ACTOR_2013:12:26:15:54:05:0371560
-    sceneId: SCENE_2013:12:26:15:43:20:0462647
-    listEntries:
-    - id: NODE_ENTRY_2013:12:26:15:48:10:3008663
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales:
-      - languageCode: default
-        text: This is a fire extinguisher box. Do you want to check it?
-      followUpNodeId: NODE_2013:12:26:15:48:10:3008663
-      nodeId: NODE_2013:12:26:15:48:10:3008663
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    - id: NODE_ENTRY_2013:12:26:15:54:49:9277236
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales:
-      - languageCode: default
-        text: Yes
-      followUpNodeId: NODE_2013:12:30:09:41:26:7173529
-      nodeId: NODE_2013:12:26:15:48:10:3008663
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    - id: NODE_ENTRY_2013:12:26:15:55:19:4554125
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales:
-      - languageCode: default
-        text: No
-      followUpNodeId: NODE_2013:12:27:16:39:58:6853734
-      nodeId: NODE_2013:12:26:15:48:10:3008663
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    messageMethodeName: 
-    messageMethodeValue: 
-    editorWindowRect:
-      serializedVersion: 2
-      x: 10000
-      y: 10009
-      width: 230
-      height: 243
-    editorShowInDUGManagerActionList: 1
-  - id: NODE_2013:12:26:15:56:27:4062991
-    name: FireExtEvent2
-    image: {fileID: 0}
-    variableId: VARIABLE_2013:12:26:15:43:44:8226818
-    variableValue: 
-    variableOperationId: 0
-    type: 0
-    actorId: ACTOR_2013:12:26:15:43:33:0380078
-    sceneId: SCENE_2013:12:26:15:43:20:0462647
-    listEntries:
-    - id: NODE_ENTRY_2013:12:26:15:56:27:4062991
-      name: 
-      image: {fileID: 0}
-      variableId: VARIABLE_2013:12:26:15:51:26:2240724
-      variableValue: 0
-      variableOperationId: 0
-      listLocales:
-      - languageCode: default
-        text: The fire extinguisher is missing! You can call the security manager
-          to put a new one here.
-      followUpNodeId: NODE_2013:12:26:15:56:27:4062991
-      nodeId: NODE_2013:12:26:15:56:27:4062991
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    - id: NODE_ENTRY_2013:12:30:14:59:00:5371690
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales:
-      - languageCode: default
-        text: Leave
-      followUpNodeId: NODE_2013:12:30:14:59:58:9475099
-      nodeId: NODE_2013:12:26:15:56:27:4062991
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    messageMethodeName: 
-    messageMethodeValue: 
-    editorWindowRect:
-      serializedVersion: 2
-      x: 10492
-      y: 10000
-      width: 230
-      height: 216
-    editorShowInDUGManagerActionList: 1
-  - id: NODE_2013:12:27:16:39:58:6853734
-    name: 
-    image: {fileID: 0}
-    variableId: VARIABLE_2013:12:26:15:43:44:8226818
-    variableValue: 
-    variableOperationId: 0
-    type: 1
-    actorId: ACTOR_2013:12:26:15:43:33:0380078
-    sceneId: SCENE_2013:12:26:15:43:20:0462647
-    listEntries:
-    - id: NODE_ENTRY_2013:12:27:16:39:58:6853734
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales: []
-      followUpNodeId: NODE_2013:12:27:16:33:36:3115029
-      nodeId: NODE_2013:12:27:16:39:58:6853734
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    messageMethodeName: 
-    messageMethodeValue: 
-    editorWindowRect:
-      serializedVersion: 2
-      x: 10794
-      y: 10453
-      width: 180
-      height: 90
-    editorShowInDUGManagerActionList: 0
-  - id: NODE_2013:12:30:09:41:26:7173529
-    name: 
-    image: {fileID: 0}
-    variableId: VARIABLE_2013:12:26:15:51:26:2240724
-    variableValue: 0
-    variableOperationId: 0
-    type: 3
-    actorId: ACTOR_2013:12:26:15:43:33:0380078
-    sceneId: SCENE_2013:12:26:15:43:20:0462647
-    listEntries:
-    - id: NODE_ENTRY_2013:12:30:09:41:26:7173529
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales: []
-      followUpNodeId: NODE_2013:12:26:15:56:27:4062991
-      nodeId: NODE_2013:12:30:09:41:26:7173529
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    - id: NODE_ENTRY_2013:12:30:09:41:26:7173529
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales: []
-      followUpNodeId: NODE_2013:12:30:09:41:55:5240005
-      nodeId: NODE_2013:12:30:09:41:26:7173529
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    messageMethodeName: 
-    messageMethodeValue: 
-    editorWindowRect:
-      serializedVersion: 2
-      x: 10277
-      y: 10055
-      width: 180
-      height: 148
-    editorShowInDUGManagerActionList: 0
-  - id: NODE_2013:12:30:09:41:55:5240005
-    name: 
-    image: {fileID: 0}
-    variableId: VARIABLE_2013:12:26:15:43:44:8226818
-    variableValue: 
-    variableOperationId: 0
-    type: 0
-    actorId: ACTOR_2013:12:26:15:43:33:0380078
-    sceneId: SCENE_2013:12:26:15:43:20:0462647
-    listEntries:
-    - id: NODE_ENTRY_2013:12:30:09:41:55:5240005
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales:
-      - languageCode: default
-        text: There is a fire extinguisher in the box.
-      followUpNodeId: NODE_2013:12:27:16:39:58:6853734
-      nodeId: NODE_2013:12:30:09:41:55:5240005
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    messageMethodeName: 
-    messageMethodeValue: 
-    editorWindowRect:
-      serializedVersion: 2
-      x: 10492
-      y: 10228
-      width: 230
-      height: 150
-    editorShowInDUGManagerActionList: 1
-  - id: NODE_2013:12:30:14:59:58:9475099
-    name: 
-    image: {fileID: 0}
-    variableId: VARIABLE_2013:12:26:15:51:26:2240724
-    variableValue: 1
-    variableOperationId: 0
-    type: 2
-    actorId: ACTOR_2013:12:26:15:43:33:0380078
-    sceneId: SCENE_2013:12:26:15:43:20:0462647
-    listEntries:
-    - id: NODE_ENTRY_2013:12:30:14:59:58:9475099
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales: []
-      followUpNodeId: NODE_2013:12:27:16:39:58:6853734
-      nodeId: NODE_2013:12:30:14:59:58:9475099
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    messageMethodeName: 
-    messageMethodeValue: 
-    editorWindowRect:
-      serializedVersion: 2
-      x: 10756
-      y: 10079
-      width: 180
-      height: 95
-    editorShowInDUGManagerActionList: 0
-  - id: NODE_2013:12:30:09:43:43:3901701
-    name: PhoneEvent1
-    image: {fileID: 0}
-    variableId: VARIABLE_2013:12:26:15:43:44:8226818
-    variableValue: 
-    variableOperationId: 0
-    type: 0
-    actorId: ACTOR_2013:12:26:15:54:05:0371560
-    sceneId: SCENE_2013:12:26:15:57:14:2089760
-    listEntries:
-    - id: NODE_ENTRY_2013:12:30:09:43:43:3901701
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales:
-      - languageCode: default
-        text: This is a public telephone. Who do you want to call?
-      followUpNodeId: NODE_2013:12:30:09:43:43:3901701
-      nodeId: NODE_2013:12:30:09:43:43:3901701
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    - id: NODE_ENTRY_2013:12:30:09:44:17:8061386
-      name: 
-      image: {fileID: 0}
-      variableId: VARIABLE_2013:12:26:15:51:26:2240724
-      variableValue: 1
-      variableOperationId: 0
-      listLocales:
-      - languageCode: default
-        text: Security manager.
-      followUpNodeId: NODE_2013:12:30:09:45:19:7516817
-      nodeId: NODE_2013:12:30:09:43:43:3901701
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    - id: NODE_ENTRY_2013:12:30:09:45:04:0487835
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales:
-      - languageCode: default
-        text: Others
-      followUpNodeId: NODE_2013:12:30:09:43:43:3901701
-      nodeId: NODE_2013:12:30:09:43:43:3901701
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    - id: NODE_ENTRY_2013:12:30:09:44:41:2564799
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales:
-      - languageCode: default
-        text: Leave
-      followUpNodeId: NODE_2013:12:30:09:52:18:7046444
-      nodeId: NODE_2013:12:30:09:43:43:3901701
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    messageMethodeName: 
-    messageMethodeValue: 
-    editorWindowRect:
-      serializedVersion: 2
-      x: 10000
-      y: 10007
-      width: 230
-      height: 283
-    editorShowInDUGManagerActionList: 1
-  - id: NODE_2013:12:30:09:45:19:7516817
-    name: PhoneEvent2
-    image: {fileID: 0}
-    variableId: VARIABLE_2013:12:26:15:43:44:8226818
-    variableValue: 
-    variableOperationId: 0
-    type: 0
-    actorId: ACTOR_2013:12:30:09:49:46:0649139
-    sceneId: SCENE_2013:12:26:15:57:14:2089760
-    listEntries:
-    - id: NODE_ENTRY_2013:12:30:09:45:19:7516817
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales:
-      - languageCode: default
-        text: Hi, may I help you?
-      followUpNodeId: NODE_2013:12:30:09:45:19:7516817
-      nodeId: NODE_2013:12:30:09:45:19:7516817
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    - id: NODE_ENTRY_2013:12:30:09:50:09:5522573
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales:
-      - languageCode: default
-        text: I found the fire extinguisher is missing. Could you bring us a new one?
-      followUpNodeId: NODE_2013:12:30:09:50:40:4580250
-      nodeId: NODE_2013:12:30:09:45:19:7516817
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    messageMethodeName: 
-    messageMethodeValue: 
-    editorWindowRect:
-      serializedVersion: 2
-      x: 10328
-      y: 10004
-      width: 230
-      height: 203
-    editorShowInDUGManagerActionList: 1
-  - id: NODE_2013:12:30:09:50:40:4580250
-    name: PhoneEvent3
-    image: {fileID: 0}
-    variableId: VARIABLE_2013:12:26:15:43:44:8226818
-    variableValue: 
-    variableOperationId: 0
-    type: 0
-    actorId: ACTOR_2013:12:30:09:49:46:0649139
-    sceneId: SCENE_2013:12:26:15:57:14:2089760
-    listEntries:
-    - id: NODE_ENTRY_2013:12:30:09:50:40:4580250
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales:
-      - languageCode: default
-        text: Sure. Please wait a moment.
-      followUpNodeId: NODE_2013:12:30:09:50:40:4580250
-      nodeId: NODE_2013:12:30:09:50:40:4580250
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    - id: NODE_ENTRY_2013:12:30:09:51:45:2517310
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales:
-      - languageCode: default
-        text: Thanks
-      followUpNodeId: NODE_2013:12:30:15:08:21:4032487
-      nodeId: NODE_2013:12:30:09:50:40:4580250
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    messageMethodeName: 
-    messageMethodeValue: 
-    editorWindowRect:
-      serializedVersion: 2
-      x: 10608
-      y: 10000
-      width: 230
-      height: 190
-    editorShowInDUGManagerActionList: 1
-  - id: NODE_2013:12:30:09:52:18:7046444
-    name: 
-    image: {fileID: 0}
-    variableId: VARIABLE_2013:12:26:15:43:44:8226818
-    variableValue: 
-    variableOperationId: 0
-    type: 1
-    actorId: ACTOR_2013:12:26:15:43:33:0380078
-    sceneId: SCENE_2013:12:26:15:57:14:2089760
-    listEntries:
-    - id: NODE_ENTRY_2013:12:30:09:52:18:7046444
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales: []
-      followUpNodeId: NODE_2013:12:27:16:33:36:3115029
-      nodeId: NODE_2013:12:30:09:52:18:7046444
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    messageMethodeName: 
-    messageMethodeValue: 
-    editorWindowRect:
-      serializedVersion: 2
-      x: 10683
-      y: 10449
-      width: 180
-      height: 90
-    editorShowInDUGManagerActionList: 0
-  - id: NODE_2013:12:30:15:08:21:4032487
-    name: 
-    image: {fileID: 0}
-    variableId: VARIABLE_2013:12:26:15:51:26:2240724
-    variableValue: 2
-    variableOperationId: 0
-    type: 2
-    actorId: ACTOR_2013:12:26:15:43:33:0380078
-    sceneId: SCENE_2013:12:26:15:57:14:2089760
-    listEntries:
-    - id: NODE_ENTRY_2013:12:30:15:08:21:4032487
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales: []
-      followUpNodeId: NODE_2013:12:30:09:52:18:7046444
-      nodeId: NODE_2013:12:30:15:08:21:4032487
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    messageMethodeName: 
-    messageMethodeValue: 
-    editorWindowRect:
-      serializedVersion: 2
-      x: 10678
-      y: 10245
-      width: 180
-      height: 95
-    editorShowInDUGManagerActionList: 0
-  - id: NODE_2013:12:27:16:33:36:3115029
-    name: 
-    image: {fileID: 0}
-    variableId: VARIABLE_2013:12:26:15:43:44:8226818
-    variableValue: 
-    variableOperationId: 0
-    type: 0
-    actorId: ACTOR_2013:12:26:15:43:33:0380078
-    sceneId: SCENE_2013:12:27:16:26:45:1369850
-    listEntries:
-    - id: NODE_ENTRY_2013:12:27:16:33:36:3115029
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales:
-      - languageCode: default
-        text: Check
-      followUpNodeId: NODE_2013:12:27:16:33:55:1175785
-      nodeId: NODE_2013:12:27:16:33:36:3115029
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    - id: NODE_ENTRY_2013:12:27:16:35:40:5956115
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales:
-      - languageCode: default
-        text: Grab
-      followUpNodeId: NODE_2013:12:27:16:33:55:1175785
-      nodeId: NODE_2013:12:27:16:33:36:3115029
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    - id: NODE_ENTRY_2013:12:27:16:35:53:6563586
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales:
-      - languageCode: default
-        text: Leave
-      followUpNodeId: NODE_2013:12:27:16:36:36:6168158
-      nodeId: NODE_2013:12:27:16:33:36:3115029
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    messageMethodeName: 
-    messageMethodeValue: 
-    editorWindowRect:
-      serializedVersion: 2
-      x: 10000
-      y: 10006
-      width: 230
-      height: 230
-    editorShowInDUGManagerActionList: 1
-  - id: NODE_2013:12:27:16:33:55:1175785
-    name: 
-    image: {fileID: 0}
-    variableId: VARIABLE_2013:12:26:15:43:44:8226818
-    variableValue: NPCEvent
-    variableOperationId: 0
-    type: 3
-    actorId: ACTOR_2013:12:26:15:43:33:0380078
-    sceneId: SCENE_2013:12:27:16:26:45:1369850
-    listEntries:
-    - id: NODE_ENTRY_2013:12:27:16:33:55:1175785
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales: []
-      followUpNodeId: NODE_2013:12:27:16:37:25:8826336
-      nodeId: NODE_2013:12:27:16:33:55:1175785
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    - id: NODE_ENTRY_2013:12:27:16:33:55:1175785
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales: []
-      followUpNodeId: NODE_2013:12:27:16:37:15:3310301
-      nodeId: NODE_2013:12:27:16:33:55:1175785
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    messageMethodeName: 
-    messageMethodeValue: 
-    editorWindowRect:
-      serializedVersion: 2
-      x: 10289
-      y: 10000
-      width: 180
-      height: 148
-    editorShowInDUGManagerActionList: 0
-  - id: NODE_2013:12:27:16:36:36:6168158
-    name: 
-    image: {fileID: 0}
-    variableId: VARIABLE_2013:12:26:15:43:44:8226818
-    variableValue: 
-    variableOperationId: 0
-    type: 1
-    actorId: ACTOR_2013:12:26:15:43:33:0380078
-    sceneId: SCENE_2013:12:27:16:26:45:1369850
-    listEntries:
-    - id: NODE_ENTRY_2013:12:27:16:36:36:6168158
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales: []
-      followUpNodeId: NODE_2013:12:27:16:33:36:3115029
-      nodeId: NODE_2013:12:27:16:36:36:6168158
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    messageMethodeName: 
-    messageMethodeValue: 
-    editorWindowRect:
-      serializedVersion: 2
-      x: 10564
-      y: 10472
-      width: 180
-      height: 90
-    editorShowInDUGManagerActionList: 0
-  - id: NODE_2013:12:27:16:37:15:3310301
-    name: 
-    image: {fileID: 0}
-    variableId: VARIABLE_2013:12:26:15:43:44:8226818
-    variableValue: FireExtEvent
-    variableOperationId: 0
-    type: 3
-    actorId: ACTOR_2013:12:26:15:43:33:0380078
-    sceneId: SCENE_2013:12:27:16:26:45:1369850
-    listEntries:
-    - id: NODE_ENTRY_2013:12:27:16:37:15:3310301
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales: []
-      followUpNodeId: NODE_2013:12:27:16:37:28:4357796
-      nodeId: NODE_2013:12:27:16:37:15:3310301
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    - id: NODE_ENTRY_2013:12:27:16:37:15:3310301
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales: []
-      followUpNodeId: NODE_2013:12:30:09:48:07:4262721
-      nodeId: NODE_2013:12:27:16:37:15:3310301
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    messageMethodeName: 
-    messageMethodeValue: 
-    editorWindowRect:
-      serializedVersion: 2
-      x: 10290
-      y: 10147
-      width: 180
-      height: 148
-    editorShowInDUGManagerActionList: 0
-  - id: NODE_2013:12:27:16:37:25:8826336
-    name: 
-    image: {fileID: 0}
-    variableId: VARIABLE_2013:12:26:15:43:44:8226818
-    variableValue: 
-    variableOperationId: 0
-    type: 1
-    actorId: ACTOR_2013:12:26:15:43:33:0380078
-    sceneId: SCENE_2013:12:27:16:26:45:1369850
-    listEntries:
-    - id: NODE_ENTRY_2013:12:27:16:37:25:8826336
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales: []
-      followUpNodeId: NODE_2013:12:26:15:46:03:7096257
-      nodeId: NODE_2013:12:27:16:37:25:8826336
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    messageMethodeName: 
-    messageMethodeValue: 
-    editorWindowRect:
-      serializedVersion: 2
-      x: 10570
-      y: 10027
-      width: 180
-      height: 90
-    editorShowInDUGManagerActionList: 0
-  - id: NODE_2013:12:27:16:37:28:4357796
-    name: 
-    image: {fileID: 0}
-    variableId: VARIABLE_2013:12:26:15:43:44:8226818
-    variableValue: 
-    variableOperationId: 0
-    type: 1
-    actorId: ACTOR_2013:12:26:15:43:33:0380078
-    sceneId: SCENE_2013:12:27:16:26:45:1369850
-    listEntries:
-    - id: NODE_ENTRY_2013:12:27:16:37:28:4357796
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales: []
-      followUpNodeId: NODE_2013:12:26:15:48:10:3008663
-      nodeId: NODE_2013:12:27:16:37:28:4357796
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    messageMethodeName: 
-    messageMethodeValue: 
-    editorWindowRect:
-      serializedVersion: 2
-      x: 10568
-      y: 10172
-      width: 180
-      height: 90
-    editorShowInDUGManagerActionList: 0
-  - id: NODE_2013:12:30:09:48:07:4262721
-    name: 
-    image: {fileID: 0}
-    variableId: VARIABLE_2013:12:26:15:43:44:8226818
-    variableValue: PhoneEvent
-    variableOperationId: 0
-    type: 3
-    actorId: ACTOR_2013:12:26:15:43:33:0380078
-    sceneId: SCENE_2013:12:27:16:26:45:1369850
-    listEntries:
-    - id: NODE_ENTRY_2013:12:30:09:48:07:4262721
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales: []
-      followUpNodeId: NODE_2013:12:30:09:48:40:9681906
-      nodeId: NODE_2013:12:30:09:48:07:4262721
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    - id: NODE_ENTRY_2013:12:30:09:48:07:4262721
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales: []
-      followUpNodeId: NODE_2013:12:27:16:36:36:6168158
-      nodeId: NODE_2013:12:30:09:48:07:4262721
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    messageMethodeName: 
-    messageMethodeValue: 
-    editorWindowRect:
-      serializedVersion: 2
-      x: 10290
-      y: 10291
-      width: 180
-      height: 148
-    editorShowInDUGManagerActionList: 0
-  - id: NODE_2013:12:30:09:48:40:9681906
-    name: 
-    image: {fileID: 0}
-    variableId: VARIABLE_2013:12:26:15:43:44:8226818
-    variableValue: 
-    variableOperationId: 0
-    type: 1
-    actorId: ACTOR_2013:12:26:15:43:33:0380078
-    sceneId: SCENE_2013:12:27:16:26:45:1369850
-    listEntries:
-    - id: NODE_ENTRY_2013:12:30:09:48:40:9681906
-      name: 
-      image: {fileID: 0}
-      variableId: 
-      variableValue: 
-      variableOperationId: 0
-      listLocales: []
-      followUpNodeId: NODE_2013:12:30:09:43:43:3901701
-      nodeId: NODE_2013:12:30:09:48:40:9681906
-      maxSelectCount: -1
-      startDisplayCount: -1
-      rangeStart: 0
-      rangeEnd: 0
-      editorDisplayAlways: 1
-    messageMethodeName: 
-    messageMethodeValue: 
-    editorWindowRect:
-      serializedVersion: 2
-      x: 10569
-      y: 10312
-      width: 180
-      height: 90
-    editorShowInDUGManagerActionList: 0
-  listVariables:
-  - id: VARIABLE_2013:12:26:15:43:44:8226818
-    name: EventName
-    image: {fileID: 0}
-    type: 2
-  - id: VARIABLE_2013:12:26:15:51:15:0984361
-    name: NPCEventStageIdx
-    image: {fileID: 0}
-    type: 1
-  - id: VARIABLE_2013:12:26:15:51:26:2240724
-    name: FireExtStageIdx
-    image: {fileID: 0}
-    type: 1
-  - id: VARIABLE_2013:12:27:11:57:31:2860376
-    name: CameraSwitch
-    image: {fileID: 0}
-    type: 0
-  runTimeCurrentNode:
-    id: 
-    name: 
-    image: {fileID: 0}
-    variableId: 
-    variableValue: 
-    variableOperationId: 0
-    type: 0
-    actorId: 
-    sceneId: 
-    listEntries: []
-    messageMethodeName: 
-    messageMethodeValue: 
-    editorWindowRect:
-      serializedVersion: 2
-      x: 0
-      y: 0
-      width: 250
-      height: 100
-    editorShowInDUGManagerActionList: 0
-  runTimeListPreviousNodes: []
-  runTimeListPreviousSelectedNodeEntryIds: []
-  listActions: []
---- !u!4 &1892253249
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1892253247}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
 --- !u!1 &1896418315
 GameObject:
   m_ObjectHideFlags: 0

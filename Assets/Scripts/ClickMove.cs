@@ -147,7 +147,7 @@ public class ClickMove : MonoBehaviour
 						//							}
 						//						}
 						
-						print (hit.collider.name);
+//						print (hit.collider.name);
 						if (hit.collider.gameObject.tag == "interactive") {
 							
 							

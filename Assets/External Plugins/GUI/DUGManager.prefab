@@ -779,7 +779,7 @@ MonoBehaviour:
       listLocales:
       - languageCode: default
         text: Grab
-      followUpNodeId: NODE_2013:12:27:16:33:55:1175785
+      followUpNodeId: NODE_2014:01:02:15:53:42:2236261
       nodeId: NODE_2013:12:27:16:33:36:3115029
       maxSelectCount: -1
       startDisplayCount: -1
@@ -1084,6 +1084,39 @@ MonoBehaviour:
       width: 250
       height: 100
     editorShowInDUGManagerActionList: 0
+  - id: NODE_2014:01:02:15:53:42:2236261
+    name: EventSelect / Node 8
+    image: {fileID: 0}
+    variableId: VARIABLE_2013:12:26:15:43:44:8226818
+    variableValue: 
+    variableOperationId: 0
+    type: 1
+    actorId: ACTOR_2013:12:26:15:43:33:0380078
+    sceneId: SCENE_2013:12:27:16:26:45:1369850
+    listEntries:
+    - id: NODE_ENTRY_2014:01:02:15:53:42:2236261
+      name: 
+      image: {fileID: 0}
+      variableId: 
+      variableValue: 
+      variableOperationId: 0
+      listLocales: []
+      followUpNodeId: NODE_2013:12:27:16:33:36:3115029
+      nodeId: NODE_2014:01:02:15:53:42:2236261
+      maxSelectCount: -1
+      startDisplayCount: -1
+      rangeStart: 0
+      rangeEnd: 0
+      editorDisplayAlways: 1
+    messageMethodeName: 
+    messageMethodeValue: 
+    editorWindowRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 250
+      height: 100
+    editorShowInDUGManagerActionList: 0
   listVariables:
   - id: VARIABLE_2013:12:26:15:43:44:8226818
     name: EventName
@@ -1152,7 +1185,7 @@ MonoBehaviour:
       nodeId: NODE_2013:12:26:15:49:42:1741211
       entryId: NODE_ENTRY_2013:12:26:15:50:02:7983008
       type: 3
-      script: {fileID: 11500000, guid: ea5e1fcb68154894aa1b1816715801ce, type: 3}
+      script: {fileID: 0}
       instance: {fileID: 0}
   - name: FireExtEvent1
     nodeId: NODE_2013:12:26:15:48:10:3008663
@@ -1241,7 +1274,7 @@ MonoBehaviour:
   - name: EventSelect / Node 0
     nodeId: NODE_2013:12:27:16:33:36:3115029
     type: 0
-    script: {fileID: 11500000, guid: 2aeae487663363542b4e4b881961e735, type: 3}
+    script: {fileID: 0}
     instance: {fileID: 0}
     listEntryActions:
     - name: Entry0 Select
@@ -1254,13 +1287,13 @@ MonoBehaviour:
       nodeId: NODE_2013:12:27:16:33:36:3115029
       entryId: NODE_ENTRY_2013:12:27:16:35:40:5956115
       type: 3
-      script: {fileID: 0}
+      script: {fileID: 11500000, guid: 4206e60e01f235541b0774ab0a3d4d05, type: 3}
       instance: {fileID: 0}
     - name: Entry2 Select
       nodeId: NODE_2013:12:27:16:33:36:3115029
       entryId: NODE_ENTRY_2013:12:27:16:35:53:6563586
       type: 3
-      script: {fileID: 0}
+      script: {fileID: 11500000, guid: 2aeae487663363542b4e4b881961e735, type: 3}
       instance: {fileID: 0}
 --- !u!114 &11400002
 MonoBehaviour:

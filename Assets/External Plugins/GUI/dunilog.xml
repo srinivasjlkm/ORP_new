@@ -4,7 +4,7 @@
 	<global>
 		<editorVersionNumber>1.7.0</editorVersionNumber>
 		<editorProjectName>GUI</editorProjectName>
-		<editorBasePath>C:/Users/Jerry/Desktop/KLM work/ORP_new/Assets/External Plugins/GUI/</editorBasePath>
+		<editorBasePath>C:/Users/Jiang Kuo/Documents/GitHub/ORP_new/Assets/External Plugins/GUI/</editorBasePath>
 		<currentSceneId>SCENE_2013:12:27:16:26:45:1369850</currentSceneId>
 		<selectedLocaleIndex>0</selectedLocaleIndex>
 		<listLanguageCodes>
@@ -843,7 +843,7 @@
 				<entry>
 					<id>NODE_ENTRY_2013:12:27:16:35:40:5956115</id>
 					<nodeId>NODE_2013:12:27:16:33:36:3115029</nodeId>
-					<followUpNodeId>NODE_2013:12:27:16:33:55:1175785</followUpNodeId>
+					<followUpNodeId>NODE_2014:01:02:15:53:42:2236261</followUpNodeId>
 					<maxSelectCount>-1</maxSelectCount>
 					<startDisplayCount>-1</startDisplayCount>
 					<variableId></variableId>
@@ -879,7 +879,7 @@
 			</list_entries>
 			<editorWindowRect>
 				<x>10000</x>
-				<y>10006</y>
+				<y>10020</y>
 				<width>230</width>
 				<height>230</height>
 			</editorWindowRect>
@@ -925,7 +925,7 @@
 				</entry>
 			</list_entries>
 			<editorWindowRect>
-				<x>10289</x>
+				<x>10334</x>
 				<y>10000</y>
 				<width>180</width>
 				<height>148</height>
@@ -960,7 +960,7 @@
 			</list_entries>
 			<editorWindowRect>
 				<x>10564</x>
-				<y>10472</y>
+				<y>10486</y>
 				<width>180</width>
 				<height>90</height>
 			</editorWindowRect>
@@ -1006,8 +1006,8 @@
 				</entry>
 			</list_entries>
 			<editorWindowRect>
-				<x>10290</x>
-				<y>10147</y>
+				<x>10091</x>
+				<y>10276</y>
 				<width>180</width>
 				<height>148</height>
 			</editorWindowRect>
@@ -1041,7 +1041,7 @@
 			</list_entries>
 			<editorWindowRect>
 				<x>10570</x>
-				<y>10027</y>
+				<y>10041</y>
 				<width>180</width>
 				<height>90</height>
 			</editorWindowRect>
@@ -1075,7 +1075,7 @@
 			</list_entries>
 			<editorWindowRect>
 				<x>10568</x>
-				<y>10172</y>
+				<y>10186</y>
 				<width>180</width>
 				<height>90</height>
 			</editorWindowRect>
@@ -1121,8 +1121,8 @@
 				</entry>
 			</list_entries>
 			<editorWindowRect>
-				<x>10290</x>
-				<y>10291</y>
+				<x>10111</x>
+				<y>10473</y>
 				<width>180</width>
 				<height>148</height>
 			</editorWindowRect>
@@ -1156,7 +1156,41 @@
 			</list_entries>
 			<editorWindowRect>
 				<x>10569</x>
-				<y>10312</y>
+				<y>10326</y>
+				<width>180</width>
+				<height>90</height>
+			</editorWindowRect>
+		</node>
+		<node>
+			<id>NODE_2014:01:02:15:53:42:2236261</id>
+			<name></name>
+			<actorId>ACTOR_2013:12:26:15:43:33:0380078</actorId>
+			<sceneId>SCENE_2013:12:27:16:26:45:1369850</sceneId>
+			<variableId>VARIABLE_2013:12:26:15:43:44:8226818</variableId>
+			<variableValue></variableValue>
+			<variableOperationId>0</variableOperationId>
+			<type>1</type>
+			<showInDUGManagerActionList>0</showInDUGManagerActionList>
+			<messageMethodeName></messageMethodeName>
+			<messageMethodeValue></messageMethodeValue>
+			<list_entries>
+				<entry>
+					<id>NODE_ENTRY_2014:01:02:15:53:42:2236261</id>
+					<nodeId>NODE_2014:01:02:15:53:42:2236261</nodeId>
+					<followUpNodeId>NODE_2013:12:27:16:33:36:3115029</followUpNodeId>
+					<maxSelectCount>-1</maxSelectCount>
+					<startDisplayCount>-1</startDisplayCount>
+					<variableId></variableId>
+					<variableValue></variableValue>
+					<variableOperationId>0</variableOperationId>
+					<rangeStart>0</rangeStart>
+					<rangeEnd>0</rangeEnd>
+					<list_locales />
+				</entry>
+			</list_entries>
+			<editorWindowRect>
+				<x>10348</x>
+				<y>10168</y>
 				<width>180</width>
 				<height>90</height>
 			</editorWindowRect>
