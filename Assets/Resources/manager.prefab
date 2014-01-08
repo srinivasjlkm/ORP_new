@@ -264,7 +264,7 @@ GameObject:
   - 114: {fileID: 11400000}
   - 114: {fileID: 11400010}
   - 114: {fileID: 11400020}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: manager
   m_TagString: manager
   m_Icon: {fileID: 0}
@@ -3684,8 +3684,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd5b99cd7173dff4097218335b960438, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  other: {fileID: 0}
-  clickmove: {fileID: 0}
+  cursorTextureInteract: {fileID: 2800000, guid: ce8bc546e2bf7a44ea834e51dd196ee1,
+    type: 3}
+  cursorTextureTalk: {fileID: 2800000, guid: ce8bc546e2bf7a44ea834e51dd196ee1, type: 3}
+  hotSpot: {x: 0, y: 0}
+  currentHitObj: {fileID: 0}
+  mouseClick: 0
+  enteredDialog: 0
 --- !u!137 &13700000
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

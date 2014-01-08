@@ -74,7 +74,7 @@ public class SeekSteer : MonoBehaviour
 					NPCstate.Fsm.Event("EndEvent");
 					NPCstate.ChangeState("EndEvent");
 
-					NPCstate.FsmStates.SetValue("animation_2",1);
+					NPCstate.FsmStates.SetValue("animation_2",0);
 
 					//NPCstate.Fsm.Event("EndEvent_2");
 					//NPCstate.ChangeState("EndEvent_2");

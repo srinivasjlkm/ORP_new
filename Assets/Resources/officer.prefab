@@ -244,6 +244,7 @@ GameObject:
   - 114: {fileID: 11400008}
   - 114: {fileID: 11400000}
   - 114: {fileID: 11400010}
+  - 114: {fileID: 11400012}
   m_Layer: 0
   m_Name: officer
   m_TagString: manager
@@ -2330,6 +2331,20 @@ MonoBehaviour:
     slidingSpeed: 15
     sidewaysControl: 1
     speedControl: .400000006
+--- !u!114 &11400012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100032}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd5b99cd7173dff4097218335b960438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHitObj: {fileID: 0}
+  mouseClick: 0
+  enteredDialog: 0
 --- !u!137 &13700000
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
