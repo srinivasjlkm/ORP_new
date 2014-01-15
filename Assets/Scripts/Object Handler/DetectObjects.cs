@@ -39,7 +39,7 @@ public class DetectObjects : MonoBehaviour {
 		RaycastHit hit;
 		
 		
-		if (Physics.Raycast (ray, out hit, 4)) {
+		if (Physics.Raycast (ray, out hit, 3)) {
 			// display word hint
 			displayHint(hit.collider.name);
 			
@@ -157,7 +157,7 @@ public class DetectObjects : MonoBehaviour {
 							//dugManager.GetComponent<DialogueController>().setActiveDialogue(hit.collider.name);
 
 
-
+							this.GetComponent<CharacterMotor>().inputMoveDirection = Vector3.zero;
 							disableCameraAndMotor();
 							moveCameraToDesk(hit.collider.gameObject);
 							// player sit animation
@@ -172,6 +172,45 @@ public class DetectObjects : MonoBehaviour {
 						
 					}
 				}
+
+				else if (hit.collider.gameObject.tag == "door")
+				{
+
+
+
+						if(hit.collider.gameObject.renderer.material.shader != null)
+					{
+						// set the cursor and shader 
+						Cursor.SetCursor(cursorTextureInteract, hotSpot, cursorMode);	
+						hit.collider.gameObject.renderer.material.shader = Shader.Find("Toon/Basic");
+					}
+					
+
+					
+
+					
+					//hit.transform.renderer.material.color = Color.green;
+					
+					if (Input.GetKeyUp (KeyCode.Mouse0)) {
+						mouseClick = true;
+
+						
+						if( mouseClick)
+						{
+
+							hit.collider.transform.parent.parent.parent.GetComponent<DoorHandler>().clicked = true;
+
+							currentHitObj.renderer.material.shader = originalShader;
+							Cursor.SetCursor(null, Vector2.zero, cursorMode);
+							mouseClick = !mouseClick;
+							
+						}
+						
+						
+					}
+
+				}
+
 
 
 			}
@@ -254,7 +293,7 @@ public class DetectObjects : MonoBehaviour {
 	}
 
 
-	private void moveCameraToDesk(GameObject desk){
+	public void moveCameraToDesk(GameObject desk){
 		// calculate camera XY position
 		float cameraX = (desk.collider.bounds.max.x + desk.collider.bounds.min.x)/2;
 		float cameraZ = (desk.collider.bounds.max.z + desk.collider.bounds.min.z)/2;
@@ -271,11 +310,16 @@ public class DetectObjects : MonoBehaviour {
 		// calculate camera local eulerangles
 
 
+		Vector3 newPosition = new Vector3(56.45924f,3.803851f,54.16652f);
+		Vector3 newRotation = new Vector3(15,270f,0);
 
 		// set camera position and rotation
 		Camera.main.transform.parent = null;
-		Camera.main.transform.localPosition = new Vector3(cameraX,cameraY,cameraZ);
-		Camera.main.transform.localEulerAngles = new Vector3(90f,-90f,0);
+		//Camera.main.transform.localPosition = new Vector3(cameraX,cameraY,cameraZ);
+		//Camera.main.transform.localEulerAngles = new Vector3(90f,-90f,0);
+
+		Camera.main.transform.localPosition = newPosition;
+		Camera.main.transform.localEulerAngles = newRotation;
 
 
 

@@ -13,7 +13,7 @@ public class ClickMove : MonoBehaviour
 	
 	public Vector3 targetPosition;
 	private Vector3 groundPosition;
-	public float speed = 0.02f;
+	public float speed = 0.01f;
 	public float heightOffset = 1.0f;
 	
 	
@@ -26,7 +26,7 @@ public class ClickMove : MonoBehaviour
 	void Start ()
 	{
 		groundPosition = transform.position - new Vector3 (0, heightOffset, 0);
-
+		
 		arrow = Instantiate (arrowPrefab, transform.position, Quaternion.identity) as GameObject;
 		
 		myCamera = GameObject.FindGameObjectWithTag ("MainCamera").transform.GetComponent<Camera> ();
@@ -61,7 +61,34 @@ public class ClickMove : MonoBehaviour
 	//		}
 	// Update is called once per frame
 	
-	
+	void FixedUpdate(){
+		Vector3 dir = targetPosition - transform.position;
+		
+		float dist = dir.magnitude - 1;
+		
+		float move = speed * Time.deltaTime;
+		
+		if (dist > move) {
+			
+			
+		
+			motor.inputMoveDirection = dir.normalized * move;
+			transform.GetComponent<AnimationController> ().state = AnimationController.CharacterState.run;
+			
+			
+		} else {
+			
+			//transform.position = targetPosition;
+			
+
+			motor.inputMoveDirection = Vector3.zero;
+			transform.GetComponent<AnimationController> ().state = AnimationController.CharacterState.idle;
+			
+			
+		}
+		
+		
+	}
 	
 	
 	
@@ -79,19 +106,19 @@ public class ClickMove : MonoBehaviour
 			Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
 			
 			if (Physics.Raycast (ray, out hit, 1000)) {
-
+				
 				// change shader 
-//				if(hit.collider.gameObject != currentHitObj)
-//				{
-//					if(currentHitObj !=null) currentHitObj.transform.renderer.material.shader = originalShader;
-//					currentHitObj = hit.collider.gameObject;
-//					if(currentHitObj.tag == "interactive")
-//					{
-//						currentHitObj.transform.renderer.material.shader = highlightShader;
-//						
-//					}
-//				}
-
+				//				if(hit.collider.gameObject != currentHitObj)
+				//				{
+				//					if(currentHitObj !=null) currentHitObj.transform.renderer.material.shader = originalShader;
+				//					currentHitObj = hit.collider.gameObject;
+				//					if(currentHitObj.tag == "interactive")
+				//					{
+				//						currentHitObj.transform.renderer.material.shader = highlightShader;
+				//						
+				//					}
+				//				}
+				
 				//print (hit.collider.tag);
 				
 				if (Input.GetKeyDown (KeyCode.Mouse0)) {
@@ -117,11 +144,13 @@ public class ClickMove : MonoBehaviour
 						//print (hit.collider.gameObject.name);
 						
 					}
+
+
 					else
 					{
 						smooth = 1;
 						
-						
+					
 						//print (hit.collider.gameObject.name);
 						
 						Vector3 targetPoint = new Vector3(hit.point.x,transform.position.y-heightOffset,hit.point.z);
@@ -149,48 +178,21 @@ public class ClickMove : MonoBehaviour
 						//							}
 						//						}
 						
-//						print (hit.collider.name);
-
+						//						print (hit.collider.name);
 						
+						if(hit.collider.gameObject.tag =="desk")
+						{
+							
+							 targetPoint = new Vector3(hit.collider.transform.position.x+0.8f,hit.collider.transform.position.y,hit.collider.transform.position.z);
+							arrow.transform.position = targetPoint;
+							arrowAnimation ();
+							
+							targetPosition = arrow.transform.position;
+						}
 					}
 				}
 				
-				
-				
 			}
-			
-			
-			
-			
-			Vector3 dir = targetPosition - transform.position;
-			
-			float dist = dir.magnitude - 1;
-			
-			float move = speed * Time.deltaTime;
-			
-			if (dist > move) {
-				
-				
-				
-				
-				motor.inputMoveDirection = dir.normalized * move;
-				transform.GetComponent<AnimationController> ().state = AnimationController.CharacterState.run;
-				
-				
-			} else {
-				
-				//transform.position = targetPosition;
-				
-				
-				motor.inputMoveDirection = Vector3.zero;
-				transform.GetComponent<AnimationController> ().state = AnimationController.CharacterState.idle;
-				
-				
-			}
-			
-			
-			
-			//transform.position += (targetPosition - transform.position).normalized * speed * Time.deltaTime;
 			
 		}
 	}

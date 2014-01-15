@@ -38,4 +38,5 @@ MonoBehaviour:
   - setRoleUnavailable
   - setRoleAvailable
   - setInteractLock
+  - receiveEmail
   DisableAutoOpenWizard: 0

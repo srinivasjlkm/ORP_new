@@ -141,22 +141,34 @@ public class GameManagerVik : Photon.MonoBehaviour {
 				{
 				case "manager":
 					spawnPosition = randomSpawnPosition(managerSpawnPositionList);
+					PhotonNetwork.Instantiate(playerPrefabList[i].name, spawnPosition, Quaternion.identity, 0, objs);
+					PlayerPrefs.SetInt("manager_pid", PhotonNetwork.player.ID);
+
 					break;
 				case "IT":
 					spawnPosition = randomSpawnPosition(ITSpawnPositionList);
+					PhotonNetwork.Instantiate(playerPrefabList[i].name, spawnPosition, Quaternion.identity, 0, objs);
+					PlayerPrefs.SetInt("IT_pid", PhotonNetwork.player.ID);
+
 					break;
 				case "customer":
 					spawnPosition = randomSpawnPosition(customerSpawnPositionList);
+					PhotonNetwork.Instantiate(playerPrefabList[i].name, spawnPosition, Quaternion.identity, 0, objs);
+					PlayerPrefs.SetInt("customer_pid", PhotonNetwork.player.ID);
+
 					break;
 				case "officer":
 					spawnPosition = randomSpawnPosition(officerSpawnPositionList);
+					PhotonNetwork.Instantiate(playerPrefabList[i].name, spawnPosition, Quaternion.identity, 0, objs);
+					PlayerPrefs.SetInt("officer_pid", PhotonNetwork.player.ID);
+
 					break;
 				default:
 					break;
 					
 					
 				}
-	       		PhotonNetwork.Instantiate(playerPrefabList[i].name, spawnPosition, Quaternion.identity, 0, objs);
+	       		
 			}
 		}
 

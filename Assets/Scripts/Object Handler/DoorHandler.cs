@@ -9,21 +9,24 @@ public class DoorHandler : Photon.MonoBehaviour {
 	bool isOpen ;
 	bool enter ;
 	bool doorState;
+	public bool clicked;
 	
 	// Use this for initialization
 	void Start () {
 		isOpen = false;
 		enter = false;
+		clicked = false;
 	}
 	
 	// Update is called once per frame
 	void Update() {
 		//if this photonview player enter, and press f
 		//change state and send, open door.
-		if(enter && Input.GetKeyDown("f")){
-
+		if(enter && clicked){
+			print("111");
 			PhotonView photonView = PhotonView.Get (this);
 			photonView.RPC("Open",PhotonTargets.AllBuffered);
+			clicked = ! clicked;
 		}
 
 
